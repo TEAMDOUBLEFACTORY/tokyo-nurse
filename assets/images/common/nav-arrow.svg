@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <g id="グループ_1" data-name="グループ 1" transform="translate(-410 -685)">
+    <path id="パス_3" data-name="パス 3" d="M19,9.5A9.5,9.5,0,1,1,9.5,0,9.5,9.5,0,0,1,19,9.5Z" transform="translate(410 685)" fill="#fff"/>
+    <path id="パス_4" data-name="パス 4" d="M10,0A10,10,0,1,1,0,10,10.011,10.011,0,0,1,10,0Zm0,18.947A8.947,8.947,0,1,0,1.053,10,8.957,8.957,0,0,0,10,18.947Z" transform="translate(410 685)" fill="rgba(99,174,225,0.23)"/>
+    <path id="パス_5" data-name="パス 5" d="M11.446,9.854a.5.5,0,0,0,0-.707L8.264,5.964a.5.5,0,1,0-.707.707L10.385,9.5,7.557,12.328a.5.5,0,1,0,.707.707ZM10.556,9.5V10h.537V9h-.537Z" transform="translate(410.998 685.5)" fill="#63aee1"/>
+  </g>
+</svg>

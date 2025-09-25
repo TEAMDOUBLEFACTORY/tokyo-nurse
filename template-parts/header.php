@@ -1,4 +1,4 @@
-<header class="l-header" id="header">
+<header class="l-header">
     <div class="l-header__inner">
         <div class="l-header__logo">
             <h1 class="c-site-title"><a href="<?php echo home_url(); ?>"><img
