@@ -3,6 +3,11 @@
     <div class="l-content">
         <?php get_template_part('template-parts/header'); ?>
         <main class="l-main">
+            <section class="p-top-mv">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/home/mv.jpg" alt=""
+                    class="p-top-feature__item-img">
+
+            </section>
             <section class="p-top-event">
                 <div class="l-container">
                     <div class="p-top-event__inner">
@@ -19,10 +24,12 @@
             </section>
             <section class="p-top-feature">
                 <div class="p-top-feature__infinity js-infinity">
-                    <div class="swiper-slide">TOKYO SUMIDA COLLEGE OF NURSING</div>
-                    <div class="swiper-slide">TOKYO SUMIDA COLLEGE OF NURSING</div>
-                    <div class="swiper-slide">TOKYO SUMIDA COLLEGE OF NURSING</div>
-                    <div class="swiper-slide">TOKYO SUMIDA COLLEGE OF NURSING</div>
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">TOKYO SUMIDA COLLEGE OF NURSING</div>
+                        <div class="swiper-slide">TOKYO SUMIDA COLLEGE OF NURSING</div>
+                        <div class="swiper-slide">TOKYO SUMIDA COLLEGE OF NURSING</div>
+                        <div class="swiper-slide">TOKYO SUMIDA COLLEGE OF NURSING</div>
+                    </div>
                 </div>
                 <div class="p-top-feature__inner">
                     <div class="p-top-feature__left">
@@ -60,8 +67,8 @@
             <section class="p-top-department">
                 <div class="p-top-department__inner">
                     <div class="p-top-department__left">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/common/sanko-logo.svg"
-                            alt="" class="p-top-department__img">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/home/feature-img.jpg" alt=""
+                            class="p-top-department__img">
                     </div>
                     <div class="p-top-department__right">
                         <div class="p-top-department__head">
@@ -230,4 +237,16 @@
     </div>
     <?php get_template_part('template-parts/side-menu'); ?>
 </div>
+
+<script>const swiper = new Swiper(".js-infinity", {
+        loop: true,
+        slidesPerView: 'auto',
+        speed: 20000,
+        allowTouchMove: false,
+        spaceBetween: '50px',
+        autoplay: {
+            delay: 0,
+        },
+    });
+</script>
 <?php get_footer(); ?>
