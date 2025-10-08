@@ -1,0 +1,121 @@
+.p-accessmap {
+  &__overview {
+    figure {
+      img {
+        min-width: 460px;
+        width: 40%;
+        border-radius: 10px;
+      }
+      figcaption {
+        width: 60%;
+        padding: 10px 40px;
+        h2 {
+          font-size: 28px;
+          margin-bottom: 30px;
+        }
+      }
+    }
+  }
+
+  &__address {
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+  &__tel {
+    font-size: 42px;
+    position: relative;
+    padding-left: 65px;
+    margin-bottom: 30px;
+    &::before {
+      content: "";
+      width: 42px;
+      height: 34px;
+
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      left: 10px;
+      background-image: url(../images/lower/accessmap/freecall.png);
+      background-size: contain;
+    }
+  }
+  &__note {
+    background-color: rgba(var(--color-main), 0.1);
+    padding: 15px 40px 15px 120px;
+    position: relative;
+    color: rgba(var(--color-main));
+    border-radius: 10px;
+    width: fit-content;
+    &::before {
+      content: "";
+      width: 72px;
+      height: 93px;
+      position: absolute;
+      bottom: 0;
+      left: 30px;
+      background-image: url(../images/lower/accessmap/woman.png);
+      background-size: contain;
+    }
+    &::after {
+      content: "";
+      position: absolute;
+      left: -25px;
+      width: 0;
+      height: 0;
+      border-style: solid;
+      border-color: transparent rgba(var(--color-main), 0.1) transparent transparent;
+      border-width: 10px 25px 10px 0px;
+    }
+  }
+
+  &__map {
+    width: 100%;
+    margin-top: 80px;
+    iframe {
+      width: 100%;
+      border-radius: 20px;
+    }
+  }
+
+  &__access {
+    margin-top: 120px;
+    figure {
+      gap: 80px;
+      img {
+        min-width: 460px;
+        width: 60%;
+        border-radius: 10px;
+      }
+      figcaption {
+        width: 40%;
+        padding: 10px 0px;
+      }
+    }
+  }
+
+  &__time-list {
+    background-color: rgba(var(--color-main), 0.1);
+    margin-top: 60px;
+    margin-bottom: 20px;
+    position: relative;
+    border: 1px solid rgb(var(--color-main));
+    border-radius: 0px 20px 20px 20px;
+    i {
+      position: absolute;
+      left: -1px;
+      top: -37px;
+      padding: 5px 20px;
+      background-color: rgb(var(--color-main));
+      border-radius: 10px 10px 0 0;
+      color: #fff;
+    }
+    ul {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 10px;
+      padding: 30px 120px 20px 25px;
+    }
+  }
+}
