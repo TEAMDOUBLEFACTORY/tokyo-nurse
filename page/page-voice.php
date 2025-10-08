@@ -71,7 +71,7 @@
         <h2 class="c-sec__title c-sec__title--center c-sec__title--big"><span
                 class="c-sec__title--ja">入試説明会参加者の声</span></h2>
         <ul class="p-voice__list u-grid u-col-2">
-            <li class="p-voice__listitem">
+            <li class="p-voice__listitem --pink">
                 <h3 class="p-voice__listtitle --pink">面接対策を具体的に教えてもらえて安心しました</h3>
                 <p class="p-voice__listtxt">一番知りたかった面接対策をわかりやすく教えてもらえて良かったです。どんな風に対策すればいいのか具体的にわかりました。また、在校生の方に質問する機会もあり、どんな風に勉強すればいいのか、看護学校でどのように学んでいるのかを聞けて良かったです。</p>
                 <small class="p-voice__listname">Kさん　既卒</small>
@@ -86,8 +86,8 @@
                 <p class="p-voice__listtxt">志望動機や面接対策についてしっかりと教えていただいたので、次の受験の参考になりました。在校生の方にいろいろ話を聞いてもらえたので、不安が少し軽くなりました。</p>
                 <small class="p-voice__listname">Mさん　高校三年生</small>
             </li>
-            <li class="p-voice__listitem">
-                <h3 class="p-voice__listtitle">受験勉強に役立つ情報と<br>優しい雰囲気が印象的でした</h3>
+            <li class="p-voice__listitem --pink">
+                <h3 class="p-voice__listtitle --pink">受験勉強に役立つ情報と<br>優しい雰囲気が印象的でした</h3>
                 <p class="p-voice__listtxt">面接で大事なことや小論文の出題傾向が知れたので、受験勉強に役立てたいと思いました。在校生や先生方も優しそうだったので、入学できるよう勉強をがんばろうと思います。</p>
                 <small class="p-voice__listname">Nさん　高校三年生</small>
             </li>

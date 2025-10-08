@@ -16,8 +16,10 @@
     }
   }
   &__list {
+    gap: 50px !important;
     @media screen and (max-width: 768px) {
       grid-template-columns: 1fr !important;
+      gap: 20px !important;
     }
   }
   &__listtitle {
@@ -29,7 +31,9 @@
     }
     &.--orange {
        color: rgb(var(--color-orange));
-       background: gray;
+    }
+    &.--pink {
+       color: rgb(var(--color-pink));
     }
   }
   &__listtxt {
@@ -47,7 +51,11 @@
     padding: 50px;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     gap: 20px;
+    @media screen and (max-width: 768px){
+         padding: 20px;
+    }
     &.--dgreen {
       border: 1px solid rgba(var(--color-dgreen));
       background: rgba(var(--color-dgreen), 0.05);
