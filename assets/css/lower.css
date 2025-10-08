@@ -688,6 +688,15 @@
 .p-voice__btn a {
   justify-content: space-between;
 }
+.p-voice__btn2 a {
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (max-width: 768px) {
+  .p-voice__list {
+    grid-template-columns: 1fr !important;
+  }
+}
 .p-voice__listtitle {
   text-align: center;
   color: rgb(var(--color-main));
@@ -716,6 +725,14 @@
 .p-voice__listitem.--dgreen {
   border: 1px solid rgba(var(--color-dgreen));
   background: rgba(var(--color-dgreen), 0.05);
+}
+.p-voice__listitem.--pink {
+  border: 1px solid rgba(var(--color-pink));
+  background: rgba(var(--color-pink), 0.05);
+}
+.p-voice__listitem.--orange {
+  border: 1px solid rgba(var(--color-orange));
+  background: rgba(var(--color-orange), 0.05);
 }
 
 .u-col-2 {
