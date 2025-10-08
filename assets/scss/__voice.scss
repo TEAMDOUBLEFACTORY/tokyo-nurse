@@ -27,6 +27,10 @@
     &.--dgreen {
       color: rgb(var(--color-dgreen));
     }
+    &.--orange {
+       color: rgb(var(--color-orange));
+       background: gray;
+    }
   }
   &__listtxt {
     font-size: 1.4rem;
