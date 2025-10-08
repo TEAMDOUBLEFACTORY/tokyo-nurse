@@ -1,0 +1,78 @@
+<section class="p-admissions" id="admissions">
+    <div class="p-admissions__inner c-sec">
+        <div class="p-admissions__content c-grid">
+            <div class="p-admissions__info c-sec">
+                <div class="p-admissions__info-list u-grid u-col-2 ">
+                    <article class="info-item c-card02">
+                        <h2 class="info-item--head c-sec__title c-card02--title"><span
+                                class="c-sec__title--ja">WEB出願</span></h2>
+                        <div class="info-item--text c-card02--text">
+                            <p>WEB出願のポイントや、WEB出願の流れについて、<br>
+                                ご案内します。</p>
+                        </div>
+                        <div class="info-item__btn c-card02--btn"><a href="" class="c-btn__link">WEB出願について</a></div>
+                    </article>
+
+
+                    <article class="info-item c-card02">
+                        <h2 class="info-item--head c-sec__title c-card02--title"><span
+                                class="c-sec__title--ja">募集学科・定員・学費</span></h2>
+                        <div class="info-item--text c-card02--text">
+
+                            <p>学ぶことができる各学科・コースの定員及び、<br>入学からの学費情報について、ご案内します。</p>
+                        </div>
+                        <div class="info-item__btn c-card02--btn"><a href="" class="c-btn__link">募集学科・定員・学費について</a>
+                        </div>
+                    </article>
+
+
+                    <article class="info-item c-card02">
+                        <h2 class="info-item--head c-sec__title c-card02--title"><span
+                                class="c-sec__title--ja">出願方法・日程</span></h2>
+                        <div class="info-item--text c-card02--text">
+
+                            <p>入学に向けて、様々な出願方法をご用意しています。<br>ご自身に合う入試の種類をご確認ください。</p>
+                        </div>
+                        <div class="info-item__btn c-card02--btn"><a href="" class="c-btn__link">出願方法・日程について</a></div>
+                    </article>
+
+
+                    <article class="info-item c-card02">
+                        <h2 class="info-item--head c-sec__title c-card02--title"><span
+                                class="c-sec__title--ja">学費サポート</span></h2>
+                        <div class="info-item--text c-card02--text">
+                            <p>学費と学費軽減のサポート制度をご案内します。<br>様々なサポート制度を整えておりますので、ご活用ください。</p>
+                        </div>
+                        <div class="info-item__btn c-card02--btn"><a href="" class="c-btn__link">学費サポートについて</a></div>
+                    </article>
+
+
+                </div>
+            </div>
+            <!-- /.p-admissions--voice -->
+
+            <div class="c-border-box c-sec">
+                <div class="c-border-box__inner">
+                    <h2 class="c-sec__title"><span class="c-sec__title--ja">入学に関わるマネープラン</span>
+                    </h2>
+                    <h3 class="u-color-main">
+                        必ず自分に合った入試方法が見つかる！<br>
+                        入試プラン、学費の支払プランを一緒に立てよう！
+                    </h3>
+                    <p>
+                        ご相談内容に応じて、詳しい担当者が個別に対応いたします。<br>クラス担当教員や学費について相談できる担当者がおりますので入学後もお気軽にご相談ください。
+                    </p>
+
+
+                    <div class="c-border-box__btn ">
+                        <a href="" class="c-btn c-btn--arrow">学費シミュレーションはこちら</a>
+                        <a href="" class="c-btn c-btn--arrow">お問い合わせはこちら</a>
+                    </div>
+
+                </div>
+
+            </div>
+            <!-- /.p-admissions--info -->
+        </div>
+    </div>
+</section>

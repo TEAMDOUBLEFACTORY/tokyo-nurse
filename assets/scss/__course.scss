@@ -1,0 +1,60 @@
+.p-course {
+  .desc {
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+  &__lead {
+    margin-bottom: 100px;
+    .desc {
+      margin-top: 0 !important;
+      margin-bottom: 30px !important;
+    }
+    h2 {
+      font-size: 47px;
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      color: rgba(224, 138, 149, 1);
+      margin-bottom: 30px;
+      p {
+        border: 1px solid rgba(224, 138, 149, 1);
+        padding: 5px 30px;
+        border-radius: 50px;
+        font-size: 20px;
+        color: rgba(224, 138, 149, 1);
+        i {
+          background-color: rgba(224, 138, 149, 1);
+          font-size: 14px;
+          padding: 0 10px;
+          border-radius: 50px;
+          color: #fff;
+        }
+      }
+    }
+    h3 {
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+  }
+
+  &__carriculum {
+  }
+
+  &__lesspon {
+    &__card {
+      .desc {
+        margin: 0;
+      }
+    }
+  }
+
+  &__timetable {
+    &__sample {
+      .c-timetable {
+        &:not(:last-child) {
+          margin-bottom: 80px;
+        }
+      }
+    }
+  }
+}

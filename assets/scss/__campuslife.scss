@@ -1,0 +1,57 @@
+.p-campuslife {
+  &__voice {
+    &::before {
+      content: "";
+      background: black;
+      position: absolute;
+      border-radius: 0 20px 20px 0;
+      left: -25%;
+      bottom: -60px;
+      width: 75%;
+      height: calc(100% - 180px);
+      background: linear-gradient(135deg, #75c5b5, rgb(var(--color-main)));
+      opacity: 0.3;
+      z-index: -1;
+    }
+  }
+}
+
+.p-voice {
+  position: relative;
+  margin-bottom: 300px;
+  h2 {
+    span {
+      margin-bottom: 80px;
+    }
+  }
+  &--slider {
+    .swiper-slide {
+      background-color: #fff;
+      padding: 10px 40px 0;
+      border-radius: 30px;
+      border: rgb(var(--color-main)) 2px solid;
+    }
+    &__item {
+      align-items: center;
+      img {
+        width: 30%;
+      }
+      figcaption {
+        width: 70%;
+        padding: 0 20px;
+        h4 {
+          font-size: 22px;
+          color: rgb(var(--color-main));
+          margin-bottom: 20px;
+        }
+      }
+    }
+  }
+  &--name {
+    font-size: 32px;
+    margin-bottom: 20px;
+    small {
+      font-size: 20px;
+    }
+  }
+}

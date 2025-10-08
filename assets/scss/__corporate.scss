@@ -1,0 +1,40 @@
+.p-corporate {
+  &__greeting {
+    &__img {
+      margin-top: 80px;
+      margin-bottom: 60px;
+      gap: 80px;
+      align-items: center;
+      &--left {
+        width: 70%;
+        h3 {
+          margin-bottom: 30px;
+          font-size: 28px;
+        }
+      }
+      &--right {
+        width: 30%;
+        img {
+          border-radius: 10px;
+        }
+      }
+    }
+    p {
+      line-height: 2em;
+    }
+  }
+
+  &__history {
+    padding-bottom: 140px;
+    p {
+      margin-top: 80px;
+      line-height: 2em;
+    }
+  }
+
+  .c-border-box {
+    a {
+      width: fit-content;
+    }
+  }
+}

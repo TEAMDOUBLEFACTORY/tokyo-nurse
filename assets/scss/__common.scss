@@ -1,0 +1,355 @@
+.c-pageheader {
+  position: relative;
+  height: 500px;
+  display: flex;
+  z-index: -1;
+  &_title {
+    width: fit-content;
+    &--en {
+      font-size: 20px;
+      text-transform: uppercase;
+      background: linear-gradient(90deg, #63aee1, #75c5b5);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-weight: 500;
+    }
+    &--jp {
+      font-size: 38px;
+    }
+    &:before {
+      content: "";
+      background: url(../images//lower/course/kv.png) no-repeat center;
+      width: 763px;
+      height: 482px;
+      position: absolute;
+      background-size: cover;
+      top: -100px;
+      right: -100px;
+      z-index: -1;
+    }
+    &--course {
+      &:before {
+        content: "";
+        background: url(../images//lower/course/kv.png) no-repeat center;
+        width: 763px;
+        height: 482px;
+        position: absolute;
+        background-size: cover;
+        top: -100px;
+        right: -100px;
+        z-index: -1;
+      }
+    }
+  }
+}
+
+.c-sec {
+  padding: 120px 0 80px;
+
+  &__title--big {
+    span {
+      font-size: 32px;
+      margin-bottom: 40px;
+    }
+  }
+}
+
+.c-voice {
+  border-radius: 0px 0 20px 20px;
+  background: rgba(224, 138, 149, 0.05);
+  border: 1px solid rgba(224, 138, 149, 1);
+  margin-top: 50px;
+  padding: 25px 40px;
+  position: relative;
+  &__deco {
+    position: absolute;
+    left: -1px;
+    top: -35px;
+    padding: 5px 20px;
+    background-color: rgba(224, 138, 149, 1);
+    border-radius: 20px 20px 0 0;
+    color: #fff;
+  }
+  figure {
+    gap: 20px;
+    img {
+      max-width: 115px;
+      aspect-ratio: 1;
+    }
+    figcaption {
+      width: 80%;
+      font-size: 1.4rem;
+      p {
+        margin: 0 !important;
+      }
+    }
+  }
+}
+
+.c-timetable {
+  &__title {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    padding-left: 40px;
+    border-bottom: 1px solid rgba(var(--color-main));
+    position: relative;
+    width: 100%;
+    line-height: 2.5em;
+    &::before {
+      content: "";
+      width: 15px;
+      height: 15px;
+      border-radius: 50%;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      left: 10px;
+      background: rgba(var(--color-main));
+      opacity: 0.3;
+    }
+  }
+}
+
+// カード
+
+.c-card02 {
+  background: rgba(var(--color-main), 0.05);
+  padding: 60px;
+  border-radius: 20px;
+  &--title {
+    margin-bottom: 20px;
+    span {
+      font-size: 26px;
+    }
+  }
+  &--text {
+    p {
+      line-height: 2em;
+    }
+  }
+
+  &--btn {
+    margin-top: 40px;
+    width: fit-content;
+    margin-left: auto;
+  }
+}
+
+.c-card03 {
+  &__list {
+  }
+  &__item {
+    border: 1px solid rgba(224, 138, 149, 1);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    overflow: hidden;
+    figure {
+      img {
+        aspect-ratio: 3/2;
+        object-fit: cover;
+      }
+      figcaption {
+        padding: 30px 40px;
+      }
+    }
+  }
+  &__head {
+    font-size: 22px;
+    color: rgba(224, 138, 149, 1);
+    margin-bottom: 20px;
+    span {
+      width: 35px;
+      height: 35px;
+      display: inline-block;
+      background: rgba(224, 138, 149, 1);
+      text-align: center;
+      align-content: center;
+      line-height: 1.5;
+      border-radius: 50px;
+      color: #fff;
+      margin-right: 10px;
+    }
+  }
+}
+
+//パンクず
+.c-breadcrumbs {
+  margin-top: 30px;
+  display: flex;
+  gap: 10px;
+}
+
+// ボタン
+
+.c-btn {
+  &--arrow {
+    position: relative;
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    margin-top: 40px;
+    &::after {
+      content: "";
+      display: inline-block;
+      width: 40px;
+      height: 40px;
+      flex-shrink: 0;
+      transition: transform 0.3s;
+      background: url(../images/common/btn-arrow_white.svg) center center / contain no-repeat;
+    }
+  }
+}
+// アコーディオン
+
+.c-accordion {
+  &__item {
+    position: relative;
+    border: 1px solid #c9c9c9;
+    border-radius: 20px;
+    overflow: hidden;
+    &:not(:last-child) {
+      margin-bottom: 40px;
+    }
+  }
+
+  &__header {
+    padding: 30px 40px 30px 100px;
+    background: rgba(var(--color-main), 0.1);
+    border-radius: 20px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+    position: relative;
+
+    // 角丸をふわっと変化させる
+    transition: border-radius 0.3s ease, transform 0.3s ease;
+
+    &.active {
+      background: linear-gradient(
+        135deg,
+        rgba(117, 197, 181, 0.4),
+        rgba(var(--color-main), 0.4) // ← var(--color-main)にもα値を追加
+      );
+      border-radius: 20px 20px 0 0; // 上だけ角丸
+      transform: translateY(-2px); // 少し浮かせるとよりふわっと感UP
+
+      i {
+        background: #fff;
+        color: rgba(var(--color-main));
+      }
+    }
+    &::before,
+    &::after {
+      position: absolute;
+      content: "";
+      top: 1px;
+      right: 20px;
+      bottom: 0;
+      width: 12px;
+      height: 2px;
+      margin: auto;
+      background: #151e2f;
+    }
+    &::after {
+      transform: rotate(-90deg);
+      transition: transform 0.3s;
+    }
+    &.active::after {
+      transform: rotate(0deg);
+    }
+
+    i {
+      position: absolute;
+      left: 0;
+      top: 0%;
+      width: 64px;
+      height: 64px;
+      background: linear-gradient(
+        135deg,
+        rgba(117, 197, 181, 0.4),
+        rgba(var(--color-main), 0.4) // ← var(--color-main)にもα値を追加
+      );
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 20px;
+      color: #fff;
+    }
+  }
+
+  &__content {
+    display: none;
+    padding: 30px 40px;
+    background: rgba(var(--color-main), 0.05);
+    border-radius: 0 0 20px 20px;
+
+    &.active {
+    }
+  }
+}
+
+// ボーダーボックス
+.c-border-box {
+  border: 1px solid rgba(var(--color-main), 1);
+  padding: 40px;
+  border-radius: 20px;
+  text-align: center;
+  margin-bottom: 80px;
+
+  h2 {
+    align-items: center;
+    margin-bottom: 40px;
+    span {
+      font-size: 32px;
+    }
+  }
+
+  h3 {
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+  p {
+    line-height: 2em;
+  }
+
+  &__btn {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    a {
+      margin-top: 0;
+      width: 400px;
+    }
+  }
+}
+
+// 下層ページ
+
+.l-main {
+  &--content {
+    .l-container {
+      width: calc((1040 / 1340) * 100vw);
+      max-width: 1440px;
+    }
+  }
+}
+
+.note {
+  margin-top: 20px;
+  font-size: 16px;
+  line-height: 1.42em;
+  opacity: 0.6;
+  display: table;
+  &::before {
+    content: "※";
+    display: table-cell;
+  }
+}
