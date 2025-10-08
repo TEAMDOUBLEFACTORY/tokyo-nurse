@@ -241,6 +241,10 @@
     background: url("../images/common/sec-title-deco.svg") center/contain no-repeat;
   }
 }
+.c-sec__title--center {
+  align-items: center;
+  text-align: center;
+}
 .c-sec__title--en {
   font-size: 4.7rem;
   font-weight: 500;
@@ -284,6 +288,15 @@
     height: 40px;
     background: url("../images/common/btn-arrow.svg") center/contain no-repeat;
   }
+}
+.c-btn__link-anchor {
+  &::after {
+    transform: rotate(90deg);
+  }
+}
+.c-btn__link-border {
+  border-bottom: 1px solid rgba(var(--color-main));
+  padding-bottom: 20px;
 }
 /* --- c-news__list --- */
 
