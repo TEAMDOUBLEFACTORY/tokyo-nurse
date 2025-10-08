@@ -1,5 +1,5 @@
 <section class="p-voice" id="voice">
-    <p class="u-text-center">「オープンキャンパス」と「入試説明会」に参加していただいた方々からの感想をご紹介します！</p>
+    <p class="u-text-center">あ「オープンキャンパス」と「入試説明会」に参加していただいた方々からの感想をご紹介します！</p>
     <div class="p-voice__btnbox u-grid u-col-2">
         <div class="p-voice__btn"><a href=""
                 class="c-btn__link c-btn__link-border c-btn__link-anchor">オープンキャンパス参加者の声</a></div>
