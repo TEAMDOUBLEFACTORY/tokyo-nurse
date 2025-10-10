@@ -1,3 +1,8 @@
+:root {
+  --color-orange: 233, 166, 81;
+  --color-darkgreen: 0, 154, 167;
+}
+
 .c-pageheader {
   position: relative;
   height: 500px;
@@ -52,7 +57,30 @@
       margin-bottom: 40px;
     }
   }
+  &__lead {
+    margin-bottom: 100px;
+    h2 {
+      margin-bottom: 30px;
+    }
+    .desc {
+      margin-top: 0 !important;
+      margin-bottom: 40px !important;
+      line-height: 2em;
+      span {
+        font-size: 20px;
+        font-weight: 600;
+        display: block;
+        margin-bottom: 10px;
+      }
+    }
+  }
 }
+
+.c-lower__title {
+  font-size: 32px;
+}
+
+// 声
 
 .c-voice {
   border-radius: 0px 0 20px 20px;
@@ -86,11 +114,64 @@
   }
 }
 
+// ポイント
+
+.c-point {
+  &__item {
+    border-radius: 0px 20px 20px 20px;
+    background: rgba(var(--color-main), 0.1);
+    border: 1px solid rgba(var(--color-main), 1);
+    margin-top: 50px;
+    padding: 25px 40px;
+    position: relative;
+    &:not(:last-child) {
+      margin-bottom: 80px;
+    }
+  }
+  &__deco {
+    position: absolute;
+    left: -1px;
+    top: -39px;
+    padding: 0px 20px;
+    background-color: rgba(var(--color-main), 1);
+    border-radius: 10px 10px 0 0;
+    color: #fff;
+    font-size: 12px;
+    b {
+      font-size: 24px;
+      color: #fff;
+      padding-left: 5px;
+    }
+  }
+
+  &__content {
+    span {
+      font-size: 24px;
+      margin-bottom: 15px;
+      display: block;
+    }
+    p {
+      line-height: 2em;
+    }
+  }
+
+  &__disclist {
+    padding-left: 25px;
+    li {
+      list-style: disc;
+      line-height: 2em;
+    }
+  }
+}
+
+// タイムテーブル
+
 .c-timetable {
+  margin-top: 30px;
   &__title {
     font-size: 24px;
     font-weight: 500;
-    margin-bottom: 60px;
+    margin-bottom: 50px;
     padding-left: 40px;
     border-bottom: 1px solid rgba(var(--color-main));
     position: relative;
@@ -109,6 +190,41 @@
       opacity: 0.3;
     }
   }
+
+  &__table01 {
+    width: 100%;
+
+    th,
+    td {
+      border: solid 1px #c9c9c9; /**/
+      vertical-align: middle;
+      padding: 20px;
+    }
+    td {
+      width: 20%;
+      background: rgba(99, 174, 225, 0.1);
+      text-align: center;
+      font-size: 18px;
+    }
+    th {
+      width: 80%;
+      color: #fff;
+      text-align: left;
+      font-size: 14px;
+      ul {
+        list-style: disc;
+        padding-left: 20px;
+        li {
+          margin-bottom: 10px;
+          list-style: disc;
+          &::marker {
+            color: rgba(var(--color-main));
+            font-size: 20px;
+          }
+        }
+      }
+    }
+  }
 }
 
 // カード
@@ -120,7 +236,7 @@
   &--title {
     margin-bottom: 20px;
     span {
-      font-size: 26px;
+      font-size: 28px;
     }
   }
   &--text {
@@ -171,6 +287,68 @@
       border-radius: 50px;
       color: #fff;
       margin-right: 10px;
+    }
+  }
+}
+
+.c-bg-main {
+  background: rgba(var(--color-main), 0.05);
+}
+
+// 取り組みカード
+
+.c-attempt {
+  &__list {
+    gap: 40px !important;
+    margin-top: 60px;
+  }
+  &__card {
+    border: 1px solid rgba(var(--color-main), 1);
+    border-radius: 20px;
+    position: relative;
+    &:not(:last-child) {
+      &::before {
+        content: "";
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-color: transparent transparent transparent rgba(var(--color-main), 1);
+        border-width: 30px 0px 30px 28px;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        right: -28px;
+      }
+    }
+    &--head {
+      padding: 0px 40px;
+      height: 80px;
+      background: linear-gradient(
+        135deg,
+        rgba(117, 197, 181, 0.4),
+        rgba(var(--color-main), 0.4) // ← var(--color-main)にもα値を追加
+      );
+      text-align: center;
+      position: relative;
+      font-size: 24px;
+      line-height: 1.2em;
+      border-radius: 20px 20px 0 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    &--body {
+      padding: 20px 40px;
+    }
+    &--box {
+      &:not(:last-child) {
+        margin-bottom: 25px;
+      }
+      span {
+        font-size: 20px;
+        display: block;
+        margin-bottom: 10px;
+      }
     }
   }
 }
@@ -295,6 +473,42 @@
   }
 }
 
+// コンテンツボックス
+
+.c-contentbox {
+  background: rgba(var(--color-main), 0.05);
+  padding: 60px;
+  border-radius: 20px;
+  &.color-orange {
+    background: rgba(233, 166, 81, 0.1);
+    border: 1px solid rgba(233, 166, 81, 1);
+    .c-sec__title {
+      &::before {
+        background: url("../images/common/sec-title-deco02.svg") center/contain no-repeat;
+      }
+    }
+  }
+
+  &.color-pink {
+    background: rgba(253, 249, 250, 1);
+    border: 1px solid rgba(224, 170, 138, 1);
+    .c-sec__title {
+      &::before {
+        background: url("../images/common/sec-title-deco02.svg") center/contain no-repeat;
+      }
+    }
+  }
+  &:not(:last-child) {
+    margin-bottom: 80px;
+  }
+
+  &--subtitle {
+    font-size: 24px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+}
+
 // ボーダーボックス
 .c-border-box {
   border: 1px solid rgba(var(--color-main), 1);
@@ -330,6 +544,59 @@
     }
   }
 }
+
+// グラフ
+.c-contentbox {
+  .c-graph {
+    text-align: center;
+    margin: 60px 0;
+    h4 {
+      font-size: 24px;
+      margin-bottom: 40px;
+      color: #009aa7;
+    }
+  }
+
+  .c-works {
+    text-align: center;
+    margin: 60px auto;
+    width: 540px;
+    h4 {
+      font-size: 22px;
+      margin-bottom: 40px;
+    }
+    ul {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px 20px;
+
+      li {
+        width: 48%;
+        a {
+          background: rgba(99, 174, 225, 0.1);
+          border-radius: 20px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          padding: 20px;
+          gap: 30px;
+          &::after {
+            content: "";
+            display: inline-block;
+            width: 40px;
+            height: 40px;
+            flex-shrink: 0;
+            transition: transform 0.3s;
+            background: url(../images/common/btn-arrow_bgwhite.svg) center / contain no-repeat;
+          }
+        }
+      }
+    }
+  }
+}
+
+// テーブル
 
 // 下層ページ
 

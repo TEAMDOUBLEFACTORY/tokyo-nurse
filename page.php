@@ -35,6 +35,8 @@
                         <?php get_template_part('page/page', 'course'); ?>
                         <?php elseif (is_page('department')): ?>
                         <?php get_template_part('page/page', 'department'); ?>
+                        <?php elseif (is_page('jobdata')): ?>
+                        <?php get_template_part('page/page', 'jobdata'); ?>
                         <?php elseif (is_page('faq')): ?>
                         <?php get_template_part('page/page', 'faq'); ?>
                         <?php elseif (is_page('corporate')): ?>
@@ -43,12 +45,16 @@
                         <?php get_template_part('page/page', 'educator'); ?>
                         <?php elseif (is_page('parents')): ?>
                         <?php get_template_part('page/page', 'parents'); ?>
+                        <?php elseif (is_page('support')): ?>
+                        <?php get_template_part('page/page', 'support'); ?>
                         <?php elseif (is_page('for-prospective-students')): ?>
                         <?php get_template_part('page/page', 'for-prospective-students'); ?>
-                        <?php elseif (is_page('online-admissions')): ?>
+                        <?php elseif (is_page('web-entry')): ?>
                         <?php get_template_part('page/page', 'online-admissions'); ?>
                         <?php elseif (is_page('tuition-support')): ?>
                         <?php get_template_part('page/page', 'tuition-support'); ?>
+                        <?php elseif (is_page('news')): ?>
+                        <?php get_template_part('archive/archive', 'news'); ?>
                         <?php else: ?>
                         <?php if (have_posts()):
             while (have_posts()):

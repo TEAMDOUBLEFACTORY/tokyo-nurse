@@ -1,2 +1,146 @@
 .p-admission {
 }
+
+// WEB出願について
+.p-online-admissions {
+  .c-sec {
+    h2 {
+      margin-bottom: 60px;
+    }
+  }
+}
+
+.p-flow {
+  &__step {
+    &--item {
+      border-radius: 20px;
+      background: rgba(0, 154, 167, 0.1);
+      border: 1px solid rgba(0, 154, 167, 1);
+      margin-top: 50px;
+      padding: 50px 40px 25px;
+      position: relative;
+
+      &:not(:last-child) {
+        margin-bottom: 80px;
+        &::before {
+          content: "";
+          display: block;
+          width: 2px;
+          height: 50px;
+          box-sizing: border-box;
+          background-color: rgba(var(--color-darkgreen), 1);
+          position: absolute;
+          bottom: -50px;
+          left: 66px;
+        }
+      }
+
+      &:nth-child(3),
+      &:nth-child(4) {
+        ul {
+          grid-template-columns: 420px 420px;
+          gap: 20px;
+        }
+      }
+
+      &:nth-child(5) {
+        ul {
+          grid-template-columns: 380px 380px;
+          gap: 20px;
+        }
+      }
+    }
+  }
+
+  &__deco {
+    position: absolute;
+    left: 2%;
+    top: -39px;
+    background-color: rgba(0, 154, 167, 1);
+    border-radius: 50px;
+    color: #fff;
+    font-size: 12px;
+    width: 75px;
+    height: 75px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 1em;
+    b {
+      font-size: 24px;
+      color: #fff;
+      display: block;
+      padding-top: 5px;
+      line-height: 1;
+    }
+  }
+
+  &__title {
+    margin-bottom: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    display: block;
+  }
+
+  &__imgbox {
+    margin-top: 30px;
+    li {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background-color: #fff;
+      padding: 25px;
+      border-radius: 10px;
+      img {
+        object-position: top;
+        object-fit: contain;
+        max-height: 370px;
+        margin-bottom: auto;
+      }
+    }
+  }
+
+  &__step {
+    &--ja {
+      display: block;
+      width: 100px;
+      margin: 0 auto;
+      background: rgb(var(--color-main));
+      color: #fff;
+      text-align: center;
+      margin-bottom: 20px;
+      padding: 7px 10px 5px;
+      border-radius: 5px;
+      line-height: 1;
+    }
+    &--desc {
+      //   flex-grow: 1;
+      margin-bottom: 25px;
+      font-size: 14px;
+      line-height: 1.8em;
+      text-align: center;
+    }
+  }
+
+  &__bgbox {
+    background-color: #fff;
+    padding: 25px 40px;
+    border-radius: 10px;
+    width: fit-content;
+  }
+  &__addressbox {
+    background-color: rgba(var(--color-darkgreen), 0.1);
+    width: fit-content;
+    margin-top: 20px;
+    padding: 25px;
+    border-radius: 10px;
+  }
+
+  .note {
+    font-size: 12px;
+    color: #df122c;
+    margin-top: 10px;
+  }
+}
