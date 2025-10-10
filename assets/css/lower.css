@@ -687,7 +687,7 @@
 
 .p-voice__btnbox {
   max-width: 1000px;
-  margin: auto;
+  margin: 80px auto 80px auto;
   gap: 50px !important;
 }
 .p-voice__btn a {
