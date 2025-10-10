@@ -756,6 +756,72 @@
   background: rgba(var(--color-orange), 0.05);
 }
 
+/* ページネーション全体 */
+.c-pagination .wp-pagenavi {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  margin-top: 40px;
+  flex-wrap: wrap;
+  font-weight: 400;
+}
+
+/* 通常のリンク */
+.c-pagination .wp-pagenavi a,
+.c-pagination .wp-pagenavi span {
+  display: inline-block;
+  padding: 8px 12px;
+  color: #4D4F48;
+  text-decoration: none;
+  border-radius: 4px;
+  font-size: 14px;
+  transition: all 0.2s ease;
+}
+
+/* ホバー時 */
+.c-pagination .wp-pagenavi a:hover {
+  color: #63AEE1;
+}
+
+/* １ページ目を非表示 */
+.c-pagination .wp-pagenavi .pages {
+  display: none;
+}
+
+.c-pagination .wp-pagenavi .current {
+  font-weight: 400;
+}
+
+.c-pagination .wp-pagenavi a,
+.c-pagination .wp-pagenavi span {
+  border: none;
+}
+
+/* 左右の矢印共通設定 */
+.c-pagination .wp-pagenavi a.previouspostslink,
+.c-pagination .wp-pagenavi a.nextpostslink {
+  display: inline-block;
+  width: 36px;
+  height: 36px;
+  text-indent: -9999px;
+  overflow: hidden;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: none;
+}
+
+/* 前へ（左矢印） */
+.c-pagination .wp-pagenavi a.previouspostslink {
+  background-image: url("../images/lower/archive-news/news-arrow-left.png");
+}
+
+/* 次へ（右矢印） */
+.c-pagination .wp-pagenavi a.nextpostslink {
+  background-image: url("../images/lower/archive-news/news-arrow-right.png");
+}
+
 .u-col-2 {
   grid-template-columns: repeat(2, 1fr);
   gap: 30px;
