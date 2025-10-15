@@ -64,8 +64,10 @@
                             <?php get_template_part('page/page', 'tuition-support'); ?>
                         <?php elseif (is_page('voice')): ?>
                             <?php get_template_part('page/page', 'voice'); ?>
-       <?php elseif (is_page('news')): ?>
-                        <?php get_template_part('archive/archive', 'news'); ?>
+                        <?php elseif (is_page('society')): ?>
+                            <?php get_template_part('page/page', 'society'); ?>
+                        <?php elseif (is_page(page: 'news')): ?>
+                            <?php get_template_part('archive/archive', 'news'); ?>
                         <?php else: ?>
                             <?php if (have_posts()):
                                 while (have_posts()):
