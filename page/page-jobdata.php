@@ -5,7 +5,11 @@
 
         <h3 class="u-color-main c-contentbox--subtitle">実習先と連携し、担当の教員が学生を強力サポート。</h3>
         <p class="desc">
+<<<<<<< Updated upstream
             本校では、『常に振り返り、学生にとって一番よいものを提供していく』という考えに重きを置き、細やかな改善提案を定期的に実施しております。 ここで本校の取り組みをいくつかご紹介させていただきます。
+=======
+            本校では、『常に振り返り、学生にとって一番よいものを提供していく』という考えに重きを置き、細やかな改善提案を定期的に実施しております。 <br>ここで本校の取り組みをいくつかご紹介させていただきます。
+>>>>>>> Stashed changes
         </p>
 
 
@@ -168,6 +172,7 @@
             <h4>就職実績一覧</h4>
             <ul>
                 <li>
+<<<<<<< Updated upstream
                     <a href="">2023年度</a>
                 </li>
                 <li>
@@ -178,14 +183,29 @@
                 </li>
                 <li>
                     <a href="">2020年度</a>
+=======
+                    <a href="" class="u-color-main">2023年度</a>
+                </li>
+                <li>
+                    <a href="" class="u-color-main">2022年度</a>
+                </li>
+                <li>
+                    <a href="" class="u-color-main">2021年度</a>
+                </li>
+                <li>
+                    <a href="" class="u-color-main">2020年度</a>
+>>>>>>> Stashed changes
                 </li>
             </ul>
 
         </div>
 
+<<<<<<< Updated upstream
 
 
 
+=======
+>>>>>>> Stashed changes
     </div>
 
 </section>

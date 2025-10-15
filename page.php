@@ -65,6 +65,11 @@
                         <?php endif; ?>
                     </div>
                 </div>
+<<<<<<< Updated upstream
+=======
+
+                <?php get_template_part('template-parts/event-cta'); ?>
+>>>>>>> Stashed changes
             </div>
         </main>
         <?php get_template_part('template-parts/footer'); ?>
