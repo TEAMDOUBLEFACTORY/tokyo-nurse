@@ -1,14 +1,15 @@
 <section class="p-voice" id="voice">
     <p class="u-text-center">「オープンキャンパス」と「入試説明会」に参加していただいた方々からの感想をご紹介します！</p>
     <div class="p-voice__btnbox u-grid u-col-2">
-        <div class="p-voice__btn"><a href=""
+        <div class="p-voice__btn"><a href="#opencampus"
                 class="c-btn__link c-btn__link-border c-btn__link-anchor">オープンキャンパス参加者の声</a></div>
-        <div class="p-voice__btn"><a href="" class="c-btn__link c-btn__link-border c-btn__link-anchor">一覧を見る</a>
+        <div class="p-voice__btn"><a href="#entrancebriefing"
+                class="c-btn__link c-btn__link-border c-btn__link-anchor">入試説明会参加者の声</a>
         </div>
     </div>
 
 
-    <div class="p-voice__sec c-sec">
+    <div class="p-voice__sec c-sec" id="opencampus">
         <h2 class="c-sec__title c-sec__title--center c-sec__title--big"><span
                 class="c-sec__title--ja">オープンキャンパス参加者の声</span></h2>
         <ul class="p-voice__list u-grid u-col-3">
@@ -24,7 +25,9 @@
             </li>
             <li class="p-voice__listitem">
                 <h3 class="p-voice__listtitle">体験授業で学校の雰囲気が<br>よく分かりました</h3>
-                <p class="p-voice__listtxt">前回はオンラインでの参加だったので、学校でどんなことをしているか詳しくは分からなかったけど、今回、体験授業に参加してよくわかったし、楽しかったです。在校生の方の話も聞けて、また参加したいと思いました。</p>
+                <p class="p-voice__listtxt">
+                    前回はオンラインでの参加だったので、学校でどんなことをしているか詳しくは分からなかったけど、今回、体験授業に参加してよくわかったし、楽しかったです。在校生の方の話も聞けて、また参加したいと思いました。
+                </p>
                 <small class="p-voice__listname">Cさん　高校三年生</small>
             </li>
             <li class="p-voice__listitem --dgreen">
@@ -34,22 +37,26 @@
             </li>
             <li class="p-voice__listitem">
                 <h3 class="p-voice__listtitle">専門学校の特徴を<br>知ることができました</h3>
-                <p class="p-voice__listtxt">看護の専門学校って、大学とは違ってどんなカリキュラムなのか気になっていたので、それを聞けてとても満足しました。在校生の雰囲気も楽しそうで、この学校にとても興味を持ちました。</p>
+                <p class="p-voice__listtxt">
+                    看護の専門学校って、大学とは違ってどんなカリキュラムなのか気になっていたので、それを聞けてとても満足しました。在校生の雰囲気も楽しそうで、この学校にとても興味を持ちました。</p>
                 <small class="p-voice__listname">Eさん　高校二年生</small>
             </li>
             <li class="p-voice__listitem --dgreen">
                 <h3 class="p-voice__listtitle --dgreen">授業の様子を知れて<br>入学後をイメージできました</h3>
-                <p class="p-voice__listtxt">実際の授業の様子を知れて、自分が学校に入学したときのことを想像しやすかったです。先生や在校生の雰囲気も良くて、質問しやすかったです。ありがとうございました。</p>
+                <p class="p-voice__listtxt">
+                    実際の授業の様子を知れて、自分が学校に入学したときのことを想像しやすかったです。先生や在校生の雰囲気も良くて、質問しやすかったです。ありがとうございました。</p>
                 <small class="p-voice__listname">Fさん　既卒</small>
-            </li>    
-             <li class="p-voice__listitem">
+            </li>
+            <li class="p-voice__listitem">
                 <h3 class="p-voice__listtitle">教育方針やカリキュラムを<br>詳しく聞けました</h3>
-                <p class="p-voice__listtxt">学校の教育方針や、授業・カリキュラムなどをとても詳しく聞けて、大変学びになりました。また今度来校して、入試についてもっと深く知りたいなと思います。</p>
+                <p class="p-voice__listtxt">学校の教育方針や、授業・カリキュラムなどをとても詳しく聞けて、大変学びになりました。また今度来校して、入試についてもっと深く知りたいなと思います。
+                </p>
                 <small class="p-voice__listname">Gさん　高校一年生</small>
-            </li>           
+            </li>
             <li class="p-voice__listitem --dgreen">
                 <h3 class="p-voice__listtitle --dgreen">体験授業ときれいな施設が<br>印象的でした</h3>
-                <p class="p-voice__listtxt">学校の教育方針や、授業・カリキュラムなどをとても詳しく聞けて、大変学びになりました。また今度来校して、入試についてもっと深く知りたいなと思います。</p>
+                <p class="p-voice__listtxt">学校の教育方針や、授業・カリキュラムなどをとても詳しく聞けて、大変学びになりました。また今度来校して、入試についてもっと深く知りたいなと思います。
+                </p>
                 <small class="p-voice__listname">Hさん　高校一年生</small>
             </li>
             <li class="p-voice__listitem">
@@ -58,7 +65,7 @@
                 <small class="p-voice__listname">Iさん　既卒</small>
             </li>
             <li class="p-voice__listitem --dgreen">
-                <h3 class="p-voice__listtitle --dgreen" >看護師という仕事に<br>さらに興味を持てました</h3>
+                <h3 class="p-voice__listtitle --dgreen">看護師という仕事に<br>さらに興味を持てました</h3>
                 <p class="p-voice__listtxt">今日のオープンキャンパスを通して、より一層、看護師という仕事に興味を持つことができました。</p>
                 <small class="p-voice__listname">Jさん　高校一年生</small>
             </li>
@@ -67,28 +74,33 @@
         </div>
     </div>
 
-    <div class="p-voice__sec c-sec">
-        <h2 class="c-sec__title c-sec__title--center c-sec__title--big"><span
-                class="c-sec__title--ja">入試説明会参加者の声</span></h2>
+    <div class="p-voice__sec c-sec" id="entrancebriefing">
+        <h2 class="c-sec__title c-sec__title--center c-sec__title--big"><span class="c-sec__title--ja">入試説明会参加者の声</span>
+        </h2>
         <ul class="p-voice__list u-grid u-col-2">
             <li class="p-voice__listitem --pink">
                 <h3 class="p-voice__listtitle --pink">面接対策を具体的に教えてもらえて安心しました</h3>
-                <p class="p-voice__listtxt">一番知りたかった面接対策をわかりやすく教えてもらえて良かったです。どんな風に対策すればいいのか具体的にわかりました。また、在校生の方に質問する機会もあり、どんな風に勉強すればいいのか、看護学校でどのように学んでいるのかを聞けて良かったです。</p>
+                <p class="p-voice__listtxt">
+                    一番知りたかった面接対策をわかりやすく教えてもらえて良かったです。どんな風に対策すればいいのか具体的にわかりました。また、在校生の方に質問する機会もあり、どんな風に勉強すればいいのか、看護学校でどのように学んでいるのかを聞けて良かったです。
+                </p>
                 <small class="p-voice__listname">Kさん　既卒</small>
             </li>
             <li class="p-voice__listitem --orange">
                 <h3 class="p-voice__listtitle --orange">丁寧な説明で不安が和らぎました</h3>
-                <p class="p-voice__listtxt">ゆっくり細かく丁寧に教えてくださったので、不安な気持ちが少し楽になったし、勉強の支援が手厚いのがわかりました。入学したいので、入試がんばりたいです！！</p>
+                <p class="p-voice__listtxt">ゆっくり細かく丁寧に教えてくださったので、不安な気持ちが少し楽になったし、勉強の支援が手厚いのがわかりました。入学したいので、入試がんばりたいです！！
+                </p>
                 <small class="p-voice__listname">Lさん　高校三年生</small>
             </li>
             <li class="p-voice__listitem --orange">
                 <h3 class="p-voice__listtitle --orange">志望動機や面接対策を教えてもらえて<br>参考になりました</h3>
-                <p class="p-voice__listtxt">志望動機や面接対策についてしっかりと教えていただいたので、次の受験の参考になりました。在校生の方にいろいろ話を聞いてもらえたので、不安が少し軽くなりました。</p>
+                <p class="p-voice__listtxt">
+                    志望動機や面接対策についてしっかりと教えていただいたので、次の受験の参考になりました。在校生の方にいろいろ話を聞いてもらえたので、不安が少し軽くなりました。</p>
                 <small class="p-voice__listname">Mさん　高校三年生</small>
             </li>
             <li class="p-voice__listitem --pink">
                 <h3 class="p-voice__listtitle --pink">受験勉強に役立つ情報と<br>優しい雰囲気が印象的でした</h3>
-                <p class="p-voice__listtxt">面接で大事なことや小論文の出題傾向が知れたので、受験勉強に役立てたいと思いました。在校生や先生方も優しそうだったので、入学できるよう勉強をがんばろうと思います。</p>
+                <p class="p-voice__listtxt">
+                    面接で大事なことや小論文の出題傾向が知れたので、受験勉強に役立てたいと思いました。在校生や先生方も優しそうだったので、入学できるよう勉強をがんばろうと思います。</p>
                 <small class="p-voice__listname">Nさん　高校三年生</small>
             </li>
         </ul>

@@ -41,49 +41,28 @@
   flex-direction: column;
   gap: 100px;
 }
-/* .c-footer-nav {
+.c-footer-nav {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 10px 20px;
-} */
+}
 
-/*--中井追記ここから--*/
-.c-footer-nav__itemContainer{
- display: grid;
- grid-template-columns: repeat(4, 1fr);
- margin-top: 10px;
- @media screen and (max-width: 768px){
-  grid-template-columns: repeat(1, 1fr);
-  margin-top: 0;
-}
-}
-/*--中井追記ここまで--*/
 .c-footer__ttl {
   font-size: 1.8rem;
   font-weight: 500;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 .c-footer-nav__link {
   font-size: 1.3rem;
   display: flex;
   gap: 10px;
   align-items: center;
-  margin-top: 0;
-  position: relative;/*--中井追記--*/
-  padding-left: 33px;/*--中井追記--*/
   &::before {
     content: "";
     display: inline-block;
     width: 20px;
     height: 20px;
     background: url("../images/common/nav-arrow.svg") center/contain no-repeat;
-    flex-shrink: 0; /*--中井追記--*/
-    position: absolute; /*--中井追記--*/
-    top: 0; /*--中井追記--*/
-    left: 0; /*--中井追記--*/
-  }
-  @media screen and (max-width: 768px){/*--中井追記--*/
-    margin-top: 10px;
   }
 }
 
@@ -372,7 +351,6 @@
   line-height: 1em;
   font-size: 1.4rem;
   font-weight: 500;
-  background: linear-gradient(to right, #63AEE1, #BDE2E0);/* --中井追加-- */
 }
 .c-news__time {
   font-size: 1.3rem;
