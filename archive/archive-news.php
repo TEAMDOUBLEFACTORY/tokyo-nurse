@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <section class="p-top-news">
   <div class="l-container">
     <div class="p-top-news__body">
@@ -55,3 +56,6 @@
     </div>
   </div>
 </section>
+=======
+あいうえお
+>>>>>>> okutani_edit

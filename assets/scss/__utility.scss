@@ -12,3 +12,14 @@
   grid-template-columns: repeat(4, 1fr);
   gap: 10px;
 }
+
+.u-color-orange {
+  color: rgba(var(--color-orange), 1);
+}
+.u-color-darkgreen {
+  color: rgba(var(--color-darkgreen), 1);
+}
+
+.u-f32 {
+  font-size: 32px;
+}

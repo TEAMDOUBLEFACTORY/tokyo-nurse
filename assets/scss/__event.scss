@@ -1,0 +1,29 @@
+.c-event-cta {
+  background: #e9a651;
+  background: linear-gradient(135deg, rgba(233, 166, 81, 1) 0%, rgba(224, 138, 149, 1) 100%);
+  max-width: 1036px;
+  margin: 80px auto;
+  border-radius: 20px;
+  &__link {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__text {
+    h3 {
+      font-size: 54px;
+      font-weight: 400;
+      color: #fff;
+      margin-bottom: 15px;
+    }
+    p {
+      font-size: 24px;
+      color: #fff;
+    }
+  }
+
+  &__arrow {
+    margin-top: 30px;
+  }
+}
