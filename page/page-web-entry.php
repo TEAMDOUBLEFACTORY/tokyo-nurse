@@ -27,8 +27,8 @@
                 </div>
             </li>
         </ul>
-        <div class="c-border-box__btn ">
-            <a href="" class="c-btn c-btn--arrow u-text-center">Web出願をする</a>
+        <div class="c-border-box__btn c-border-box__btn--center">
+            <a href="" class="c-btn c-btn--arrow">Web出願をする</a>
         </div>
     </div>
     <div class="p-flow c-sec">
@@ -217,7 +217,7 @@
             </li>
         </ul>
 
-        <div class="c-border-box__btn ">
+        <div class="c-border-box__btn c-border-box__btn--center">
             <a href="" class="c-btn c-btn--arrow">Web出願をする</a>
         </div>
     </div>
