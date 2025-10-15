@@ -470,10 +470,7 @@
 }
 .c-contentbox .c-graph h4 {
   font-size: 24px;
-<<<<<<< Updated upstream
-=======
   font-weight: bold;
->>>>>>> Stashed changes
   margin-bottom: 40px;
   color: #009aa7;
 }
@@ -485,10 +482,7 @@
 .c-contentbox .c-works h4 {
   font-size: 22px;
   margin-bottom: 40px;
-<<<<<<< Updated upstream
-=======
   font-weight: bold;
->>>>>>> Stashed changes
 }
 .c-contentbox .c-works ul {
   display: flex;
@@ -1110,8 +1104,7 @@
 .p-parents__advice--answer p b {
   font-size: 28px;
 }
-<<<<<<< Updated upstream
-=======
+
 .c-event-cta {
   background: #e9a651;
   background: linear-gradient(135deg, rgb(233, 166, 81) 0%, rgb(224, 138, 149) 100%);
