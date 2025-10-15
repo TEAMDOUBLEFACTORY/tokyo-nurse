@@ -367,7 +367,8 @@
   background: #fff;
   color: rgba(var(--color-main));
 }
-.c-accordion__header::before, .c-accordion__header::after {
+.c-accordion__header::before,
+.c-accordion__header::after {
   position: absolute;
   content: "";
   top: 1px;
@@ -470,10 +471,7 @@
 }
 .c-contentbox .c-graph h4 {
   font-size: 24px;
-<<<<<<< Updated upstream
-=======
   font-weight: bold;
->>>>>>> Stashed changes
   margin-bottom: 40px;
   color: #009aa7;
 }
@@ -485,10 +483,7 @@
 .c-contentbox .c-works h4 {
   font-size: 22px;
   margin-bottom: 40px;
-<<<<<<< Updated upstream
-=======
   font-weight: bold;
->>>>>>> Stashed changes
 }
 .c-contentbox .c-works ul {
   display: flex;
@@ -798,7 +793,8 @@
   bottom: -50px;
   left: 66px;
 }
-.p-flow__step--item:nth-child(3) ul, .p-flow__step--item:nth-child(4) ul {
+.p-flow__step--item:nth-child(3) ul,
+.p-flow__step--item:nth-child(4) ul {
   grid-template-columns: 420px 420px;
   gap: 20px;
 }
@@ -1034,9 +1030,10 @@
   width: fit-content;
 }
 
-.p-parents__list {
-  margin-top: 30px;
-  gap: 30px;
+.p-voice__btnbox {
+  max-width: 1000px;
+  margin: 80px auto 80px auto;
+  gap: 50px !important;
 }
 .p-parents__list li {
   width: 400px;
@@ -1103,35 +1100,6 @@
 .p-parents__advice--answer p b {
   font-size: 28px;
 }
-<<<<<<< Updated upstream
-=======
-.c-event-cta {
-  background: #e9a651;
-  background: linear-gradient(135deg, rgb(233, 166, 81) 0%, rgb(224, 138, 149) 100%);
-  max-width: 1036px;
-  margin: 80px auto;
-  border-radius: 20px;
-}
-.c-event-cta__link {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-.c-event-cta__text h3 {
-  font-size: 54px;
-  font-weight: 400;
-  color: #fff;
-  margin-bottom: 15px;
-}
-.c-event-cta__text p {
-  font-size: 24px;
-  color: #fff;
-}
-.c-event-cta__arrow {
-  margin-top: 30px;
-}
-
->>>>>>> Stashed changes
 .u-col-2 {
   grid-template-columns: repeat(2, 1fr);
   gap: 30px;
