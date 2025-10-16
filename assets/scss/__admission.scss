@@ -6,6 +6,9 @@
   .c-sec {
     h2 {
       margin-bottom: 60px;
+      @media screen and (max-width: 768px) {
+        margin-bottom: 80px;
+      }
     }
   }
 }
@@ -19,7 +22,9 @@
       margin-top: 50px;
       padding: 50px 40px 25px;
       position: relative;
-
+      @media screen and (max-width: 768px) {
+        padding: 50px 15px 25px;
+      }
       &:not(:last-child) {
         margin-bottom: 80px;
         &::before {
@@ -32,6 +37,15 @@
           position: absolute;
           bottom: -50px;
           left: 66px;
+          @media screen and (max-width: 768px) {
+            left: 42px;
+          }
+        }
+      }
+      @media screen and (max-width: 768px) {
+        ul {
+          grid-template-columns: 1fr !important;
+          gap: 20px;
         }
       }
 
@@ -82,6 +96,9 @@
     font-size: 24px;
     font-weight: bold;
     display: block;
+    @media screen and (max-width: 768px) {
+      font-size: 20px;
+    }
   }
 
   &__imgbox {
@@ -93,6 +110,9 @@
       background-color: #fff;
       padding: 25px;
       border-radius: 10px;
+      @media screen and (max-width: 768px) {
+        padding: 25px 10px;
+      }
       img {
         object-position: top;
         object-fit: contain;
@@ -129,6 +149,9 @@
     padding: 25px 40px;
     border-radius: 10px;
     width: fit-content;
+    @media screen and (max-width: 768px) {
+      padding: 25px 15px;
+    }
   }
   &__addressbox {
     background-color: rgba(var(--color-darkgreen), 0.1);

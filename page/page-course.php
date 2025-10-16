@@ -1,7 +1,7 @@
 <section class="p-course" id="course-nursing">
 
     <div class="p-course__lead">
-        <h2 class="p-course__title">
+        <h2 class="p-course__title u-color-pink">
             看護学科<p class="data">3年課程・70名 <i class="category">女子</i></p>
         </h2>
 
@@ -20,8 +20,8 @@
         <figure class="u-flex u-items-center">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/images/lower/course/voice_icon.png" alt="">
             <figcaption>
-                <h4>実戦を見据えた学びのもと、クラスで協力し合い成長中。</h4>
-                <p class="desc">3年間で基礎分野から統合分野まで段階を経て、じっくりと学ぶプログラムが用意されています。
+                <h4 class="c-voice__title u-color-pink">実戦を見据えた学びのもと、クラスで協力し合い成長中。</h4>
+                <p class="desc">3年間で基礎分野から統合分野まで段階を経て、じっくりと学ぶプログラムが用意されています。<br>
                     現場に即した学びを中心に、着実に看護師として力をつけていくことができます。
                 </p>
             </figcaption>
@@ -127,7 +127,7 @@
                     1年次の時間割例
                 </h3>
 
-                <div class="c-timetable__content">
+                <div class="c-timetable__content js-scrollable">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/images/lower/course/timetable_01.png"
                         alt="1年次の時間割例">
                 </div>
@@ -138,7 +138,7 @@
                     2年次の時間割例
                 </h3>
 
-                <div class="c-timetable__content">
+                <div class="c-timetable__content js-scrollable">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/images/lower/course/timetable_02.png"
                         alt="2年次の時間割例">
                 </div>
@@ -150,7 +150,7 @@
                     3年次の時間割例
                 </h3>
 
-                <div class="c-timetable__content">
+                <div class="c-timetable__content js-scrollable">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/images/lower/course/timetable_03.png"
                         alt="3年次の時間割例">
                 </div>

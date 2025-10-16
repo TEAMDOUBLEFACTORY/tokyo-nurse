@@ -1,0 +1,72 @@
+<?php get_header(); ?>
+
+<div class="u-flex">
+    <div class="l-content">
+        <?php get_template_part('template-parts/header'); ?>
+        <main class="l-main" id="<?php echo $post->post_name; ?>">
+            <div class="l-page">
+                <div class="c-pageheader">
+                    <div class="l-container">
+                        <div class="c-pageheader_title c-pageheader_title--<?php echo $post->post_name; ?>">
+                            <p class="c-pageheader_title--en"><?php echo $post->post_name; ?></p>
+                            <h2 class="c-pageheader_title--jp"><?php the_title(); ?></h2>
+                        </div>
+                        <div class="c-breadcrumbs" typeof="BreadcrumbList" vocab="https://schema.org/">
+                            <?php if (function_exists('bcn_display')) {
+                                bcn_display();
+                            } ?>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="l-main--content">
+                    <div class="l-container l-article">
+                        <div class="l-article-wrap u-flex">
+                            <article class="l-article-box">
+                                <div class="c-sec__head">
+                                    <h1 class="c-sec__title l-article-title"><?php the_title(); ?>
+                                    </h1>
+                                </div>
+                                <?php remove_filter ('the_content', 'wpautop'); ?>
+                                <?php the_content(); ?>
+                            </article>
+                            <aside class="l-article-sidebox">
+
+                                <div class="l-categories">
+                                    <span>カテゴリから探す</span>
+                                    <ul class="l-categories__list">
+                                        <li class="l-categories__item">
+                                            <a href="">全て</a>
+                                            <a href="">お知らせ</a>
+                                            <a href="">イベント情報</a>
+                                            <a href="">入試・入学情報</a>
+
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="l-years">
+                                    <span>学校からのお知らせ</span>
+                                    <ul class="l-years__list">
+                                        <li class="l-years__item">
+                                            <a href="">2025年度</a>
+                                            <a href="">2024年度</a>
+                                            <a href="">2023年度</a>
+                                            <a href="">2022年度</a>
+                                            <a href="">2021年度</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </aside>
+                        </div>
+                    </div>
+                </div>
+                <?php get_template_part('template-parts/event-cta'); ?>
+            </div>
+        </main>
+        <?php get_template_part('template-parts/footer'); ?>
+    </div>
+
+    <?php get_template_part('template-parts/side-menu'); ?>
+</div>
+<?php get_footer(); ?>

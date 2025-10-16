@@ -14,26 +14,43 @@
       display: flex;
       align-items: center;
       gap: 20px;
-      color: rgba(224, 138, 149, 1);
+      color: rgba(224, 170, 138, 1);
       margin-bottom: 30px;
+      @media screen and (max-width: 768px) {
+        font-size: 34px;
+        flex-direction: column-reverse;
+        justify-content: flex-start;
+        align-items: flex-start;
+        row-gap: 10px;
+        margin-bottom: 10px;
+      }
       p {
-        border: 1px solid rgba(224, 138, 149, 1);
+        border: 1px solid rgba(224, 170, 138, 1);
         padding: 5px 30px;
         border-radius: 50px;
         font-size: 20px;
-        color: rgba(224, 138, 149, 1);
+        color: rgba(224, 170, 138, 1);
+        @media screen and (max-width: 768px) {
+          font-size: 16px;
+        }
         i {
-          background-color: rgba(224, 138, 149, 1);
+          background-color: rgba(224, 170, 138, 1);
           font-size: 14px;
           padding: 0 10px;
           border-radius: 50px;
           color: #fff;
+          @media screen and (max-width: 768px) {
+            font-size: 12px;
+          }
         }
       }
     }
     h3 {
       font-size: 24px;
       margin-bottom: 20px;
+      @media screen and (max-width: 768px) {
+        font-size: 20px;
+      }
     }
   }
 

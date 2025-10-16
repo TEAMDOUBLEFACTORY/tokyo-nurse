@@ -28,5 +28,6 @@ function my_script_init()
 
     wp_enqueue_script('script-common', get_template_directory_uri() . '/assets/js/common.js', true);
     wp_enqueue_script('script-home', get_template_directory_uri() . '/assets/js/home.js', true);
+      wp_enqueue_script('script-option', get_template_directory_uri() . '/assets/js/option.js', true);
 }
 add_action('wp_enqueue_scripts', 'my_script_init');

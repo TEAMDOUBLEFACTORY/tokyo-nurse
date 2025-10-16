@@ -19,7 +19,13 @@
 .u-color-darkgreen {
   color: rgba(var(--color-darkgreen), 1);
 }
+.u-color-pink {
+  color: #e0aa8a;
+}
 
 .u-f32 {
   font-size: 32px;
+  @media screen and (max-width: 768px) {
+    font-size: 24px;
+  }
 }
