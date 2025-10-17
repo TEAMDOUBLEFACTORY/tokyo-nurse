@@ -34,23 +34,88 @@
   background-color: rgba(var(--color-main), 0.1);
   padding: 100px;
   border-radius: 20px;
+  @media screen and (max-width: 768px) {
+    padding: 50px 0;
+  }
 }
 
+.l-footer__inner {
+  @media screen and (max-width: 768px) {
+    width: 90%;
+    margin: auto;
+  }
+}
 .l-footer__content {
   display: flex;
   flex-direction: column;
   gap: 100px;
+  @media screen and (max-width: 768px) {
+    gap: 40px;
+  }
 }
 .c-footer-nav {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 10px 20px;
+  @media screen and (max-width: 768px) {
+    grid-template-columns: 1fr;
+    padding: 15px;
+    display: none;
+    .c-footer-nav__item {
+      border-bottom: 1px solid rgba(var(--color-text), 0.2);
+      a {
+        padding: 10px 0;
+      }
+    }
+  }
 }
-
+.l-container--footer {
+  @media screen and (max-width: 768px) {
+    width: 100%;
+  }
+}
+.l-footer__top {
+  gap: 30px;
+  align-items: center;
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+  }
+}
+.l-footer__addr {
+  font-size: 1.5rem;
+}
+.l-footer__middle {
+  @media screen and (max-width: 768px) {
+    background: #fff;
+    border-radius: 10px;
+  }
+}
 .c-footer__ttl {
   font-size: 1.8rem;
   font-weight: 500;
   margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  @media screen and (max-width: 768px) {
+    margin-bottom: 0;
+    &::after {
+      content: "";
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      transition: transform 0.3s;
+      background: url("../images/common/ttl-arrow.svg") center/contain no-repeat;
+    }
+    &.active {
+      &::after {
+        transform: rotate(180deg);
+      }
+    }
+  }
+}
+.c-footer__ttl2 {
+  padding: 10px 15px 5px;
 }
 .c-footer-nav__link {
   font-size: 1.3rem;
@@ -70,22 +135,35 @@
   display: grid;
   grid-template-columns: repeat(4, auto);
   gap: 10px 20px;
+  @media screen and (max-width: 768px) {
+    grid-template-columns: 1fr;
+  }
 }
 .c-footer-nav2__inner {
   display: flex;
   flex-direction: column;
   gap: 20px;
+  @media screen and (max-width: 768px) {
+    gap: 10px;
+  }
 }
 
 .c-footer-nav2__link {
   font-size: 1.8rem;
   font-weight: 500;
+  @media screen and (max-width: 768px) {
+    font-size: 1.6rem;
+  }
 }
 
 .c-footer-innav2 {
   border-left: 1px solid rgba(var(--color-main), 0.5);
   padding-left: 20px;
   margin: 20px 0;
+  @media screen and (max-width: 768px) {
+    margin: 10px 0;
+    padding-left: 10px;
+  }
 }
 .c-footer-innav2 {
   display: flex;
@@ -112,8 +190,21 @@
   justify-content: space-between;
   gap: 20px;
   font-size: 1.3rem;
+  @media screen and (max-width: 768px) {
+    flex-direction: column-reverse;
+    align-items: center;
+    font-size: 1rem;
+  }
 }
 
+.c-logo-sanko {
+}
+.c-logo-sanko__item {
+  max-height: 50px;
+  img {
+    object-fit: contain;
+  }
+}
 /* --- c-side-menu --- */
 
 .c-side-menu {
