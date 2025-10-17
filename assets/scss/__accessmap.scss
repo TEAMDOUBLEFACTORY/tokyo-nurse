@@ -128,7 +128,7 @@
       }
       img {
         min-width: 460px;
-        width: 60%;
+        width: 55%;
         border-radius: 10px;
         @media screen and (max-width: 768px) {
           width: 100%;
@@ -137,7 +137,7 @@
         }
       }
       figcaption {
-        width: 40%;
+        width: 45%;
         padding: 10px 0px;
         @media screen and (max-width: 768px) {
           width: 100%;
@@ -164,9 +164,9 @@
     }
     ul {
       display: grid;
-      grid-template-columns: repeat(3, 1fr);
+      grid-template-columns: repeat(3, 110px);
       gap: 10px;
-      padding: 30px 120px 20px 45px;
+      padding: 30px 50px 20px 45px;
       @media screen and (max-width: 768px) {
         grid-template-columns: repeat(2, 1fr);
         padding: 25px 25px 25px 30px;

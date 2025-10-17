@@ -1,0 +1,14 @@
+.p-sub-news {
+  &__body {
+    width: 67%;
+  }
+
+  .c-news__img {
+    overflow: hidden;
+    border-radius: 10px;
+    img {
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+}

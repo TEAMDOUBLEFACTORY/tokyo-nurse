@@ -57,7 +57,6 @@
                         <?php get_template_part('page/page', 'tuition-support'); ?>
                         <?php elseif (is_page('news')): ?>
                         <?php get_template_part('archive/archive', 'news'); ?>
-                        <?php get_template_part('page/page', 'parents'); ?>
                         <?php elseif (is_page('for-prospective-students')): ?>
                         <?php get_template_part('page/page', 'for-prospective-students'); ?>
                         <?php elseif (is_page('online-admissions')): ?>
@@ -66,10 +65,6 @@
                         <?php get_template_part('page/page', 'tuition-support'); ?>
                         <?php elseif (is_page('voice')): ?>
                         <?php get_template_part('page/page', 'voice'); ?>
-                        <?php elseif (is_page('society')): ?>
-                        <?php get_template_part('page/page', 'society'); ?>
-                        <?php elseif (is_page(page: 'news')): ?>
-                        <?php get_template_part('archive/archive', 'news'); ?>
                         <?php elseif (is_page('society')): ?>
                         <?php get_template_part('page/page', 'society'); ?>
                         <?php else: ?>
@@ -82,7 +77,10 @@
                         <?php endif; ?>
                     </div>
                 </div>
+                <?php if ( is_page('society') ) : ?>
+                <?php else: ?>
                 <?php get_template_part('template-parts/event-cta'); ?>
+                <?php endif; ?>
             </div>
         </main>
         <?php get_template_part('template-parts/footer'); ?>
