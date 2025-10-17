@@ -5,10 +5,10 @@
       background: black;
       position: absolute;
       border-radius: 0 20px 20px 0;
-      left: -25%;
+      left: -30%;
       bottom: 30px;
-      width: 80%;
-      height: calc(100% - 240px);
+      width: 85%;
+      height: calc(100% - 120px);
       background: linear-gradient(135deg, #75c5b5, rgb(var(--color-main)));
       opacity: 0.3;
       z-index: -1;
@@ -19,7 +19,7 @@
 #campuslife {
   .p-voice {
     position: relative;
-    margin-bottom: 300px;
+    margin-bottom: 0px;
     h2 {
       span {
         margin-bottom: 60px;
@@ -75,11 +75,11 @@
     .swiper-button-prev {
       transform: scaleX(-1);
       left: -50px;
-      top: 55%;
+      top: 50%;
     }
     .swiper-button-next {
       right: -50px;
-      top: 55%;
+      top: 50%;
     }
 
     .swiper-button-next:after,

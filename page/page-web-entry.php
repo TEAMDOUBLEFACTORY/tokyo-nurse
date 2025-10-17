@@ -33,7 +33,7 @@
     </div>
     <div class="p-flow c-sec">
         <h2 class="c-point__title u-color-main u-text-center u-f32">
-            WEB出願のポイント
+            WEB出願の流れ
         </h2>
         <ul class="p-flow__step">
             <li class="p-flow__step--item" id="step01">
@@ -148,15 +148,15 @@
                     <span class="u-color-darkgreen p-flow__title">検定料のお支払い</span>
                     <ul class="p-flow__imgbox u-grid u-col-3">
                         <li>
-                            <span class="p-flow__step--ja">手順 ①</span>
-                            <p class="p-flow__step--desc">「パスワード設定」ボタンを選択します。</p>
+                            <span class="p-flow__step--ja">銀行振込</span>
+                            <p class="p-flow__step--desc">全国の金融機関窓口でお支払いください。</p>
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/images/lower/online-admissions/step05-01.svg"
                                 alt="">
                         </li>
 
                         <li>
-                            <span class="p-flow__step--ja">手順 ②</span>
-                            <p class="p-flow__step--desc">英数字8文字以上のパスワードを設定してください</p>
+                            <span class="p-flow__step--ja">コンビニATMからの振り込み</span>
+                            <p class="p-flow__step--desc">全国の設置されているATMからお振込みください。</p>
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/images/lower/online-admissions/step05-02.svg"
                                 alt="">
 

@@ -94,7 +94,7 @@
   &__title {
     margin-bottom: 10px;
     font-size: 24px;
-    font-weight: bold;
+    font-weight: 500;
     display: block;
     @media screen and (max-width: 768px) {
       font-size: 20px;
@@ -134,6 +134,7 @@
       padding: 7px 10px 5px;
       border-radius: 5px;
       line-height: 1;
+      width: fit-content;
     }
     &--desc {
       //   flex-grow: 1;
@@ -163,7 +164,9 @@
 
   .note {
     font-size: 12px;
+    font-weight: 500;
     color: #df122c;
+    opacity: 1;
     margin-top: 10px;
   }
 }

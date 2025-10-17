@@ -1,6 +1,9 @@
 .p-sub-news {
   &__body {
     width: 67%;
+    @media screen and (max-width: 768px) {
+      width: 100%;
+    }
   }
 
   .c-news__img {

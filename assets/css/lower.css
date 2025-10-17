@@ -851,7 +851,7 @@
   font-size: 32px;
 }
 .c-border-box h3 {
-  font-size: 20px;
+  font-size: 22px;
   margin-bottom: 30px;
 }
 .c-border-box p {
@@ -965,8 +965,19 @@
 .l-article-wrap {
   justify-content: space-between;
 }
+@media screen and (max-width: 768px) {
+  .l-article-wrap {
+    flex-direction: column;
+    row-gap: 60px;
+  }
+}
 .l-article-box {
   width: 67%;
+}
+@media screen and (max-width: 768px) {
+  .l-article-box {
+    width: 100%;
+  }
 }
 .l-article-box h2 {
   font-size: 3.4rem;
@@ -1018,6 +1029,11 @@
 }
 .l-article-sidebox {
   width: 25%;
+}
+@media screen and (max-width: 768px) {
+  .l-article-sidebox {
+    width: 100%;
+  }
 }
 .l-article-title {
   font-size: 3.6rem;
@@ -1447,10 +1463,10 @@
   background: black;
   position: absolute;
   border-radius: 0 20px 20px 0;
-  left: -25%;
+  left: -30%;
   bottom: 30px;
-  width: 80%;
-  height: calc(100% - 240px);
+  width: 85%;
+  height: calc(100% - 120px);
   background: linear-gradient(135deg, #75c5b5, rgb(var(--color-main)));
   opacity: 0.3;
   z-index: -1;
@@ -1458,7 +1474,7 @@
 
 #campuslife .p-voice {
   position: relative;
-  margin-bottom: 300px;
+  margin-bottom: 0px;
 }
 #campuslife .p-voice h2 span {
   margin-bottom: 60px;
@@ -1519,11 +1535,11 @@
 #campuslife .p-voice .swiper-button-prev {
   transform: scaleX(-1);
   left: -50px;
-  top: 55%;
+  top: 50%;
 }
 #campuslife .p-voice .swiper-button-next {
   right: -50px;
-  top: 55%;
+  top: 50%;
 }
 #campuslife .p-voice .swiper-button-next:after,
 #campuslife .p-voice .swiper-button-prev:after {
@@ -1637,7 +1653,7 @@
 .p-flow__title {
   margin-bottom: 10px;
   font-size: 24px;
-  font-weight: bold;
+  font-weight: 500;
   display: block;
 }
 @media screen and (max-width: 768px) {
@@ -1678,6 +1694,7 @@
   padding: 7px 10px 5px;
   border-radius: 5px;
   line-height: 1;
+  width: fit-content;
 }
 .p-flow__step--desc {
   margin-bottom: 25px;
@@ -1705,7 +1722,9 @@
 }
 .p-flow .note {
   font-size: 12px;
+  font-weight: 500;
   color: #df122c;
+  opacity: 1;
   margin-top: 10px;
 }
 
@@ -2305,6 +2324,11 @@
 
 .p-sub-news__body {
   width: 67%;
+}
+@media screen and (max-width: 768px) {
+  .p-sub-news__body {
+    width: 100%;
+  }
 }
 .p-sub-news .c-news__img {
   overflow: hidden;
