@@ -1,0 +1,11 @@
+#qa {
+  .l-container {
+    max-width: 1040px;
+  }
+}
+
+.p-faq {
+  &__info {
+    padding-top: 0;
+  }
+}

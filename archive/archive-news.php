@@ -1,6 +1,6 @@
-<section class="p-top-news">
+<section class="p-sub-news">
     <div class="l-container">
-        <div class="p-top-news__body">
+        <div class="p-sub-news__body">
             <?php
       $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
       $args = array(

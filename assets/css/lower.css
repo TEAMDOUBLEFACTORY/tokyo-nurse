@@ -10,6 +10,7 @@
   height: 500px;
   display: flex;
   z-index: -1;
+  margin-bottom: 120px;
 }
 .c-pageheader_title {
   width: fit-content;
@@ -27,29 +28,48 @@
 }
 .c-pageheader_title:before {
   content: "";
-  background: url(../images//lower/course/kv.png) no-repeat center;
-  width: 763px;
-  height: 482px;
+  background: url(../images//lower/accessmap/kv.png) no-repeat center;
+  width: 763px !important;
+  height: 482px !important;
   position: absolute;
-  background-size: cover;
-  top: -100px;
+  background-size: cover !important;
+  top: 0px;
   right: -100px;
   z-index: -1;
 }
+.c-pageheader_title--accessmap:before {
+  background: url(../images//lower/accessmap/kv.png) no-repeat center;
+}
+.c-pageheader_title--year:before {
+  background: url(../images//lower/campuslife/kv.png) no-repeat center;
+}
+.c-pageheader_title--corporate:before {
+  background: url(../images//lower/corporate/kv.png) no-repeat center;
+}
 .c-pageheader_title--course:before {
-  content: "";
   background: url(../images//lower/course/kv.png) no-repeat center;
-  width: 763px;
-  height: 482px;
-  position: absolute;
-  background-size: cover;
-  top: -100px;
-  right: -100px;
-  z-index: -1;
+}
+.c-pageheader_title--department:before {
+  background: url(../images//lower/department/kv.png) no-repeat center;
+}
+.c-pageheader_title--qa:before {
+  background: url(../images//lower/faq/kv.png) no-repeat center;
+}
+.c-pageheader_title--support:before {
+  background: url(../images//lower/support/kv.png) no-repeat center;
+}
+.c-pageheader_title--guidelines:before {
+  background: url(../images//lower/guidelines/kv.png) no-repeat center;
+}
+.c-pageheader_title--jobdata:before {
+  background: url(../images//lower/jobdata/kv.png) no-repeat center;
+}
+.c-pageheader_title--web-entry:before {
+  background: url(../images//lower/online-admissions/kv.png) no-repeat center;
 }
 
 .c-sec {
-  padding: 120px 0 80px;
+  padding: 0px 0 120px;
 }
 @media screen and (max-width: 768px) {
   .c-sec {
@@ -278,8 +298,10 @@
   padding-left: 20px;
 }
 .c-timetable__table01 th ul li {
-  margin-bottom: 10px;
   list-style: disc;
+}
+.c-timetable__table01 th ul li:not(:last-child) {
+  margin-bottom: 10px;
 }
 .c-timetable__table01 th ul li::marker {
   color: rgba(var(--color-main));
@@ -501,7 +523,17 @@
 .c-breadcrumbs {
   margin-top: 30px;
   display: flex;
+  align-items: center;
+  line-height: 1;
   gap: 10px;
+  font-size: 30px;
+  color: rgba(var(--color-main), 1);
+}
+.c-breadcrumbs span {
+  font-size: 16px;
+}
+.c-breadcrumbs span a {
+  font-size: 16px;
 }
 
 .c-btn--arrow {
@@ -641,12 +673,25 @@
   justify-content: center;
   border-radius: 20px;
   color: #fff;
+  font-size: 28px;
 }
 .c-accordion__content {
   display: none;
-  padding: 30px 40px;
+  padding: 30px 40px 30px 100px;
   background: rgba(var(--color-main), 0.05);
   border-radius: 0 0 20px 20px;
+  position: relative;
+}
+.c-accordion__content i {
+  position: absolute;
+  left: 25px;
+  top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  color: rgba(var(--color-main), 1);
+  font-size: 28px;
 }
 .c-tab {
   margin: 0 auto;
@@ -778,7 +823,7 @@
   background: url("../images/common/sec-title-deco02.svg") center/contain no-repeat;
 }
 .c-contentbox:not(:last-child) {
-  margin-bottom: 80px;
+  margin-bottom: 60px;
 }
 .c-contentbox--subtitle {
   font-size: 24px;
@@ -840,7 +885,7 @@
 }
 .c-contentbox .c-graph h4 {
   font-size: 24px;
-  font-weight: bold;
+  font-weight: 500;
   margin-bottom: 40px;
   color: #009aa7;
 }
@@ -909,7 +954,7 @@
 
 .l-main--content .l-container {
   width: 77.6119402985vw;
-  max-width: 1440px;
+  max-width: 1340px;
 }
 @media screen and (max-width: 768px) {
   .l-main--content .l-container {
@@ -1908,6 +1953,10 @@
 .p-parents__list li {
   width: 400px;
 }
+.p-parents__list li a {
+  padding: 40px 30px;
+  justify-content: center;
+}
 .p-parents__list li a h3 {
   font-size: 18px;
 }
@@ -1970,6 +2019,10 @@
 .p-parents__advice--answer p b {
   font-size: 28px;
 }
+.p-parents__attempt {
+  padding-top: 120px;
+}
+
 .c-event-cta {
   background: rgb(224, 138, 149);
   background: linear-gradient(135deg, rgb(224, 138, 149) 0%, rgb(233, 166, 81) 100%);
@@ -2116,6 +2169,14 @@
 .p-voice__listitem.--orange {
   border: 1px solid rgba(var(--color-orange));
   background: rgba(var(--color-orange), 0.05);
+}
+
+#qa .l-container {
+  max-width: 1040px;
+}
+
+.p-faq__info {
+  padding-top: 0;
 }
 
 .u-col-2 {

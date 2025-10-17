@@ -3,7 +3,7 @@
         <h2 class="c-lower__title u-color-main">入学をお考えの方の保護者の皆様へ</h2>
         <p class="desc">
             <span>
-                保護者さまのアドバイスが非常に大切です
+                保護者さまのアドバイスが非常に大切です。
             </span>
             大学全入時代の近年、就職に直結する専門的な資格や技術を身につけられる専門学校の重要性が高まってきています。<br>
             専門学校は似ている所が多くて違いがよくわからない…そんなご意見をよく耳にします。<br>
@@ -19,7 +19,7 @@
             <li class="p-parents__advice--qa-item">
                 <div class="p-parents__advice--qa-head">
                     Q. 高校生はどのくらい保護者さまからの<br>
-                    　　アドバイスを希望しているのでしょうか？
+                    　 アドバイスを希望しているのでしょうか？
                 </div>
 
                 <div class="p-parents__advice--qa-body">
@@ -51,7 +51,7 @@
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/lower/parents/parent_img02.svg"
                             alt="">
                         <small class="note">
-                            第6回高校生と保護者の進路に関する<br>意識調査2013 （リクルートより）
+                            本学園入学予定者へのアンケートより
                         </small>
                     </div>
                 </div>
@@ -88,7 +88,7 @@
                     <div class="c-attempt__card--box">
                         <span class="u-color-main">授業の進め方アンケートの実施</span>
                         <p>
-                            在学している学生に、1つ1つの授業について、満足度をヒアリングをするものです。 講師1人1人に対するアンケートを作成し、授業の改善に役立てております。
+                            在学している学生に、1つ1つの授業について、満足度をヒアリングをするものです。講師1人1人に対するアンケートを作成し、授業の改善に役立てております。
                         </p>
                     </div>
                 </div>
@@ -162,14 +162,14 @@
                 <li class="c-card1 c-bg-main">
                     <a href="" class="c-card1__link">
                         <div class="c-card1__content">
-                            <h3 class="c-card1__head">入試ガイド</h3>
+                            <h3 class="c-card1__head">三幸学園について</h3>
                         </div>
                     </a>
                 </li>
                 <li class="c-card1 c-bg-main">
                     <a href="" class="c-card1__link">
                         <div class="c-card1__content">
-                            <h3 class="c-card1__head">学費サポート</h3>
+                            <h3 class="c-card1__head">三幸学園の教育システムについて</h3>
                         </div>
                     </a>
                 </li>

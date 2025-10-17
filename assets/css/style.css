@@ -286,7 +286,7 @@
     display: inline-block;
     width: 40px;
     height: 40px;
-    background: url("../images/common/btn-arrow.svg") center/contain no-repeat;
+    background: url("../images/common/btn-arrow_bgwhite.svg") center/contain no-repeat;
   }
 }
 .c-btn__link-anchor {
@@ -433,7 +433,7 @@
     height: 40px;
     flex-shrink: 0;
     transition: transform 0.3s;
-    background: url("../images/common/btn-arrow.svg") center/contain no-repeat;
+    background: url("../images/common/btn-arrow_bgwhite.svg") center/contain no-repeat;
   }
   &:hover {
     &::after {

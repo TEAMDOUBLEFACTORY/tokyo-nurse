@@ -8,7 +8,9 @@
                 <div class="c-pageheader">
                     <div class="l-container">
                         <div class="c-pageheader_title c-pageheader_title--<?php echo $post->post_name; ?>">
-                            <p class="c-pageheader_title--en"><?php echo $post->post_name; ?></p>
+                            <p class="c-pageheader_title--en">
+                                <?php the_field('en-title'); ?>
+                            </p>
                             <h2 class="c-pageheader_title--jp"><?php the_title(); ?></h2>
                         </div>
                         <div class="c-breadcrumbs" typeof="BreadcrumbList" vocab="https://schema.org/">
@@ -25,7 +27,7 @@
                         <?php get_template_part('page/page', 'accessmap'); ?>
                         <?php elseif (is_page('guidelines')): ?>
                         <?php get_template_part('page/page', 'guidelines'); ?>
-                        <?php elseif (is_page('campuslife')): ?>
+                        <?php elseif (is_page('year')): ?>
                         <?php get_template_part('page/page', 'campuslife'); ?>
                         <?php elseif (is_page('careers')): ?>
                         <?php get_template_part('page/page', 'careers'); ?>

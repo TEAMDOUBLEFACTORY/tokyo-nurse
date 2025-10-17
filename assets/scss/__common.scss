@@ -10,6 +10,7 @@
   height: 500px;
   display: flex;
   z-index: -1;
+  margin-bottom: 120px;
   &_title {
     width: fit-content;
     &--en {
@@ -25,33 +26,80 @@
     }
     &:before {
       content: "";
-      background: url(../images//lower/course/kv.png) no-repeat center;
-      width: 763px;
-      height: 482px;
+      background: url(../images//lower/accessmap/kv.png) no-repeat center;
+      width: 763px !important;
+      height: 482px !important;
       position: absolute;
-      background-size: cover;
-      top: -100px;
+      background-size: cover !important;
+      top: 0px;
       right: -100px;
       z-index: -1;
     }
+
+    &--accessmap {
+      &:before {
+        background: url(../images//lower/accessmap/kv.png) no-repeat center;
+      }
+    }
+
+    &--year {
+      &:before {
+        background: url(../images//lower/campuslife/kv.png) no-repeat center;
+      }
+    }
+
+    &--corporate {
+      &:before {
+        background: url(../images//lower/corporate/kv.png) no-repeat center;
+      }
+    }
+
     &--course {
       &:before {
-        content: "";
         background: url(../images//lower/course/kv.png) no-repeat center;
-        width: 763px;
-        height: 482px;
-        position: absolute;
-        background-size: cover;
-        top: -100px;
-        right: -100px;
-        z-index: -1;
+      }
+    }
+
+    &--department {
+      &:before {
+        background: url(../images//lower/department/kv.png) no-repeat center;
+      }
+    }
+
+    &--qa {
+      &:before {
+        background: url(../images//lower/faq/kv.png) no-repeat center;
+      }
+    }
+
+    &--support {
+      &:before {
+        background: url(../images//lower/support/kv.png) no-repeat center;
+      }
+    }
+
+    &--guidelines {
+      &:before {
+        background: url(../images//lower/guidelines/kv.png) no-repeat center;
+      }
+    }
+
+    &--jobdata {
+      &:before {
+        background: url(../images//lower/jobdata/kv.png) no-repeat center;
+      }
+    }
+
+    &--web-entry {
+      &:before {
+        background: url(../images//lower/online-admissions/kv.png) no-repeat center;
       }
     }
   }
 }
 
 .c-sec {
-  padding: 120px 0 80px;
+  padding: 0px 0 120px;
   @media screen and (max-width: 768px) {
     padding: 60px 0 80px;
   }
@@ -274,8 +322,10 @@
         list-style: disc;
         padding-left: 20px;
         li {
-          margin-bottom: 10px;
           list-style: disc;
+          &:not(:last-child) {
+            margin-bottom: 10px;
+          }
           &::marker {
             color: rgba(var(--color-main));
             font-size: 20px;
@@ -516,7 +566,17 @@
 .c-breadcrumbs {
   margin-top: 30px;
   display: flex;
+  align-items: center;
+  line-height: 1;
   gap: 10px;
+  font-size: 30px;
+  color: rgba(var(--color-main), 1);
+  span {
+    font-size: 16px;
+    a {
+      font-size: 16px;
+    }
+  }
 }
 
 // ボタン
@@ -682,14 +742,27 @@
       justify-content: center;
       border-radius: 20px;
       color: #fff;
+      font-size: 28px;
     }
   }
 
   &__content {
     display: none;
-    padding: 30px 40px;
+    padding: 30px 40px 30px 100px;
     background: rgba(var(--color-main), 0.05);
     border-radius: 0 0 20px 20px;
+    position: relative;
+    i {
+      position: absolute;
+      left: 25px;
+      top: 30px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 20px;
+      color: rgba(var(--color-main), 1);
+      font-size: 28px;
+    }
 
     &.active {
     }
@@ -837,7 +910,7 @@
     }
   }
   &:not(:last-child) {
-    margin-bottom: 80px;
+    margin-bottom: 60px;
   }
 
   &--subtitle {
@@ -904,7 +977,7 @@
     margin: 60px 0;
     h4 {
       font-size: 24px;
-      font-weight: bold;
+      font-weight: 500;
       margin-bottom: 40px;
       color: #009aa7;
     }
@@ -977,7 +1050,7 @@
   &--content {
     .l-container {
       width: calc((1040 / 1340) * 100vw);
-      max-width: 1440px;
+      max-width: 1340px;
       @media screen and (max-width: 768px) {
         width: 90%;
       }
