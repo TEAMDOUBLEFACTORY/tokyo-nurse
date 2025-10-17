@@ -23,6 +23,13 @@
   color: #e0aa8a;
 }
 
+.u-sp {
+  display: none;
+  @media screen and (max-width: 768px) {
+    display: block;
+  }
+}
+
 .u-f32 {
   font-size: 32px;
   @media screen and (max-width: 768px) {

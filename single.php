@@ -37,12 +37,18 @@
                                     <ul class="l-categories__list">
                                         <li class="l-categories__item">
                                             <a href="">全て</a>
+                                        </li>
+                                        <li class="l-categories__item">
                                             <a href="">お知らせ</a>
+                                        </li>
+                                        <li class="l-categories__item">
                                             <a href="">イベント情報</a>
+                                        </li>
+                                        <li class="l-categories__item">
                                             <a href="">入試・入学情報</a>
-
                                         </li>
                                     </ul>
+
                                 </div>
 
                                 <div class="l-years">
@@ -50,9 +56,17 @@
                                     <ul class="l-years__list">
                                         <li class="l-years__item">
                                             <a href="">2025年度</a>
+                                        </li>
+                                        <li class="l-years__item">
                                             <a href="">2024年度</a>
+                                        </li>
+                                        <li class="l-years__item">
                                             <a href="">2023年度</a>
+                                        </li>
+                                        <li class="l-years__item">
                                             <a href="">2022年度</a>
+                                        </li>
+                                        <li class="l-years__item">
                                             <a href="">2021年度</a>
                                         </li>
                                     </ul>

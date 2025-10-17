@@ -71,7 +71,7 @@
 
                                 <li class="point-contents__card--item">
                                     <figure>
-                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/lower/department/point_img03.jpg"
+                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/lower/department/point_img04.jpg"
                                             alt="">
                                         <figcaption>
                                             <h3 class="point-contents__card--head">業界連携</h3>
@@ -85,7 +85,7 @@
 
                                 <li class="point-contents__card--item">
                                     <figure>
-                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/lower/department/point_img03.jpg"
+                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/lower/department/point_img05.jpg"
                                             alt="">
                                         <figcaption>
                                             <h3 class="point-contents__card--head">姉妹校連携</h3>
@@ -106,7 +106,7 @@
 
                         <div class="point-contents__card--box u-flex">
                             <div class="left">
-                                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/lower/department/point_img03.jpg"
+                                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/lower/department/point_img06.jpg"
                                     alt="">
                             </div>
                             <div class="right">
@@ -171,38 +171,46 @@
 
         <ul class="p-department__facility__list u-grid u-col-4">
             <li class="p-department__facility__item">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/common/dummy.jpg" alt="小児看護実習室">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/lower/department/point_img08.jpg"
+                    alt="小児看護実習室">
                 <p>小児看護実習室</p>
             </li>
 
             <li class="p-department__facility__item">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/common/dummy.jpg" alt="在宅看護実習室">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/lower/department/point_img09.jpg"
+                    alt="在宅看護実習室">
                 <p>在宅看護実習室</p>
             </li>
 
             <li class="p-department__facility__item">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/common/dummy.jpg" alt="看護実習室">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/lower/department/point_img10.jpg"
+                    alt="看護実習室">
                 <p>看護実習室</p>
             </li>
 
             <li class="p-department__facility__item">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/common/dummy.jpg" alt="教室">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/lower/department/point_img11.jpg"
+                    alt="教室">
                 <p>教室</p>
             </li>
             <li class="p-department__facility__item">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/common/dummy.jpg" alt="PCルーム">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/lower/department/point_img12.jpg"
+                    alt="PCルーム">
                 <p>PCルーム</p>
             </li>
             <li class="p-department__facility__item">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/common/dummy.jpg" alt="図書室">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/lower/department/point_img13.jpg"
+                    alt="図書室">
                 <p>図書室</p>
             </li>
             <li class="p-department__facility__item">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/common/dummy.jpg" alt="書庫">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/lower/department/point_img14.jpg"
+                    alt="書庫">
                 <p>書庫</p>
             </li>
             <li class="p-department__facility__item">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/common/dummy.jpg" alt="ICT教育">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/lower/department/point_img15.jpg"
+                    alt="ICT教育">
                 <p>ICT教育</p>
             </li>
         </ul>

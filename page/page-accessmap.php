@@ -9,7 +9,7 @@
                     <figcaption class="p-accessmap__caption">
                         <h2 class="p-accessmap__school">東京墨田看護専門学校</h2>
                         <div class="p-accessmap__address u-mt20">
-                            〒131-0032 東京都墨田区東向島5-6-6
+                            〒131-0032 <br class="u-sp">東京都墨田区東向島5-6-6
                             <a href="" class="c-btn__link" target="_blank" rel="noopener">Google Map</a>
                         </div>
 

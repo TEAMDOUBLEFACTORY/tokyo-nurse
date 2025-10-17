@@ -1,5 +1,5 @@
 <section class="p-admissions" id="admissions">
-    <div class="p-admissions__inner c-sec">
+    <div class="p-admissions__inner">
         <div class="p-admissions__content c-grid">
             <div class="p-admissions__info c-sec">
                 <div class="p-admissions__info-list u-grid u-col-2 ">

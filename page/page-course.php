@@ -56,7 +56,7 @@
             <ul class="c-card03__list u-grid u-col-2">
                 <li class="c-card03__item">
                     <figure>
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/lower/course/course_img02.png"
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/lower/course/course_img02.jpg"
                             alt="">
                         <figcaption>
                             <h3 class="c-card03__head"><span>1</span>人間関係論</h3>
@@ -69,7 +69,7 @@
 
                 <li class="c-card03__item">
                     <figure>
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/lower/course/course_img02.png"
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/lower/course/course_img03.jpg"
                             alt="">
                         <figcaption>
                             <h3 class="c-card03__head"><span>2</span>疾病治療学Ⅰ</h3>
@@ -82,7 +82,7 @@
 
                 <li class="c-card03__item">
                     <figure>
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/lower/course/course_img02.png"
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/lower/course/course_img04.jpg"
                             alt="">
                         <figcaption>
                             <h3 class="c-card03__head"><span>3</span>活動と休息の援助技術</h3>
@@ -95,7 +95,7 @@
 
                 <li class="c-card03__item">
                     <figure>
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/lower/course/course_img02.png"
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/lower/course/course_img05.jpg"
                             alt="">
                         <figcaption>
                             <h3 class="c-card03__head"><span>4</span>小児看護学概論</h3>

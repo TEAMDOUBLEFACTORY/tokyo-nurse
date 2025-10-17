@@ -1,5 +1,5 @@
 <section class="p-faq" id="faq">
-    <div class="p-faq__inner c-sec">
+    <div class="p-faq__inner">
         <div class="p-faq__content">
             <div class="p-faq__info c-sec">
                 <ul class="p-faq__list c-accordion" role="list">

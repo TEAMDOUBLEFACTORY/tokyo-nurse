@@ -23,8 +23,8 @@
                     <div class="l-container">
                         <?php if (is_page('accessmap')): ?>
                         <?php get_template_part('page/page', 'accessmap'); ?>
-                        <?php elseif (is_page('admissions')): ?>
-                        <?php get_template_part('page/page', 'admissions'); ?>
+                        <?php elseif (is_page('guidelines')): ?>
+                        <?php get_template_part('page/page', 'guidelines'); ?>
                         <?php elseif (is_page('campuslife')): ?>
                         <?php get_template_part('page/page', 'campuslife'); ?>
                         <?php elseif (is_page('careers')): ?>
@@ -37,8 +37,8 @@
                         <?php get_template_part('page/page', 'department'); ?>
                         <?php elseif (is_page('jobdata')): ?>
                         <?php get_template_part('page/page', 'jobdata'); ?>
-                        <?php elseif (is_page('faq')): ?>
-                        <?php get_template_part('page/page', 'faq'); ?>
+                        <?php elseif (is_page('qa')): ?>
+                        <?php get_template_part('page/page', 'qa'); ?>
                         <?php elseif (is_page('corporate')): ?>
                         <?php get_template_part('page/page', 'corporate'); ?>
                         <?php elseif (is_page('educator')): ?>

@@ -1,8 +1,7 @@
 <section class="p-contact" id="contact">
     <div class="p-contact__inner c-sec">
         <div class="p-contact__content">
-            <div class="p-contact__info c-sec">
-
+            <div class="p-contact__info">
                 <div class="p-contact__info-list u-grid u-col-2 ">
                     <article class="info-item c-card02">
                         <h2 class="info-item--head c-sec__title c-card02--title"><span

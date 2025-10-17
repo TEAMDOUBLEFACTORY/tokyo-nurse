@@ -6,9 +6,9 @@
       position: absolute;
       border-radius: 0 20px 20px 0;
       left: -25%;
-      bottom: -60px;
-      width: 75%;
-      height: calc(100% - 180px);
+      bottom: 30px;
+      width: 80%;
+      height: calc(100% - 240px);
       background: linear-gradient(135deg, #75c5b5, rgb(var(--color-main)));
       opacity: 0.3;
       z-index: -1;
@@ -31,28 +31,81 @@
         padding: 10px 40px 0;
         border-radius: 30px;
         border: rgb(var(--color-main)) 2px solid;
+        @media screen and (max-width: 768px) {
+          padding: 10px 20px 0;
+        }
       }
       &__item {
         align-items: center;
+        @media screen and (max-width: 768px) {
+          flex-direction: column;
+          row-gap: 20px;
+        }
         img {
           width: 30%;
+          @media screen and (max-width: 768px) {
+            width: 100%;
+            padding: 0;
+          }
         }
         figcaption {
           width: 70%;
           padding: 0 20px;
+          @media screen and (max-width: 768px) {
+            width: 100%;
+            padding: 0;
+          }
           h4 {
             font-size: 22px;
             color: rgb(var(--color-main));
             margin-bottom: 20px;
+            @media screen and (max-width: 768px) {
+              font-size: 18px;
+            }
           }
         }
       }
     }
+
+    .swiper-pagination {
+      position: unset;
+      margin-top: 30px;
+    }
+
+    .swiper-button-prev {
+      transform: scaleX(-1);
+      left: -50px;
+      top: 55%;
+    }
+    .swiper-button-next {
+      right: -50px;
+      top: 55%;
+    }
+
+    .swiper-button-next:after,
+    .swiper-button-prev:after {
+      content: "";
+      display: inline-block;
+      width: 40px;
+      height: 40px;
+      flex-shrink: 0;
+      transition: transform 0.3s;
+      background: url(../images/common/btn-arrow.svg) center / contain no-repeat;
+    }
+
     &--name {
       font-size: 32px;
       margin-bottom: 20px;
+      @media screen and (max-width: 768px) {
+        font-size: 24px;
+        text-align: center;
+      }
       small {
         font-size: 20px;
+        @media screen and (max-width: 768px) {
+          display: block;
+          font-size: 14px;
+        }
       }
     }
   }

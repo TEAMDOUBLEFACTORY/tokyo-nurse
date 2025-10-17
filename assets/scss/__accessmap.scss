@@ -1,17 +1,31 @@
 .p-accessmap {
   &__overview {
     figure {
+      @media screen and (max-width: 768px) {
+        flex-direction: column;
+      }
       img {
         min-width: 460px;
         width: 40%;
         border-radius: 10px;
+        @media screen and (max-width: 768px) {
+          width: 100%;
+          min-width: auto;
+        }
       }
       figcaption {
         width: 60%;
         padding: 10px 40px;
+        @media screen and (max-width: 768px) {
+          width: 100%;
+          padding: 20px 0;
+        }
         h2 {
           font-size: 28px;
           margin-bottom: 30px;
+          @media screen and (max-width: 768px) {
+            font-size: 20px;
+          }
         }
       }
     }
@@ -22,12 +36,19 @@
     display: flex;
     align-items: center;
     gap: 30px;
+    @media screen and (max-width: 768px) {
+      flex-direction: column;
+      align-items: flex-start;
+    }
   }
   &__tel {
     font-size: 42px;
     position: relative;
     padding-left: 65px;
     margin-bottom: 30px;
+    @media screen and (max-width: 768px) {
+      font-size: 24px;
+    }
     &::before {
       content: "";
       width: 42px;
@@ -48,6 +69,10 @@
     color: rgba(var(--color-main));
     border-radius: 10px;
     width: fit-content;
+    @media screen and (max-width: 768px) {
+      padding: 10px 15px 10px 70px;
+      font-size: 14px;
+    }
     &::before {
       content: "";
       width: 72px;
@@ -57,6 +82,11 @@
       left: 30px;
       background-image: url(../images/lower/accessmap/woman.png);
       background-size: contain;
+      @media screen and (max-width: 768px) {
+        width: 65px;
+        height: 84px;
+        left: -7px;
+      }
     }
     &::after {
       content: "";
@@ -73,24 +103,45 @@
   &__map {
     width: 100%;
     margin-top: 80px;
+    @media screen and (max-width: 768px) {
+      margin-top: 30px;
+    }
     iframe {
       width: 100%;
       border-radius: 20px;
+      @media screen and (max-width: 768px) {
+        height: 200px;
+      }
     }
   }
 
   &__access {
     margin-top: 120px;
+    @media screen and (max-width: 768px) {
+      margin-top: 80px;
+    }
     figure {
       gap: 80px;
+      @media screen and (max-width: 768px) {
+        flex-direction: column;
+        row-gap: 30px;
+      }
       img {
         min-width: 460px;
         width: 60%;
         border-radius: 10px;
+        @media screen and (max-width: 768px) {
+          width: 100%;
+          margin: 0 auto;
+          min-width: auto;
+        }
       }
       figcaption {
         width: 40%;
         padding: 10px 0px;
+        @media screen and (max-width: 768px) {
+          width: 100%;
+        }
       }
     }
   }
@@ -105,7 +156,7 @@
     i {
       position: absolute;
       left: -1px;
-      top: -37px;
+      top: -35px;
       padding: 5px 20px;
       background-color: rgb(var(--color-main));
       border-radius: 10px 10px 0 0;
@@ -115,7 +166,17 @@
       display: grid;
       grid-template-columns: repeat(3, 1fr);
       gap: 10px;
-      padding: 30px 120px 20px 25px;
+      padding: 30px 120px 20px 45px;
+      @media screen and (max-width: 768px) {
+        grid-template-columns: repeat(2, 1fr);
+        padding: 25px 25px 25px 30px;
+      }
+      li {
+        list-style: disc;
+        @media screen and (max-width: 768px) {
+          font-size: 13px;
+        }
+      }
     }
   }
 }
