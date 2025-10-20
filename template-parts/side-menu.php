@@ -49,3 +49,8 @@
 <div class="c-side-popup">
     <div></div>
 </div>
+<div class="c-hamburger">
+    <div class="c-hamburger__inner">
+        <?php get_template_part('template-parts/nav'); ?>
+    </div>
+</div>
