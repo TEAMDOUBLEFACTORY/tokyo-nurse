@@ -37,3 +37,36 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 });
+
+$(function () {
+  // 左カラム - 上方向にスライド
+  const swiperLeft = new Swiper(".swiper-left", {
+    direction: "vertical",
+    slidesPerView: "auto",
+    spaceBetween: 20,
+    loop: true,
+    loopedSlides: 6,
+    speed: 3000,
+    autoplay: {
+      delay: 0,
+      disableOnInteraction: false,
+    },
+    allowTouchMove: false,
+  });
+
+  // 右カラム - 下方向にスライド（reverseDirection: true）
+  const swiperRight = new Swiper(".swiper-right", {
+    direction: "vertical",
+    slidesPerView: "auto",
+    spaceBetween: 20,
+    loop: true,
+    loopedSlides: 6,
+    speed: 3000,
+    autoplay: {
+      delay: 0,
+      disableOnInteraction: false,
+      reverseDirection: true,
+    },
+    allowTouchMove: false,
+  });
+});

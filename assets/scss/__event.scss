@@ -26,4 +26,42 @@
   &__arrow {
     margin-top: 30px;
   }
+
+  &__img {
+    .columns {
+      display: grid;
+      grid-template-columns: 1fr 1fr; /* 2列 */
+      gap: 16px;
+      align-items: stretch;
+    }
+    /* 各カラムの高さ（適宜調整） */
+
+    .swiper {
+      flex: 1;
+      height: 320px;
+      max-width: 230px;
+    }
+
+    /* Linear transition for constant speed animation */
+    .swiper-wrapper {
+      transition-timing-function: linear !important;
+    }
+
+    .swiper-slide {
+      height: auto !important;
+      img {
+        width: 100%;
+      }
+    }
+    .item {
+      width: 100%;
+      border-radius: 20px;
+      overflow: hidden;
+    }
+    @media (max-width: 640px) {
+      .columns {
+        grid-template-columns: 1fr;
+      } /* モバイルは1列 */
+    }
+  }
 }

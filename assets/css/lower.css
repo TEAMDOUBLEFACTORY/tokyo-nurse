@@ -2067,6 +2067,43 @@
 .c-event-cta__arrow {
   margin-top: 30px;
 }
+.c-event-cta__img {
+  /* 各カラムの高さ（適宜調整） */
+  /* Linear transition for constant speed animation */
+}
+.c-event-cta__img .columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* 2列 */
+  gap: 16px;
+  align-items: stretch;
+}
+.c-event-cta__img .swiper {
+  flex: 1;
+  height: 320px;
+  max-width: 230px;
+}
+.c-event-cta__img .swiper-wrapper {
+  transition-timing-function: linear !important;
+}
+.c-event-cta__img .swiper-slide {
+  height: auto !important;
+}
+.c-event-cta__img .swiper-slide img {
+  width: 100%;
+}
+.c-event-cta__img .item {
+  width: 100%;
+  border-radius: 20px;
+  overflow: hidden;
+}
+@media (max-width: 640px) {
+  .c-event-cta__img {
+    /* モバイルは1列 */
+  }
+  .c-event-cta__img .columns {
+    grid-template-columns: 1fr;
+  }
+}
 
 @media screen and (max-width: 768px) {
   .p-contact .u-col-2 {
