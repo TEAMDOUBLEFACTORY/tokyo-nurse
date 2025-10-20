@@ -1,69 +1,70 @@
 <div class="c-nav2">
     <ul class="c-nav2__inner">
         <li class="c-nav2__item">
-            <a href="" class="c-nav2__link">お知らせ</a>
+            <a href="<?php echo esc_url(home_url('/news/')); ?>" class="c-nav2__link">お知らせ</a>
         </li>
         <li class="c-nav2__item">
-            <a href="" class="c-nav2__link">イベント情報</a>
+            <a href="<?php echo esc_url(home_url('/news/info/event/')); ?>" class="c-nav2__link">イベント情報</a>
         </li>
         <li class="c-nav2__item box-big2">
-            <a href="" class="c-nav2__link">学校施設紹介</a>
+            <a href="<?php echo esc_url(home_url('/schoolguide/advantage/')); ?>" class="c-nav2__link">学校施設紹介</a>
             <ul class="c-innav2">
                 <li class="c-innav2__item">
-                    <a href="" class="c-innav2__link">学校の魅力・施設紹介</a>
+                    <a href="<?php echo esc_url(home_url('/schoolguide/advantage/')); ?>"
+                        class="c-innav2__link">学校の魅力・施設紹介</a>
                 </li>
                 <li class="c-innav2__item">
-                    <a href="" class="c-innav2__link">キャンパスライフ</a>
+                    <a href="<?php echo esc_url(home_url('/schoolguide/year/')); ?>" class="c-innav2__link">キャンパスライフ</a>
                 </li>
                 <li class="c-innav2__item">
-                    <a href="" class="c-innav2__link">再進学をお考えの皆様へ</a>
+                    <a href="<?php echo esc_url(home_url('/schoolguide/society/')); ?>"
+                        class="c-innav2__link">再進学をお考えの皆様へ</a>
                 </li>
             </ul>
         </li>
     </ul>
     <ul class="c-nav2__inner">
         <li class="c-nav2__item">
-            <a href="" class="c-nav2__link">学科紹介</a>
+            <a href="<?php echo esc_url(home_url('/course/')); ?>" class="c-nav2__link">学科紹介</a>
         </li>
         <li class="c-nav2__item">
-            <a href="" class="c-nav2__link">入試方法・学費情報</a>
+            <a href="<?php echo esc_url(home_url('/guidelines/')); ?>" class="c-nav2__link">入試方法・学費情報</a>
             <ul class="c-innav2">
                 <li class="c-innav2__item">
-                    <a href="" class="c-innav2__link">WEB出願について</a>
+                    <a href="<?php echo esc_url(home_url('/web-entry/')); ?>" class="c-innav2__link">WEB出願について</a>
                 </li>
                 <li class="c-innav2__item">
-                    <a href="" class="c-innav2__link">学費サポート</a>
+                    <a href="<?php echo esc_url(home_url('/guidelines/support/')); ?>" class="c-innav2__link">学費サポート</a>
                 </li>
             </ul>
         </li>
         <li class="c-nav2__item">
-            <a href="" class="c-nav2__link">実習・資格・就職</a>
+            <a href="<?php echo esc_url(home_url('/jobdata/')); ?>" class="c-nav2__link">実習・資格・就職</a>
         </li>
     </ul>
     <ul class="c-nav2__inner">
         <li class="c-nav2__item">
-            <a href="" class="c-nav2__link">保護者の皆様</a>
+            <a href="<?php echo esc_url(home_url('/guardian/')); ?>" class="c-nav2__link">保護者の皆さま</a>
         </li>
         <li class="c-nav2__item">
-            <a href="" class="c-nav2__link">学校関係の皆様</a>
+            <a href="<?php echo esc_url(home_url('/concerned/')); ?>" class="c-nav2__link">学校関係の皆さま</a>
         </li>
         <li class="c-nav2__item">
-            <a href="" class="c-nav2__link">企業の皆様</a>
+            <a href="<?php echo esc_url(home_url('/corporate/')); ?>" class="c-nav2__link">企業の皆さま</a>
         </li>
         <li class="c-nav2__item">
-            <a href="" class="c-nav2__link">オープンキャンパス<br>
-                ・入試説明会参加者の声</a>
+            <a href="<?php echo esc_url(home_url('/event/')); ?>" class="c-nav2__link">オープンキャンパス<br>・入試説明会参加者の声</a>
         </li>
     </ul>
     <ul class="c-nav2__inner">
         <li class="c-nav2__item">
-            <a href="" class="c-nav2__link">アクセスマップ</a>
+            <a href="<?php echo esc_url(home_url('/accessmap/')); ?>" class="c-nav2__link">アクセスマップ</a>
         </li>
         <li class="c-nav2__item">
-            <a href="" class="c-nav2__link">よくあるご質問</a>
+            <a href="<?php echo esc_url(home_url('/qa/')); ?>" class="c-nav2__link">よくあるご質問</a>
         </li>
         <li class="c-nav2__item">
-            <a href="" class="c-nav2__link">情報公開</a>
+            <a href="https://www.sanko.ac.jp/disclosure/" target="_blank" class="c-nav2__link">情報公開</a>
         </li>
     </ul>
 </div>
