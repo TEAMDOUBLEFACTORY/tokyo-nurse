@@ -4,8 +4,12 @@
         <?php get_template_part('template-parts/header'); ?>
         <main class="l-main">
             <section class="p-top-mv">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/home/mv.jpg" alt=""
-                    class="p-top-feature__item-img">
+                <picture>
+                    <source srcset="<?php echo get_template_directory_uri(); ?>/assets/images/home/mv-sp.png"
+                        media="(max-width: 768px)">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/home/mv.jpg" alt="">
+                </picture>
+
 
             </section>
             <section class="p-top-event">
@@ -60,8 +64,8 @@
                         </div>
                     </div>
                     <div class="p-top-feature__right"><img
-                            src="<?php echo get_template_directory_uri(); ?>/assets/images/common/sanko-logo.svg" alt=""
-                            class="p-top-feature__item-img"></div>
+                            src="<?php echo get_template_directory_uri(); ?>/assets/images/home/feature-img01.jpg"
+                            alt="" class="p-top-feature__item-img"></div>
                 </div>
             </section>
             <section class="p-top-department">
@@ -83,7 +87,7 @@
                                         <h3 class="p-top-department__item-head"><span
                                                 class="p-top-department__item-num">01</span>教育課程</h3>
                                         <p class="c-card1__txt">
-                                            3年間で基礎分野から統合分野まで段階を経て、じっくりと学ぶプログラムが用意されています</p>
+                                            3年間で基礎分野から統合分野まで段階を経て、じっくりと学ぶプログラムが用意されています。</p>
                                     </div>
                                 </a>
                             </li>
@@ -175,7 +179,7 @@
                             </ul>
                         </div>
                         <div class="p-top-carrier__right"><img
-                                src="<?php echo get_template_directory_uri(); ?>/assets/images/common/sanko-logo.svg"
+                                src="<?php echo get_template_directory_uri(); ?>/assets/images/home/carrier-img.jpg"
                                 alt="" class="p-top-carrier__img">
                         </div>
                     </div>
