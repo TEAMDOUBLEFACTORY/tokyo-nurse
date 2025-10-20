@@ -9,13 +9,13 @@
         <nav class="l-header__nav">
             <ul class="c-nav">
                 <li class="c-nav__item">
-                    <a href="" class="c-nav__link">保護者の皆さま</a>
+                    <a href="<?php echo esc_url(home_url('/guardian/')); ?>" class="c-nav__link">保護者の皆さま</a>
                 </li>
                 <li class="c-nav__item">
-                    <a href="" class="c-nav__link">学校関係の皆さま</a>
+                    <a href="<?php echo esc_url(home_url('/concerned/')); ?>" class="c-nav__link">学校関係の皆さま</a>
                 </li>
                 <li class="c-nav__item">
-                    <a href="" class="c-nav__link">企業の皆さま</a>
+                    <a href="<?php echo esc_url(home_url('/corporate/')); ?>" class="c-nav__link">企業の皆さま</a>
                 </li>
             </ul>
         </nav>
