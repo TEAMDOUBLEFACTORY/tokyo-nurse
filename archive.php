@@ -22,10 +22,10 @@
                 </div>
 
                 <div class="l-main--content">
-                    <div class="l-container">
-                        <section class="p-sub-news">
-                            <div class="l-container">
-                                <div class="p-top-news__body">
+                    <section class="p-sub-news">
+                        <div class="l-container">
+                            <div class="l-article-wrap u-flex">
+                                <div class="p-sub-news__body">
                                     <?php if (have_posts()): ?>
                                     <ul class="c-news__list">
                                         <?php while (have_posts()): the_post(); ?>
@@ -62,8 +62,6 @@
                                     <?php else: ?>
                                     <p>現在お知らせはありません。</p>
                                     <?php endif; ?>
-
-
                                     <?php if (function_exists('wp_pagenavi')): ?>
                                     <div class="c-pagination">
                                         <?php wp_pagenavi(); ?>
@@ -71,12 +69,16 @@
                                     <?php else: ?>
                                     <?php the_posts_pagination(); ?>
                                     <?php endif; ?>
-                                </div>
-                            </div>
-                        </section>
+                                    <?php wp_reset_postdata(); ?>
 
-                    </div>
+                                </div>
+                                <?php get_template_part('template-parts/side-link'); ?>
+
+                            </div>
+                        </div>
+                    </section>
                 </div>
+
                 <?php get_template_part('template-parts/event-cta'); ?>
             </div>
         </main>
