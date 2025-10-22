@@ -1,33 +1,63 @@
 .c-event-cta {
   background: rgba(224, 138, 149, 1);
   background: linear-gradient(135deg, rgba(224, 138, 149, 1) 0%, rgba(233, 166, 81, 1) 100%);
-  max-width: 1040px;
+  width: calc((1040 / 1340) * 100vw);
+  max-width: 1200px;
   margin: 140px auto 80px;
   border-radius: 20px;
+  @media screen and (max-width: 768px) {
+    width: 90%;
+    margin-top: 60px;
+    padding: 40px 0px 30px;
+  }
   &__link {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    @media screen and (max-width: 768px) {
+      flex-direction: column;
+      row-gap: 30px;
+      position: relative;
+    }
   }
 
   &__text {
+    @media screen and (max-width: 768px) {
+      padding-inline: 30px;
+    }
     h3 {
       font-size: 54px;
-      font-weight: 400;
+      font-weight: 500;
+      line-height: 1em;
       color: #fff;
       margin-bottom: 15px;
+      @media screen and (max-width: 768px) {
+        font-size: 40px;
+      }
     }
     p {
       font-size: 24px;
       color: #fff;
+      @media screen and (max-width: 768px) {
+        font-size: 16px;
+      }
     }
   }
 
   &__arrow {
     margin-top: 30px;
+    @media screen and (max-width: 768px) {
+      position: absolute;
+      top: -30px;
+      right: 10%;
+      width: fit-content;
+    }
   }
 
   &__img {
+    @media screen and (max-width: 768px) {
+      width: 100%;
+    }
     .columns {
       display: grid;
       grid-template-columns: 1fr 1fr; /* 2列 */
@@ -40,6 +70,10 @@
       flex: 1;
       height: 320px;
       max-width: 230px;
+      @media screen and (max-width: 768px) {
+        height: 130px;
+        max-width: 100%;
+      }
     }
 
     /* Linear transition for constant speed animation */
@@ -51,6 +85,10 @@
       height: auto !important;
       img {
         width: 100%;
+        @media screen and (max-width: 768px) {
+          height: 130px;
+          object-fit: cover;
+        }
       }
     }
     .item {
@@ -58,10 +96,15 @@
       border-radius: 20px;
       overflow: hidden;
     }
-    @media (max-width: 640px) {
+    @media (max-width: 768px) {
       .columns {
         grid-template-columns: 1fr;
       } /* モバイルは1列 */
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .l-container {
+      width: 100%;
     }
   }
 }

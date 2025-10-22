@@ -1,8 +1,8 @@
 <section class="p-society" id="society">
-    <div class="p-society__sec c-sec" id="opencampus">
+    <div class="p-society__sec c-sec">
         <div>
             <img class="p-society__mainImg"
-                src="<?php echo get_template_directory_uri(); ?>/assets/images/lower/society/challenge.jpg"
+                src="<?php echo get_template_directory_uri(); ?>/assets/images/lower/society/challenge.png"
                 alt="もう一度、本当の夢へチャレンジしよう！">
             <img class="p-society__arrow"
                 src="<?php echo get_template_directory_uri(); ?>/assets/images/lower/parents/parent_img03.svg" alt="">

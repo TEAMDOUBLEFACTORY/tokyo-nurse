@@ -11,10 +11,10 @@
                         <h3 class="point-contents__text--title"><span>国家試験合格</span>に向けた<br>
                             手厚いサポート体制</h3>
                         <p class="point-contents__text--sub">
-                            一人ひとりの個性を大切にプロを育てます
+                            一人ひとりの個性を大切に<br class="sp">プロを育てます。
                         </p>
                         <p class="point-contents__text--desc">
-                            学生1人に対し、国家試験対策担当と学年担当の教職員が、一丸となってサポート。<br>1人ひとりの苦手分野の克服を手助けします。
+                            学生1人に対し、国家試験対策担当と学年担当の教職員が、一丸となってサポート。<br class="pc">1人ひとりの苦手分野の克服を手助けします。
                         </p>
                     </div>
 
@@ -27,13 +27,14 @@
             <li class="p-department__point__item"><span class="point-num"><b>POINT</b>02</span>
                 <div class="point-contents flex">
                     <div class="point-contents__text">
-                        <h3 class="point-contents__text--title">ベテラン教員による丁寧な<span>就職サポート</span>で<br>一人ひとりの希望を叶える</h3>
+                        <h3 class="point-contents__text--title">ベテラン教員による<br class="sp">丁寧な<span>就職サポート</span>で<br
+                                class="">一人ひとりの希望を叶える</h3>
                         <p class="point-contents__text--sub">
-                            学内で就職ガイダンスや説明会を実施！
+                            学内で就職ガイダンスや説明会を<br class="sp">実施！
                         </p>
                         <p class="point-contents__text--desc">
                             医療機関への就職について詳しいベテランのキャリア支援担当が的
-                            確にアドバイス。<br>学生の個性に合わせたフォローで希望を叶えます。
+                            確にアドバイス。<br class="pc">学生の個性に合わせたフォローで希望を叶えます。
                         </p>
                     </div>
 
@@ -46,7 +47,7 @@
             <li class="p-department__point__item"><span class="point-num"><b>POINT</b>03</span>
                 <div class="point-contents">
                     <div class="point-contents__text">
-                        <h3 class="point-contents__text--title">実践力を高める<span>3つの連携×ICT教育</span></h3>
+                        <h3 class="point-contents__text--title">実践力を高める<br class="sp"><span>3つの連携×ICT教育</span></h3>
                     </div>
 
                     <div class="point-contents__card">
@@ -129,7 +130,7 @@
             <li class="p-department__point__item"><span class="point-num"><b>POINT</b>04</span>
                 <div class="point-contents flex">
                     <div class="point-contents__text">
-                        <h3 class="point-contents__text--title">駅から徒歩2分。<span>便利なアクセス</span>！</h3>
+                        <h3 class="point-contents__text--title">駅から徒歩2分。<br class="sp"><span>便利なアクセス！</span></h3>
                         <p class="point-contents__text--sub">
                             東向島駅徒歩2分の好立地です。
                         </p>
@@ -147,7 +148,7 @@
             <li class="p-department__point__item"><span class="point-num"><b>POINT</b>05</span>
                 <div class="point-contents">
                     <div class="point-contents__text">
-                        <h3 class="point-contents__text--title">最大60万円免除の<span>特待生制度</span>！</h3>
+                        <h3 class="point-contents__text--title">最大60万円免除の<br class="sp"><span>特待生制度</span>！</h3>
                         <p class="point-contents__text--sub">
                             学費サポートが充実で安心！
                         </p>
@@ -166,7 +167,8 @@
     <div class="p-department__facility c-sec">
         <h2 class="c-sec__title c-sec__title--big"><span class="c-sec__title--ja">施設紹介</span></h2>
         <p class="desc">
-            本校には最新の設備やICT教育など、学びをサポートできる充実した学習環境があります。館内は全教室Wi-Fi完備でとても便利！<br>実習室は、臨床の現場に近い環境を整えることで、学内にいながらしっかりと技術を身につけることができます。
+            本校には最新の設備やICT教育など、学びをサポートできる充実した学習環境があります。館内は全教室Wi-Fi完備でとても便利！<br
+                class="pc">実習室は、臨床の現場に近い環境を整えることで、学内にいながらしっかりと技術を身につけることができます。
         </p>
 
         <ul class="p-department__facility__list u-grid u-col-4">

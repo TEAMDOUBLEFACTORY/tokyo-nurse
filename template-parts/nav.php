@@ -53,7 +53,7 @@
             <a href="<?php echo esc_url(home_url('/corporate/')); ?>" class="c-nav2__link">企業の皆さま</a>
         </li>
         <li class="c-nav2__item">
-            <a href="<?php echo esc_url(home_url('/event/')); ?>" class="c-nav2__link">オープンキャンパス<br>・入試説明会参加者の声</a>
+            <a href="<?php echo esc_url(home_url('/voice/')); ?>" class="c-nav2__link">オープンキャンパス<br>・入試説明会参加者の声</a>
         </li>
     </ul>
     <ul class="c-nav2__inner">

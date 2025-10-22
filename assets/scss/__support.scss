@@ -22,12 +22,18 @@
     background-color: #e0aa8a;
     padding: 5px;
     color: #fff;
+    @media screen and (max-width: 768px) {
+      padding: 2px 5px;
+    }
   }
 }
 
 .p-originalsupport {
   h3 {
     margin-bottom: 40px;
+    @media screen and (max-width: 768px) {
+      margin-bottom: 20px;
+    }
   }
   .desc {
     margin-bottom: 40px;
@@ -44,18 +50,28 @@
 
 .p-supportinfo--url {
   ul {
+    width: 100%;
     li {
-      width: 320px;
-    }
-    &.p-info__list {
-      gap: 20px;
+      @media screen and (max-width: 768px) {
+        width: 100%;
+      }
+      a {
+        width: 320px;
+        @media screen and (max-width: 768px) {
+          width: 100%;
+        }
+      }
 
-      margin-top: 20px;
-      li {
+      div {
+        margin-top: 20px;
         background-color: #fff;
         padding: 20px;
         border-radius: 10px;
         text-align: center;
+        min-height: 170px;
+        @media screen and (max-width: 768px) {
+          min-height: auto;
+        }
       }
     }
   }

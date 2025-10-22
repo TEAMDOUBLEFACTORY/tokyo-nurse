@@ -41,7 +41,7 @@
                 <figure class="u-flex u-items-center">
                     <figcaption class="p-accessmap__access-info">
                         <p>
-                            東武スカイツリーライン（東武伊勢崎線）<br>
+                            東武スカイツリーライン<br class="sp">（東武伊勢崎線）<br>
                             「東向島駅」より徒歩2分
                         </p>
 

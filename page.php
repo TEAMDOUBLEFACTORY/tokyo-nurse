@@ -35,7 +35,7 @@
                         <?php get_template_part('page/page', 'contact'); ?>
                         <?php elseif (is_page('course')): ?>
                         <?php get_template_part('page/page', 'course'); ?>
-                        <?php elseif (is_page('department')): ?>
+                        <?php elseif (is_page('advantage')): ?>
                         <?php get_template_part('page/page', 'department'); ?>
                         <?php elseif (is_page('jobdata')): ?>
                         <?php get_template_part('page/page', 'jobdata'); ?>
@@ -43,9 +43,9 @@
                         <?php get_template_part('page/page', 'qa'); ?>
                         <?php elseif (is_page('corporate')): ?>
                         <?php get_template_part('page/page', 'corporate'); ?>
-                        <?php elseif (is_page('educator')): ?>
+                        <?php elseif (is_page('concerned')): ?>
                         <?php get_template_part('page/page', 'educator'); ?>
-                        <?php elseif (is_page('parents')): ?>
+                        <?php elseif (is_page('guardian')): ?>
                         <?php get_template_part('page/page', 'parents'); ?>
                         <?php elseif (is_page('support')): ?>
                         <?php get_template_part('page/page', 'support'); ?>

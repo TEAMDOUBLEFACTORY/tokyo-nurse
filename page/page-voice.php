@@ -74,7 +74,7 @@
         </div>
     </div>
 
-    <div class="p-voice__sec c-sec" id="entrancebriefing">
+    <div class="p-voice__sec" id="entrancebriefing">
         <h2 class="c-sec__title c-sec__title--center c-sec__title--big"><span class="c-sec__title--ja">入試説明会参加者の声</span>
         </h2>
         <ul class="p-voice__list u-grid u-col-2">
