@@ -643,7 +643,7 @@ b {
   }
 }
 .c-attempt__card--body {
-  padding: 20px 40px;
+  padding: 20px 25px;
 }
 @media screen and (max-width: 768px) {
   .c-attempt__card--body {
@@ -2301,10 +2301,12 @@ b {
   }
 }
 .p-corporate__history {
+  padding-top: 120px;
   padding-bottom: 140px;
 }
 @media screen and (max-width: 768px) {
   .p-corporate__history {
+    padding-top: 80px;
     padding-bottom: 80px;
   }
 }

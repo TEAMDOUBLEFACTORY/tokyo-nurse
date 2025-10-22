@@ -9,9 +9,22 @@
                     <div class="l-container">
                         <div class="c-pageheader_title c-pageheader_title--<?php echo $post->post_name; ?>">
                             <p class="c-pageheader_title--en">
-                                <?php the_field('en-title'); ?>
+                                NEWS
                             </p>
-                            <h2 class="c-pageheader_title--jp"><?php the_title(); ?></h2>
+                            <h2 class="c-pageheader_title--jp">
+                                <?php
+        if (is_year()) {
+            // 年別アーカイブのときは「○○年度」と表示
+            echo get_the_date('Y') . '年度';
+        } else {
+            // それ以外（投稿・カテゴリーページなど）はカテゴリー名を表示
+            $category = get_the_category();
+            if ($category) {
+                echo esc_html($category[0]->name);
+            }
+        }
+        ?>
+                            </h2>
                         </div>
                         <div class="c-breadcrumbs" typeof="BreadcrumbList" vocab="https://schema.org/">
                             <?php if (function_exists('bcn_display')) {
