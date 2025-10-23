@@ -1,18 +1,17 @@
 <section class="p-campuslife" id="campuslife">
-    <div class="p-campuslife__schedule c-sec">
+    <div class="p-campuslife__schedule">
         <h2 class="c-sec__title c-sec__title--big"><span class="c-sec__title--ja">リアルな学校生活を1日密着</span></h2>
+
+
         <picture>
             <source
-                srcset="<?php echo get_template_directory_uri(); ?>/assets/images/lower/campuslife/campuslife_img01-sp.jpg"
+                srcset="<?php echo get_template_directory_uri(); ?>/assets/images/lower/campuslife/campuslife_img01_sp.png"
                 media="(max-width: 768px)">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/images/lower/campuslife/campuslife_img01.png"
                 alt="">
         </picture>
 
-
     </div>
-
-
     <div class="p-campuslife__voice p-voice c-sec">
         <h2 class="c-sec__title c-sec__title--big"><span class="c-sec__title--ja">在校生の声</span></h2>
 

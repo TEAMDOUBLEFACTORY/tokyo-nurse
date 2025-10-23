@@ -228,7 +228,7 @@
 
             <div class="p-otehrsupport__box">
                 <div class="c-linkmore">
-                    <h4>社団・財団法人・企業・国の奨学金</h4>
+                    <h4>社団・財団法人・企業<br class="sp">・国の奨学金</h4>
                     <ul class="c-linkmore--list u-flex">
                         <li class="c-linkmore--item">
                             <a href="" class="u-color-pink c-linkmore__btn">自治体育英会奨学金<br>

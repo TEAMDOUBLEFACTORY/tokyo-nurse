@@ -1277,6 +1277,11 @@ b {
   }
 }
 
+@media screen and (max-width: 768px) {
+  .color-pink img {
+    width: 100% !important;
+  }
+}
 .l-page {
   position: relative;
   z-index: 99;
@@ -2715,12 +2720,6 @@ b {
   color: #fff;
   background-color: rgba(var(--color-orange), 1);
   top: -35px;
-}
-@media screen and (max-width: 768px) {
-  .p-support__borderinner span {
-    font-size: 14px;
-    top: -28px;
-  }
 }
 .p-support__borderinner .c-point__item {
   background-color: #fff;
