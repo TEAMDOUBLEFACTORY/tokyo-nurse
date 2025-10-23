@@ -113,7 +113,7 @@
       &--desc {
         font-size: 18px;
         @media screen and (max-width: 768px) {
-          font-size: 14px;
+          font-size: 16px;
         }
       }
     }
@@ -147,6 +147,7 @@
           width: 70%;
           @media screen and (max-width: 768px) {
             width: 100%;
+            padding: 0px 25px 25px;
           }
           p {
             text-align: left;
@@ -207,7 +208,7 @@
               text-align: center;
             }
             p {
-              line-height: 1.8em;
+              line-height: 1.6em;
             }
           }
         }
@@ -216,6 +217,9 @@
       &--cross {
         margin-block: 30px;
         background-color: transparent;
+        @media screen and (max-width: 768px) {
+          margin-block: 0 15px;
+        }
         img {
           width: 45px;
         }

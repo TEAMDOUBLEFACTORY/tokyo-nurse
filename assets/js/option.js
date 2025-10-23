@@ -1,6 +1,6 @@
 // Swiperの初期化
 $(function () {
-  const swiper = new Swiper(".swiper", {
+  const swiper = new Swiper("#campuslife .swiper", {
     loop: true,
     pagination: {
       el: ".swiper-pagination",
@@ -39,34 +39,68 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 $(function () {
-  // 左カラム - 上方向にスライド
+  // 左カラム
   const swiperLeft = new Swiper(".swiper-left", {
-    direction: "vertical",
     slidesPerView: "auto",
     spaceBetween: 20,
     loop: true,
     loopedSlides: 6,
-    speed: 3000,
+    speed: 5000,
     autoplay: {
       delay: 0,
       disableOnInteraction: false,
     },
     allowTouchMove: false,
+
+    // デフォルトは縦方向
+    direction: "vertical",
+
+    // 768px以下（スマホ）では横方向に変更
+    breakpoints: {
+      0: {
+        slidesPerView: 2,
+        direction: "horizontal",
+      },
+      769: {
+        direction: "vertical",
+      },
+    },
   });
 
-  // 右カラム - 下方向にスライド（reverseDirection: true）
+  // 右カラム
   const swiperRight = new Swiper(".swiper-right", {
-    direction: "vertical",
     slidesPerView: "auto",
     spaceBetween: 20,
     loop: true,
     loopedSlides: 6,
-    speed: 3000,
+    speed: 5000,
     autoplay: {
       delay: 0,
       disableOnInteraction: false,
       reverseDirection: true,
     },
     allowTouchMove: false,
+    direction: "vertical",
+    breakpoints: {
+      0: {
+        slidesPerView: 2,
+        direction: "horizontal",
+      },
+      769: {
+        direction: "vertical",
+      },
+    },
   });
 });
+
+!(function () {
+  const viewport = document.querySelector('meta[name="viewport"]');
+  function switchViewport() {
+    const value = window.outerWidth > 360 ? "width=device-width,initial-scale=1" : "width=360";
+    if (viewport.getAttribute("content") !== value) {
+      viewport.setAttribute("content", value);
+    }
+  }
+  addEventListener("resize", switchViewport, false);
+  switchViewport();
+})();

@@ -67,7 +67,7 @@
 
                         <li>
                             <span class="p-flow__step--ja">手順 ②</span>
-                            <p class="p-flow__step--desc">氏名・電話番号・メールアドレスを<br>入力してください。</p>
+                            <p class="p-flow__step--desc">氏名・電話番号・メールアドレスを入力してください。</p>
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/images/lower/online-admissions/step02-02.png"
                                 alt="">
                         </li>
@@ -194,7 +194,7 @@
                     <span class="u-color-darkgreen p-flow__title">受験</span>
                     <div class="p-flow__bgbox">
                         <p>郵送にて受験票をお送り致しますので、<br>
-                            <span class="note">試験当日は必ず受験票を持参してください。</span>
+                            <span class="" style="color: #df122c">試験当日は必ず受験票を持参してください。</span>
                         </p>
                         <ul class="p-flow__imgbox u-grid">
                             <li>

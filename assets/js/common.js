@@ -1,4 +1,36 @@
 $(function () {
+  const $banner = $(".c-linebanner");
+  const $closeBtn = $(".c-linebanner-closeimg");
+  const $footer = $("footer");
+
+  let isClosedManually = false;
+
+  // ① 閉じるボタンを押したら非表示（以後は戻っても表示しない）
+  $closeBtn.on("click", function () {
+    $banner.fadeOut(400);
+    isClosedManually = true;
+  });
+
+  // ② スクロールでフッターに入ったらフェードアウト、離れたら再表示
+  $(window).on("scroll", function () {
+    if (isClosedManually) return; // 手動で閉じた後は何もしない
+
+    const footerTop = $footer.offset().top;
+    const scrollBottom = $(window).scrollTop() + $(window).height();
+
+    if (scrollBottom >= footerTop) {
+      // フッターが見えてきたらフェードアウト
+      if ($banner.is(":visible")) {
+        $banner.fadeOut(400);
+      }
+    } else {
+      // フッターから離れたらフェードイン
+      if (!$banner.is(":visible")) {
+        $banner.fadeIn(400);
+      }
+    }
+  });
+
   $(".js-menu-btn").on("click", function () {
     $(".c-side-menu__bars-icon").toggleClass("--active");
     $(".c-hamburger").fadeToggle(300);

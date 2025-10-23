@@ -20,7 +20,7 @@
                     <div class="c-point__content">
                         <span class="u-color-main">社会人・大学生・短大生・フリーター出身者が多く入学しています。</span>
                         <p>
-                            社会人・大学生・短大生・フリーターだった方々など、<br>皆さんと同じ夢を持って、再進学をされる方はたくさんいますので、ご安心ください。
+                            社会人・大学生・短大生・フリーターだった方々など、皆さんと同じ夢を持って、再進学をされる方はたくさんいますので、ご安心ください。
                         </p>
                     </div>
                 </li>
@@ -31,7 +31,7 @@
                     <div class="c-point__content">
                         <span class="u-color-main">再進学者専用の特待生制度を設置！</span>
                         <p>
-                            再進学者のみが受験可能な「高校既卒・社会人入学（特待生入学制度あり）」があります。<br>その他にも様々な入試方法がありますので自分に合った入試方法で受験をすることができます
+                            再進学者のみが受験可能な「高校既卒・社会人入学（特待生入学制度あり）」があります。<br>その他にも様々な入試方法がありますので自分に合った入試方法で受験をすることができます。
                         </p>
                         <img class="p-society__scholarshipImg"
                             src="<?php echo get_template_directory_uri(); ?>/assets/images/lower/society/scholarship.jpg"
@@ -83,8 +83,7 @@
                         <div class="c-point__content">
                             <span class="u-color-main">就職サポートが充実！</span>
                             <p>
-                                就職のためのしっかりサポート確かなフォローで、希望の就職先へ医療機関への就職について詳しいキャリア支援担当が的確にアドバイス。病院での実務経験
-                                があるベテラン教員が就職活動中の悩み相談にも乗り、徹底的にサポートします。
+                                就職のためのしっかりサポート確かなフォローで、希望の就職先へ医療機関への就職について詳しいキャリア支援担当が的確にアドバイス。病院での実務経験があるベテラン教員が就職活動中の悩み相談にも乗り、徹底的にサポートします。
                             </p>
                         </div>
                     </li>
@@ -100,9 +99,11 @@
                                 既に高校を卒業された方でも参加可能です。進学後のことや、入学前に不安な学費、入試のことなど個別に相談も可能です。
                             </p>
                             <div class="p-society__bgWhite">
-                                <img class="p-society__calendar"
-                                    src="<?php echo get_template_directory_uri(); ?>/assets/images/lower/society/event_calendar.jpg"
-                                    alt="もう一度、本当の夢へチャレンジしよう！">
+                                <script type="text/javascript" src="https://forms.sanko.ac.jp/fm/js/ICGadget.js"
+                                    charset="utf-8"></script>
+                                <iframe id="ICGadgetCalendarFrame"
+                                    src="https://forms.sanko.ac.jp/21iy2j/tokyonurse/icgadgetcalendar.php" width="100%"
+                                    frameborder="0"></iframe>
                                 <p class="p-society__eventText">他の日程でもイベントを開催中！</p>
                                 <div>
                                     <a href="" class="c-btn c-btn--arrow p-society--arrowBtn">全ての日程をカレンダーでチェック</a>

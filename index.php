@@ -7,7 +7,8 @@
                 <picture>
                     <source srcset="<?php echo get_template_directory_uri(); ?>/assets/images/home/mv-sp.png"
                         media="(max-width: 768px)">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/home/mv.jpg" alt="">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/home/mv.jpg"
+                        alt="メインビジュアル　「心を磨き心で寄り添える新しい時代の看護師に。」">
                 </picture>
 
 
@@ -18,10 +19,29 @@
                         <div class="p-top-event__head">
                             <h2 class="c-sec__title"><span class="c-sec__title--en">EVENT</span><span
                                     class="c-sec__title--ja">イベント</span></h2>
-                            <div class="p-top-event__btn"><a href="" class="c-btn__link">イベント一覧をみる</a></div>
+
+                            <div class="p-top-event__btn"><a
+                                    href="https://forms.sanko.ac.jp/21iy2j/tokyonurse/eventselect.php"
+                                    class="c-btn__link">イベント一覧をみる</a></div>
                         </div>
                         <div class="p-top-event__body">
+                            <script type="text/javascript" src="https://forms.sanko.ac.jp/fm/js/ICGadget.js"
+                                charset="utf-8"></script>
 
+                            <div class="p-top-event__carousel ic-event-carousel">
+                                <div class="ic-event-carousel__ttlbox">
+                                    <div class="ic-event-carousel__ttl"><span
+                                            class="ic-event-carousel__ttl-en">RECOMMEND
+                                            EVENT!</span>近日開催のおすすめイベント！</div>
+                                    <div class="ic-event-carousel__balloon"></div>
+                                </div>
+                                <iframe id="ICGadgetFrame"
+                                    src="https://forms.sanko.ac.jp/21iy2j/tokyonurse/icgadget.php" width="100%"
+                                    frameborder="0"></iframe>
+                            </div>
+                            <iframe id="ICGadgetCalendarFrame"
+                                src="https://forms.sanko.ac.jp/21iy2j/tokyonurse/icgadgetcalendar.php" width="100%"
+                                frameborder="0"></iframe>
                         </div>
                     </div>
                 </div>
@@ -65,24 +85,26 @@
                     </div>
                     <div class="p-top-feature__right"><img
                             src="<?php echo get_template_directory_uri(); ?>/assets/images/home/feature-img01.jpg"
-                            alt="" class="p-top-feature__item-img"></div>
+                            alt="東京墨田看護専門学校の5つの特徴" class="p-top-feature__item-img"></div>
                 </div>
             </section>
             <section class="p-top-department">
                 <div class="p-top-department__inner">
                     <div class="p-top-department__left">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/home/feature-img.jpg" alt=""
-                            class="p-top-department__img">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/home/feature-img.jpg"
+                            alt="看護学科紹介" class="p-top-department__img">
                     </div>
                     <div class="p-top-department__right">
                         <div class="p-top-department__head">
                             <h2 class="c-sec__title"><span class="c-sec__title--en">DEPARTMENT</span><span
                                     class="c-sec__title--ja">看護学科紹介</span></h2>
-                            <div class="p-top-department__btn"><a href="" class="c-btn__link">詳しく見る</a></div>
+                            <div class="p-top-department__btn"><a href="<?php echo esc_url(home_url('/course/')); ?>"
+                                    class="c-btn__link">詳しく見る</a></div>
                         </div>
                         <ul class="p-top-department__list">
                             <li class="p-top-department__item">
-                                <a href="" class="p-top-department__item-link">
+                                <a href="<?php echo esc_url(home_url('/course/#carriculum')); ?>"
+                                    class="p-top-department__item-link">
                                     <div class="p-top-department__item-content">
                                         <h3 class="p-top-department__item-head"><span
                                                 class="p-top-department__item-num">01</span>教育課程</h3>
@@ -92,7 +114,8 @@
                                 </a>
                             </li>
                             <li class="p-top-department__item">
-                                <a href="" class="p-top-department__item-link">
+                                <a href="<?php echo esc_url(home_url('/course/#lesspon')); ?>"
+                                    class="p-top-department__item-link">
                                     <div class="p-top-department__item-content">
                                         <h3 class="p-top-department__item-head"><span
                                                 class="p-top-department__item-num">02</span>授業例</h3>
@@ -102,7 +125,8 @@
                                 </a>
                             </li>
                             <li class="p-top-department__item">
-                                <a href="" class="p-top-department__item-link">
+                                <a href="<?php echo esc_url(home_url('/course/#timetable')); ?>"
+                                    class="p-top-department__item-link">
                                     <div class="p-top-department__item-content">
                                         <h3 class="p-top-department__item-head"><span
                                                 class="p-top-department__item-num">03</span>時間割</h3>
@@ -121,26 +145,33 @@
                         <div class="p-top-exam__head">
                             <h2 class="c-sec__title"><span class="c-sec__title--en --white">EXAM</span><span
                                     class="c-sec__title--ja --white">入試・学費情報</span></h2>
-                            <p class="p-top-exam__description">
-                                説明テキストがはいります説明テキストがはいります説明<br>テキストがはいります説明テキストがはいります説明テキストがはいります</p>
+                            <div class="p-top-exam__headright">
+                                <p class="p-top-exam__description">
+                                    出願方法や募集学科・定員・学費サポートなど詳しくご紹介いたします。
+                                </p>
+                                <div class="p-top-department__btn"><a
+                                        href="<?php echo esc_url(home_url('/guidelines/')); ?>"
+                                        class="c-btn__link c-btn__link-white">詳しく見る</a></div>
+                            </div>
                         </div>
                         <div class="p-top-exam__body">
                             <ul class="p-top-exam__list">
                                 <li class="c-card1">
-                                    <a href="" class="c-card1__link">
+                                    <a href="<?php echo esc_url(home_url('/guidelines/web-entry/')); ?>"
+                                        class="c-card1__link">
                                         <div class="c-card1__content">
-                                            <h3 class="c-card1__head">入試ガイド</h3>
-                                            <p class="c-card1__txt">
-                                                説明テキストが入ります説明テキストが入ります説明テキストが入ります説明テキストが入ります</p>
+                                            <h3 class="c-card1__head">出願方法・日程</h3>
+                                            <p class="c-card1__txt">入学に向けて、様々な出願方法をご用意しています。ご自身に合う入試の種類をご確認ください。</p>
                                         </div>
                                     </a>
                                 </li>
                                 <li class="c-card1">
-                                    <a href="" class="c-card1__link">
+                                    <a href="<?php echo esc_url(home_url('/guidelines/support/')); ?>"
+                                        class="c-card1__link">
                                         <div class="c-card1__content">
                                             <h3 class="c-card1__head">学費サポート</h3>
                                             <p class="c-card1__txt">
-                                                説明テキストが入ります説明テキストが入ります説明テキストが入ります説明テキストが入ります
+                                                学費と学費軽減のサポート制度をご案内します。様々なサポート体制を取らせていただいているのでご活用ください。
                                             </p>
                                         </div>
                                     </a>
@@ -158,7 +189,8 @@
                                     class="c-sec__title--ja">実習・資格・就職情報</span></h2>
                             <ul class="p-top-carrier__list">
                                 <li class="c-card1">
-                                    <a href="" class="c-card1__link">
+                                    <a href="<?php echo esc_url(home_url('/guidelines/jobdata/#jobdata')); ?>"
+                                        class="c-card1__link">
                                         <div class="c-card1__content">
                                             <h3 class="c-card1__head">実習・資格の取得について</h3>
                                             <p class="c-card1__txt">
@@ -167,7 +199,8 @@
                                     </a>
                                 </li>
                                 <li class="c-card1">
-                                    <a href="" class="c-card1__link">
+                                    <a href="<?php echo esc_url(home_url('/guidelines/jobdata/#findwork')); ?>"
+                                        class="c-card1__link">
                                         <div class="c-card1__content">
                                             <h3 class="c-card1__head">就職について</h3>
                                             <p class="c-card1__txt">
@@ -180,7 +213,7 @@
                         </div>
                         <div class="p-top-carrier__right"><img
                                 src="<?php echo get_template_directory_uri(); ?>/assets/images/home/carrier-img.jpg"
-                                alt="" class="p-top-carrier__img">
+                                alt="実習・資格・就職情報" class="p-top-carrier__img">
                         </div>
                     </div>
                 </div>
@@ -191,46 +224,57 @@
                         <div class="p-top-news__head">
                             <h2 class="c-sec__title"><span class="c-sec__title--en">NEWS</span><span
                                     class="c-sec__title--ja">お知らせ</span></h2>
-                            <div class="p-top-news__btn"><a href="" class="c-btn__link">一覧を見る</a></div>
+                            <div class="p-top-news__btn"><a href="<?php echo esc_url(home_url('/news/')); ?>"
+                                    class="c-btn__link">一覧を見る</a></div>
                         </div>
                         <div class="p-top-news__body">
+                            <?php
+                            $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
+                            $args = array(
+                                'post_type' => 'post',
+                                'posts_per_page' => 10,
+                                'paged' => $paged,
+                            );
+                            $news_query = new WP_Query($args);
+                            ?>
                             <ul class="c-news__list">
-                                <li class="c-news__item"><a href="" class="c-news__link">
-                                        <div class="c-news__img"><img
-                                                src="<?php echo get_template_directory_uri(); ?>/assets/images/common/sanko-logo.svg"
-                                                alt=""></div>
-                                        <div class="c-news__txt">
-                                            <div class="c-news__head"><time class="c-news__time">2025.01.01</time>
-                                                <div class="c-news__cat">カテゴリ名</div>
-                                            </div>
-                                            <p class="c-news__body">テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります</p>
-                                        </div>
-                                    </a>
-                                </li>
-                                <li class="c-news__item"><a href="" class="c-news__link">
-                                        <div class="c-news__img"><img
-                                                src="<?php echo get_template_directory_uri(); ?>/assets/images/common/sanko-logo.svg"
-                                                alt=""></div>
-                                        <div class="c-news__txt">
-                                            <div class="c-news__head"><time class="c-news__time">2025.01.01</time>
-                                                <div class="c-news__cat">カテゴリ名</div>
-                                            </div>
-                                            <p class="c-news__body">テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります</p>
-                                        </div>
-                                    </a>
-                                </li>
-                                <li class="c-news__item"><a href="" class="c-news__link">
-                                        <div class="c-news__img"><img
-                                                src="<?php echo get_template_directory_uri(); ?>/assets/images/common/sanko-logo.svg"
-                                                alt=""></div>
-                                        <div class="c-news__txt">
-                                            <div class="c-news__head"><time class="c-news__time">2025.01.01</time>
-                                                <div class="c-news__cat">カテゴリ名</div>
-                                            </div>
-                                            <p class="c-news__body">テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります</p>
-                                        </div>
-                                    </a>
-                                </li>
+                                <?php if ($news_query->have_posts()): ?>
+                                    <?php while ($news_query->have_posts()):
+                                        $news_query->the_post(); ?>
+                                        <li class="c-news__item">
+                                            <a href="<?php the_permalink(); ?>" class="c-news__link">
+                                                <div class="c-news__img">
+                                                    <?php if (has_post_thumbnail()): ?>
+                                                        <?php the_post_thumbnail('full'); ?>
+                                                    <?php else: ?>
+                                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/common/news_defaults.png"
+                                                            alt="<?php echo the_title(); ?>">
+                                                    <?php endif; ?>
+                                                </div>
+                                                <div class="c-news__txt">
+                                                    <div class="c-news__head">
+                                                        <time class="c-news__time"
+                                                            datetime="<?php echo get_the_date('Y-m-d'); ?>">
+                                                            <?php echo get_the_date('Y.m.d'); ?>
+                                                        </time>
+                                                        <?php $category = get_the_category();
+                                                        if ($category): ?>
+                                                            <div class="c-news__cat"><?php echo esc_html($category[0]->name); ?>
+                                                            </div>
+                                                        <?php endif; ?>
+                                                    </div>
+                                                    <p class="c-news__body">
+                                                        <?php echo the_title(); ?>
+                                                    </p>
+                                                </div>
+                                            </a>
+                                        </li>
+                                    <?php endwhile; ?>
+                                <?php else: ?>
+                                    <li class="c-news__item">
+                                        <p>現在お知らせはありません。</p>
+                                    </li>
+                                <?php endif; ?>
                             </ul>
                         </div>
                     </div>
@@ -242,7 +286,8 @@
     <?php get_template_part('template-parts/side-menu'); ?>
 </div>
 
-<script>const swiper = new Swiper(".js-infinity", {
+<script>
+    const swiper = new Swiper(".js-infinity", {
         loop: true,
         slidesPerView: 'auto',
         speed: 20000,

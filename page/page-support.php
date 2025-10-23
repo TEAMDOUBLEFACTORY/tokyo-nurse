@@ -2,7 +2,8 @@
     <div class="p-support__box c-contentbox color-orange">
         <h2 class="info-item--head c-sec__title c-card02--title"><span class="c-sec__title--ja">特待生入学制度</span></h2>
         <div class="box">
-            <h3 class="u-color-orange c-contentbox--subtitle">特待生入学制度とは、学業・人間性に優れ本校の模範となる学生に対し、<br>学費をサポートする制度です。</h3>
+            <h3 class="u-color-orange c-contentbox--subtitle">特待生入学制度とは、学業・人間性に優れ本校の模範となる学生に対し、<br
+                    class="pc">学費をサポートする制度です。</h3>
             <p class="desc">
                 本校では、特待生制度入試の受験を希望した者の中から、選考結果が優秀であり、 且つ他の学生を牽引できるリーダーシップのある者に対し、特待生として認定し学
                 費をサポートする制度があります。入学試験の結果に応じて、学費の一部を免除い たします。合否通知については、特待生（学費免除）での合格とならなかった場合で
@@ -15,8 +16,14 @@
             </ul>
 
             <div class="c-graph--img">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/lower/support/support_img01.svg"
-                    alt="">
+                <picture>
+                    <source
+                        srcset="<?php echo get_template_directory_uri(); ?>/assets/images/lower/support/support_img01_sp.svg"
+                        media="(max-width: 768px)">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/lower/support/support_img01.svg"
+                        alt="">
+                </picture>
+
             </div>
         </div>
     </div>
@@ -41,7 +48,7 @@
 
 
             <div class="c-linkmore">
-                <h4 class="no-disc">日本学生支援機構奨学金制度についてはこちらをご確認ください。</h4>
+                <h4 class="no-disc">日本学生支援機構奨学金制度に<br class="sp">ついてはこちらをご確認ください。</h4>
                 <ul class="c-linkmore--list">
                     <li class="c-linkmore--item">
                         <a href="" class=" c-linkmore__btn">日本学生支援機構</a>
@@ -54,10 +61,10 @@
 
 
         <div class="p-originalsupport box">
-            <h3 class="u-color-pink c-contentbox--subtitle u-text-center">三幸学園オリジナルサポート制度について
+            <h3 class="u-color-pink c-contentbox--subtitle u-text-center">三幸学園オリジナルサポート<br class="sp">制度について
             </h3>
             <p class="desc">
-                入学手続き時に必要な費用は“入学金20万円のみ”。その後3月末までに“教材実習費及びその他の費用”を納入いただきます。本校入学後の学費のお支払い方法については「三幸学園初期費用軽減＆学費分割制度」と「三幸学園給付奨学金＆学費納入制度」で異なります。
+                入学手続き時に必要な費用は<b>“入学金20万円のみ”</b>。その後3月末までに<b>“教材実習費及びその他の費用”</b>を納入いただきます。本校入学後の学費のお支払い方法については「三幸学園初期費用軽減＆学費分割制度」と「三幸学園給付奨学金＆学費納入制度」で異なります。
             </p>
 
             <div class="p-support__box--card">
@@ -68,7 +75,7 @@
                         </div>
                         <div class="c-card04--body">
                             <div class="c-card04--box">
-                                <span class="u-color-pink">合格通知のご案内後3週間以内に<br>入学金を納入</span>
+                                <span class="u-color-pink">合格通知のご案内後3週間以内に<br class="pc">入学金を納入</span>
                                 <p>
                                     入学手続き時に必要な費用は、<b>入学金20万円のみ</b>
                                 </p>
@@ -94,8 +101,7 @@
                                 </p>
                                 <span class="u-color-pink">三幸学園給付奨学金＆学費納入制度</span>
                                 <p>
-                                    <b>「給付奨学金」</b>と<b>「授業料等減免」</b>制度等の<br>
-                                    申請手続き後、在学期間中に学費をお支払い
+                                    <b>「給付奨学金」</b>と<b>「授業料等減免」</b>制度等の<br class="pc">申請手続き後、在学期間中に学費をお支払い
                                 </p>
                             </div>
                         </div>
@@ -105,13 +111,13 @@
             </div>
 
             <div class="box">
-                <h3 class="c-contentbox--subtitle u-text-center">三幸学園オリジナルサポート制度の仕組み
+                <h3 class="c-contentbox--subtitle u-text-center">三幸学園オリジナルサポート<br class="sp">制度の仕組み
                 </h3>
                 <div class="c-tab">
                     <div class="c-tab-buttons">
                         <button class="active">初期費用を抑えられる<br>
                             分割納入（毎月）をご希望の方へ</button>
-                        <button>「給付奨学金」＆「授業料等減免」制度を活用<br>給付奨学金の利用による入学後の納入をご希望の方へ</button>
+                        <button>「給付奨学金」＆「授業料等減免」<br class="sp">制度を活用<br>給付奨学金の利用による入学後の<br class="sp">納入をご希望の方へ</button>
                     </div>
                     <div class="c-tab-contents">
                         <div class="content active">
@@ -143,8 +149,7 @@
 
                             <h4>＜申込方法＞</h4>
                             <p>
-                                在籍中（在籍していた）の高等学校等にて、日本学生支援機構の予約採用に申込み。<br>
-                                （高等学校等の奨学金担当の先生に相談してください。）
+                                在籍中（在籍していた）の高等学校等にて、日本学生支援機構の予約採用に申込み。<br class="pc">高等学校等の奨学金担当の先生に相談してください。）
                             </p>
 
                             <p>
@@ -155,7 +160,7 @@
                             </small>
                         </div>
                         <div class="content">
-                            <h3>三幸学園初期費用軽減＆学費分割制度</h3>
+                            <h3>三幸学園給付奨学金＆学費納入制度</h3>
 
                             <div class="border-box">
                                 <span class="u-color-pink">修学支援新制度を活用した制度、給付奨学金の予約申し込みを行った方は必ず本制度をご利用ください。</span>
@@ -234,14 +239,14 @@
                                 （無利子）</a>
                         </li>
                         <li class="c-linkmore--item">
-                            <a href="" class="u-color-pink c-linkmore__btn">母子父子寡婦福祉資金貸付金制度<br>
+                            <a href="" class="u-color-pink c-linkmore__btn">母子父子寡婦福祉資金貸付金制度<br class="pc">
                                 （修学資金）（無利子）</a>
                         </li>
                         <li class="c-linkmore--item">
                             <a href="" class="u-color-pink c-linkmore__btn">新聞奨学生制度（返済無）</a>
                         </li>
                         <li class="c-linkmore--item">
-                            <a href="" class="u-color-pink c-linkmore__btn">あしなが育英会奨学金（無利子）</a>
+                            <a href="" class="u-color-pink c-linkmore__btn">あしなが育英会奨学金<br class="sp">（無利子）</a>
                         </li>
                     </ul>
                 </div>
@@ -259,16 +264,16 @@
                             <a href="" class="u-color-pink c-linkmore__btn">足立区給付型奨学金（給付）</a>
                         </li>
                         <li class="c-linkmore--item">
-                            <a href="" class="u-color-pink c-linkmore__btn">杉並区奨学金（貸与（無利子））</a>
+                            <a href="" class="u-color-pink c-linkmore__btn">杉並区奨学金<br class="sp">（（貸与（無利子））</a>
                         </li>
                         <li class="c-linkmore--item">
-                            <a href="" class="u-color-pink c-linkmore__btn">青梅市育英資金（貸与（無利子））</a>
+                            <a href="" class="u-color-pink c-linkmore__btn">青梅市育英資金<br class="sp">（貸与（無利子））</a>
                         </li>
                         <li class="c-linkmore--item">
-                            <a href="" class="u-color-pink c-linkmore__btn">東村山市奨学金（貸与（無利子））</a>
+                            <a href="" class="u-color-pink c-linkmore__btn">東村山市奨学金<br class="sp">（（貸与（無利子））</a>
                         </li>
                         <li class="c-linkmore--item">
-                            <a href="" class="u-color-pink c-linkmore__btn">府中市奨学金（貸与（無利子））</a>
+                            <a href="" class="u-color-pink c-linkmore__btn">府中市奨学金<br class="sp">（（貸与（無利子））</a>
                         </li>
                         <li class="c-linkmore--item">
                             <a href="" class="u-color-pink c-linkmore__btn">大田区奨学金貸付制度<br>
@@ -321,7 +326,7 @@
                         </small>
 
                         <div class="c-point__btn">
-                            <a href="">学生寮・ひとり暮らしのご紹介</a>
+                            <a href="" class="c-btn__link u-color-orange">学生寮・<br class="sp">ひとり暮らしのご紹介</a>
                         </div>
                     </div>
                 </li>
@@ -340,11 +345,10 @@
 
 
         <div class="box">
-            <h3 class="u-color-orange c-contentbox--subtitle">看護師等修学資金貸与制度（東京都）</h3>
+            <h3 class="u-color-orange c-contentbox--subtitle">看護師等修学資金貸与制度<br class="sp">（東京都）</h3>
             <p class="desc">
                 東京都が看護職員確保対策の一環として、看護師等を養成する学校に在学している方の修学を支援する制度です。<br>
-                卒業後に、都内の病院や診療所、介護老人保健施設等の返還免除対象施設において、一定期間継続して業務に従事した場合、
-                返還が免除されます。
+                卒業後に、都内の病院や診療所、介護老人保健施設等の返還免除対象施設において、一定期間継続して業務に従事した場合、返還が免除されます。
             </p>
 
 
@@ -353,7 +357,7 @@
                 <h3 class="c-timetable__title c-timetable__title--orange">
                     貸与金額・期間
                 </h3>
-                <div class="c-timetable__content">
+                <div class="c-timetable__content js-scrollable">
                     <table class="c-timetable__table03">
                         <tbody>
                             <tr>
@@ -378,7 +382,7 @@
                 <h3 class="c-timetable__title c-timetable__title--orange">
                     返還免除額
                 </h3>
-                <div class="c-timetable__content">
+                <div class="c-timetable__content js-scrollable">
                     <table class="c-timetable__table03">
                         <tbody>
                             <tr>
@@ -416,6 +420,7 @@
                         </tbody>
                     </table>
                 </div>
+                <small class="note">修学資金の詳細は、東京都のHPをご確認ください。</small>
             </div>
 
         </div>
@@ -430,73 +435,62 @@
         <h2 class="info-item--head c-sec__title c-card02--title"><span class="c-sec__title--ja">教育ローン</span></h2>
 
         <div class="box">
-            <h3 class="u-color-orange c-contentbox--subtitle">丁寧な個別指導で、国家試験合格へ導く</h3>
+            <h3 class="u-color-pink c-contentbox--subtitle">国の教育ローン<br class="sp">〈日本政策金融公庫〉</h3>
             <p class="desc">
-                看護師国家試験では、患者さんの身体面や心情面にも配慮して、科学的根拠のある看護行為を選ぶ力が試されます。本校では「なぜこの知識や技術が看護に必要なのか」を考える学習で、使える知識と技術を身につけて合格に導きます。
-                個々の苦手分野を見つけ弱点克服への手助けをします。教職員が一丸となってサポートし、授業や実習でも国家試験を意識した指導を行っています。確実な知識と技術を得て、患者様に寄り添える優しい看護師を目指していきましょう。
+                「国の教育ローン」は政府系金融機関である日本政策金融公庫が取り扱っている長期、固定金利でご利用いただける教育ローンです。
             </p>
 
             <ul class="c-linkmore--list u-flex">
                 <li class="c-linkmore--item">
-                    <a href="" class="u-color-orange c-linkmore__btn">自治体育英会奨学金<br>
-                        （無利子）</a>
+                    <a href="" class="u-color-pink c-linkmore__btn">日本政策金融公庫</a>
                 </li>
             </ul>
-
         </div>
 
 
         <div class="box">
-            <h3 class="u-color-orange c-contentbox--subtitle">提携教育ローン</h3>
+            <h3 class="u-color-pink c-contentbox--subtitle">提携教育ローン</h3>
             <p class="desc">
-                ゆるやかな利用資格と簡単な手続きでご利用いただける制度です。三幸学園では、信販会社と教育ローン契約を結んでおりますので、簡単な手続きで、ご入学に際し必要な学費が申込いただけます。
+                <b>ゆるやかな利用資格と簡単な手続きでご利用いただける制度です。</b>三幸学園では、信販会社と教育ローン契約を結んでおりますので、簡単な手続きで、ご入学に際し必要な学費が申込いただけます。
             </p>
 
             <div class="p-supportinfo--url">
                 <ul class="c-linkmore--list u-flex">
-                    <li class="c-linkmore--item">
-                        <a href="" class="u-color-orange c-linkmore__btn u-text-left">株式会社<br>
-                            オリエントコーポレート</a>
+                    <li class="">
+                        <a href="" class=" c-linkmore--item u-color-orange c-linkmore__btn u-text-left">株式会社<br>
+                            オリエントコーポレート
+                        </a>
+                        <div class="p-supportinfo--item">
+                            <b>学費サポートプランのご案内</b><br>
+                            学校コード：15577166<br>
+                            申込みコード：0623<br>
+                            <small class="">
+                                ※携帯・スマホの場合は、<br>
+                                学校コードのみご入力ください。
+                            </small>
+                        </div>
+
                     </li>
-                    <li class="c-linkmore--item">
-                        <a href="" class="u-color-orange c-linkmore__btn">株式会社ジャックス</a>
+                    <li class="">
+                        <a href="" class="c-linkmore--item u-color-orange c-linkmore__btn">株式会社ジャックス</a>
+                        <div class="p-supportinfo--item">
+                            <b>教育ローン<br>
+                                『悠裕プラン』のご案内</b><br>
+                            ユーザーID：M442<br>
+                            パスワード：08702004<br>
+                        </div>
+
                     </li>
-                    <li class="c-linkmore--item">
-                        <a href="" class="u-color-orange c-linkmore__btn">三井住友カード株式会社</a>
-                    </li>
-                </ul>
-                <ul class="p-info__list u-flex">
-                    <li class="p-info__list--item">
-                        <b>学費サポートプランのご案内</b><br>
-                        学校コード：15577166<br>
-                        申込みコード：0623<br>
-                        <small class="">
-                            ※携帯・スマホの場合は、<br>
-                            学校コードのみご入力ください。
-                        </small>
-                    </li>
-                    <li class="p-info__list--item">
-                        <b>教育ローン<br>
-                            『悠裕プラン』のご案内</b><br>
-                        ユーザーID：M442<br>
-                        パスワード：08702004<br>
-                    </li>
-                    <li class="p-info__list--item">
-                        <b>「C-Web学費ローン」のご案内</b><br>
-                        学校名または学校コード：4151536Z
+                    <li class="">
+                        <a href="" class="c-linkmore--item u-color-orange c-linkmore__btn">三井住友カード株式会社</a>
+                        <div class="p-supportinfo--item">
+                            <b>「C-Web学費ローン」のご案内</b><br>
+                            学校名または学校コード：4151536Z
+                        </div>
                     </li>
                 </ul>
             </div>
-
         </div>
 
-
-
-
-
     </div>
-
-
-
-
 </section>

@@ -1,0 +1,80 @@
+.ic-event-carousel {
+  background: rgb(255 251 238);
+  border-radius: 20px;
+  padding: 50px;
+  @media screen and (max-width: 768px) {
+    padding: 30px 20px;
+  }
+}
+.ic-event-carousel__ttlbox {
+  width: fit-content;
+  margin: 0 auto 50px;
+}
+.ic-event-carousel__ttl {
+  text-align: center;
+  font-weight: 500;
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: center;
+  /* background: linear-gradient(90deg, #63aee1, #75c5b5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
+  color: rgb(77, 79, 72);
+  width: fit-content;
+  padding: 0 20px;
+  @media screen and (max-width: 768px) {
+    font-size: 20px;
+    padding: 0 5px;
+    gap: 2px;
+  }
+}
+.ic-event-carousel__ttl-en {
+  font-weight: 500;
+  font-size: 20px;
+  background: linear-gradient(90deg, #63aee1, #75c5b5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 600;
+  @media screen and (max-width: 768px) {
+    font-size: 15px;
+  }
+}
+.ic-event-carousel__balloon {
+  position: relative;
+  width: 100%;
+  padding: 7px 16px;
+  border-bottom: 2px solid rgb(99 174 226);
+  background-color: rgb(255 251 238);
+  z-index: 2;
+}
+.ic-event-carousel__balloon::before {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 50%;
+  width: 15px;
+  height: 15px;
+  box-sizing: border-box;
+  background-color: rgb(255 251 238); /* 背景色と同じ色を指定 */
+  rotate: 135deg;
+  translate: -50%;
+  z-index: 4;
+}
+.ic-event-carousel__balloon::after {
+  content: "";
+  position: absolute;
+  bottom: -8px;
+  left: 50%;
+  z-index: -1;
+  width: 15px;
+  height: 15px;
+  box-sizing: border-box;
+  border: 2px solid;
+  border-color: rgb(99 174 226) rgb(99 174 226) transparent transparent;
+  background-color: rgb(255 251 238);
+  rotate: 135deg;
+  translate: -50%;
+  z-index: 5;
+}

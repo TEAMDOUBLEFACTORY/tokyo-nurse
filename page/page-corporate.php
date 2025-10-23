@@ -1,13 +1,13 @@
 <section class="p-corporate" id="corporate">
 
-    <div class="p-corporate__greeting c-sec">
+    <div class="p-corporate__greeting ">
         <h2 class="c-sec__title"><span class="c-sec__title--en">GREETING</span><span
                 class="c-sec__title--ja">名誉学園長挨拶</span></h2>
 
         <div class="p-corporate__greeting__img u-flex">
             <div class="p-corporate__greeting__img--left">
                 <h3>
-                    知識や技術だけでなく「人間性を育てる教育」
+                    知識や技術だけでなく<br class="sp">「人間性を育てる教育」
                 </h3>
                 <p>
                     三幸学園の教育理念に「技能と心の調和」というものがあります。これは、専門的知識や技術を習得するとともに心を磨く、人間性を磨く、つまり、心豊かな人間性を育てることに教育の目標をおいたものです。知識・技術教育と人間性教育の双方に力点をおいた教育を展開しています。知識や技術教育は主に講義室、実習室で教育が行われますが、人間性教育は校舎全体を使い、教育が展開されます。それは、玄関ホールで、廊下で、教職員室で、人間としての礼儀、挨拶の大切さ、言葉使い、感謝の気持ちの表現方法など、人間として生きる上での大切な基本を学び、習慣化し、身につけていきます。教職員が一体となってあらゆる場面でこれらの指導が行われていきます。
@@ -38,7 +38,7 @@
 
 
         <div class="p-corporate__history__btn ">
-            <a href="" class="c-btn c-btn--arrow">三幸学園の歴史</a>
+            <a href="https://www.sanko.ac.jp/about/history/" class="c-btn c-btn--arrow">三幸学園の歴史</a>
         </div>
     </div>
 
@@ -51,7 +51,7 @@
                 本校では企業様のご要望に応えるべく、業界が必要とする即戦力の育成に努めております。<br>資格取得、実践力、あるいは指導力で、一人ひとりが思い通りの就職ができるよう徹底的にバックアップ。<br>一人ひとりが就職への意識を高めることができるようガイダンスを行ったり、担任が個性を見極めた上でマンツーマン指導を行うなど、<br>自信を持って就職活動にチャレンジできるようサポートしています。
             </p>
             <div class="c-border-box__btn">
-                <a href="" class="c-btn c-btn--arrow">実習・資格・就職</a>
+                <a href="<?php echo esc_url(home_url('/jobdata/')); ?>" class="c-btn c-btn--arrow">実習・資格・就職</a>
             </div>
 
         </div>

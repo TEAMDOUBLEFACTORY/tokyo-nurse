@@ -2,18 +2,19 @@
     <div class="p-parents__lead c-sec__lead u-text-center">
         <h2 class="c-lower__title u-color-main">高校の先生方へ</h2>
         <p class="desc">
-            大学全入時代の近年、就職に直結する専門的な資格や技術を身につけられる専門学校の重要性が高まってきています。<br>
-            どのように自分の将来の職業を決定していいのかわからない・・・何が自分に向いているのかが分からない・・・<br>
-            進路説明会などでもそういった悩みを抱えている高校生が多くいらっしゃいます。<br>
-            生徒様の進路選択に何かお役立ちできることはないか・・・<br>
-            そう考えた時、本校にできることは情報を提供していくことではないかと考えました。
+            大学全入時代の近年、就職に直結する専門的な資格や技術を身につけられる専門学校の<br class="sp">重要性が高まってきています。<br>
+            どのように自分の将来の職業を<br class="sp">決定していいのかわからない・・・<br class="sp">何が自分に向いているのかが分からない・・・<br>
+            進路説明会などでもそういった悩みを<br class="sp">抱えている高校生が多くいらっしゃいます。<br>
+            生徒様の進路選択に<br class="sp">何かお役立ちできることはないか・・・<br>
+            そう考えた時、本校にできることは情報を<br class="sp">提供していくことではないかと考えました。
         </p>
-
         <div class="p-parents__lead__img">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/common/dummy_movie.png" alt="">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/ASkWjlXmFOY?si=aqcwCQWJBr92GQok"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
     </div>
-
 
     <div class="p-parents__attempt c-attempt c-sec">
         <h2 class="c-sec__title c-sec__title--big"><span class="c-sec__title--ja">本校の取り組みについて</span></h2>
@@ -34,7 +35,7 @@
                         </p>
                     </div>
                     <div class="c-attempt__card--box">
-                        <span class="u-color-main">授業の進め方アンケートの実施</span>
+                        <span class="u-color-main">授業の進め方<br class="sp">アンケートの実施</span>
                         <p>
                             在学している学生に、1つ1つの授業について、満足度をヒアリングをするものです。講師1人1人に対するアンケートを作成し、授業の改善に役立てております。
                         </p>
@@ -68,14 +69,14 @@
                 </div>
                 <div class="c-attempt__card--body">
                     <div class="c-attempt__card--box">
-                        <span class="u-color-main">カリキュラム・シラバスの改正</span>
+                        <span class="u-color-main">カリキュラム<br class="sp">・シラバスの改正</span>
                         <p>
                             学園を卒業する学生にむけ、授業や学校生活について 改善点やよかったと感じる点についてヒアリングをするものです。
                         </p>
                     </div>
 
                     <div class="c-attempt__card--box">
-                        <span class="u-color-main">授業の進め方アンケートの実施</span>
+                        <span class="u-color-main">授業の進め方<br class="sp">アンケートの実施</span>
                         <p>
                             世の中のニーズや学生のニーズに合わせ、最善のカリキュラムを毎年検討し、改善を行っています。
                         </p>

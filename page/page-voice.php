@@ -1,5 +1,5 @@
 <section class="p-voice" id="voice">
-    <p class="u-text-center">「オープンキャンパス」と「入試説明会」に参加していただいた方々からの感想をご紹介します！</p>
+    <p class="u-text-center">「オープンキャンパス」と「入試説明会」に<br class="sp">参加していただいた方々からの<br class="sp">感想をご紹介します！</p>
     <div class="p-voice__btnbox u-grid u-col-2">
         <div class="p-voice__btn"><a href="#opencampus"
                 class="c-btn__link c-btn__link-border c-btn__link-anchor">オープンキャンパス参加者の声</a></div>
@@ -7,11 +7,9 @@
                 class="c-btn__link c-btn__link-border c-btn__link-anchor">入試説明会参加者の声</a>
         </div>
     </div>
-
-
     <div class="p-voice__sec c-sec" id="opencampus">
-        <h2 class="c-sec__title c-sec__title--center c-sec__title--big"><span
-                class="c-sec__title--ja">オープンキャンパス参加者の声</span></h2>
+        <h2 class="c-sec__title c-sec__title--center c-sec__title--big"><span class="c-sec__title--ja">オープンキャンパス<br
+                    class="sp">参加者の声</span></h2>
         <ul class="p-voice__list u-grid u-col-3">
             <li class="p-voice__listitem">
                 <h3 class="p-voice__listtitle">学校生活や入試情報を詳しく<br>聞けて大満足でした</h3>
@@ -70,11 +68,11 @@
                 <small class="p-voice__listname">Jさん　高校一年生</small>
             </li>
         </ul>
-        <div class="p-voice__btn2"><a href="" class="c-btn c-btn--arrow">オープンキャンパスの開催日程はこちら</a>
+        <div class="p-voice__btn2"><a href="" class="c-btn c-btn--arrow">オープンキャンパスの<br class="sp">開催日程はこちら</a>
         </div>
     </div>
 
-    <div class="p-voice__sec c-sec" id="entrancebriefing">
+    <div class="p-voice__sec" id="entrancebriefing">
         <h2 class="c-sec__title c-sec__title--center c-sec__title--big"><span class="c-sec__title--ja">入試説明会参加者の声</span>
         </h2>
         <ul class="p-voice__list u-grid u-col-2">
@@ -104,7 +102,7 @@
                 <small class="p-voice__listname">Nさん　高校三年生</small>
             </li>
         </ul>
-        <div class="p-voice__btn2"><a href="" class="c-btn c-btn--arrow">入試説明会の開催日程はこちら</a>
+        <div class="p-voice__btn2"><a href="" class="c-btn c-btn--arrow">入試説明会の<br class="sp">開催日程はこちら</a>
         </div>
     </div>
 </section>

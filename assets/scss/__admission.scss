@@ -1,4 +1,13 @@
-.p-admission {
+.p-admissions {
+  @media screen and (max-width: 768px) {
+    .u-col-2 {
+      grid-template-columns: 1fr;
+      gap: 30px;
+    }
+  }
+  &__info {
+    padding-bottom: 60px;
+  }
 }
 
 // WEB出願について

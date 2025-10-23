@@ -29,7 +29,7 @@
 
     </div>
 
-    <div class="p-course__carriculum c-sec">
+    <div class="p-course__carriculum c-sec" id="carriculum">
         <h2 class="c-sec__title"><span class="c-sec__title--en">CURRICULUM</span><span
                 class="c-sec__title--ja">教育課程</span></h2>
         <p class="desc">
@@ -43,7 +43,7 @@
         </div>
     </div>
 
-    <div class="p-course__lesspon c-sec">
+    <div class="p-course__lesspon c-sec" id="lesspon">
         <h2 class="c-sec__title"><span class="c-sec__title--en">LESSON</span><span class="c-sec__title--ja">授業例</span>
         </h2>
         <p class="desc">
@@ -113,7 +113,7 @@
     </div>
 
 
-    <div class="p-course__timetable c-sec">
+    <div class="p-course__timetable c-sec" id="timetable">
         <h2 class="c-sec__title"><span class="c-sec__title--en">TIMETABLE</span><span
                 class="c-sec__title--ja">時間割</span></h2>
         <p class="desc">

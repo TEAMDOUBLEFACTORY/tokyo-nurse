@@ -10,7 +10,8 @@
                         <h2 class="p-accessmap__school">東京墨田看護専門学校</h2>
                         <div class="p-accessmap__address u-mt20">
                             〒131-0032 <br class="u-sp">東京都墨田区東向島5-6-6
-                            <a href="" class="c-btn__link" target="_blank" rel="noopener">Google Map</a>
+                            <a href="https://maps.app.goo.gl/FYJAJ93FEqiLLYAz6" target="_blank" class="c-btn__link"
+                                target="_blank" rel="noopener">Google Map</a>
                         </div>
 
                         <div class="p-accessmap__tel u-mt20">

@@ -12,7 +12,7 @@
                 </span>
             </li>
             <li class="c-side-menu__item">
-                <a href="<?php echo esc_url(home_url('/event/')); ?>" class="c-side-menu__item--link">
+                <a href="https://forms.sanko.ac.jp/21iy2j/tokyonurse/eventselect.php" class="c-side-menu__item--link">
                     <div class="c-side-menu__item--img"><img
                             src="<?php echo get_template_directory_uri(); ?>/assets/images/common/sidemenu-icon02.svg"
                             alt="" alt="オープンキャンパス"></div>

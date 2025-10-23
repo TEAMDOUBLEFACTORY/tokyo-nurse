@@ -1,7 +1,7 @@
 <section class="c-event-cta">
     <div class="l-container">
         <div class="c-event-cta__inner">
-            <a href="" class="c-event-cta__link">
+            <a href="https://forms.sanko.ac.jp/21iy2j/tokyonurse/eventselect.php" class="c-event-cta__link">
                 <div class="c-event-cta__text">
                     <h3>EVENT</h3>
                     <p>

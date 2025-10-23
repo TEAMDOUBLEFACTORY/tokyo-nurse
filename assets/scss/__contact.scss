@@ -1,4 +1,5 @@
-.p-contact {
+.p-contact,
+.p-contact__info {
   @media screen and (max-width: 768px) {
     .u-col-2 {
       grid-template-columns: repeat(1, 1fr);

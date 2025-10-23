@@ -8,8 +8,8 @@
                 <div class="c-pageheader">
                     <div class="l-container">
                         <div class="c-pageheader_title c-pageheader_title--<?php echo $post->post_name; ?>">
-                            <p class="c-pageheader_title--en"><?php echo $post->post_name; ?></p>
-                            <h2 class="c-pageheader_title--jp"><?php the_title(); ?></h2>
+                            <p class="c-pageheader_title--en">NEWS</p>
+                            <h2 class="c-pageheader_title--jp">学校からのお知らせ</h2>
                         </div>
                         <div class="c-breadcrumbs" typeof="BreadcrumbList" vocab="https://schema.org/">
                             <?php if (function_exists('bcn_display')) {

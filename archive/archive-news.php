@@ -1,7 +1,5 @@
 <section class="p-sub-news">
     <div class="l-container">
-
-
         <div class="l-article-wrap u-flex">
             <div class="p-sub-news__body ">
                 <?php

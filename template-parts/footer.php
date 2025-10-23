@@ -1,9 +1,20 @@
+<div class="c-linebanner">
+    <a href="https://page.line.me/644rctyd?openQrModal=true" target="_blank" class="c-linebanner-link">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/common/linebanner.svg"
+            alt="LINEで最新情報GET いますぐ友だち登録してみよう!" class="c-linebanner-img">
+    </a>
+    <div class="c-linebanner-close">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/common/linebanner-close.svg"
+            class="c-linebanner-closeimg" alt="閉じる">
+    </div>
+</div>
 <div class="l-container l-container--footer">
     <div class="c-cta">
         <div class="c-cta__inner">
             <ul class="c-cta__list u-grid">
                 <li class="c-cta__item">
-                    <a href="" class="c-cta__item-link">
+                    <a href="https://forms.sanko.ac.jp/21iy2j/tokyonurse/form.php?fno=38&fsno=1&openExternalBrowser=1"
+                        class="c-cta__item-link">
                         <div class="c-cta__item-content">
                             <h3 class="c-cta__item-head"><span class="c-cta__item-en">CONTACT</span><span
                                     class="c-cta__item-ja">お問い合わせ</span></h3>
@@ -14,7 +25,8 @@
                     </a>
                 </li>
                 <li class="c-cta__item">
-                    <a href="" class="c-cta__item-link">
+                    <a href="https://forms.sanko.ac.jp/21iy2j/tokyonurse/form.php?fno=1&fsno=1&openExternalBrowser=1"
+                        class="c-cta__item-link">
                         <div class="c-cta__item-content">
                             <h3 class="c-cta__item-head"><span class="c-cta__item-en">REQUEST</span><span
                                     class="c-cta__item-ja">資料請求</span></h3>
@@ -193,24 +205,24 @@
         <p class="c-copy">Copyright © Sanko Gakuen All rights reserved.</p>
         <div class="c-logo-sanko u-flex">
             <div class="c-logo-sanko__item">
-                <a href="" target="_blank"><img
+                <a href="https://ijiwork.com/" target="_blank"><img
                         src="<?php echo get_template_directory_uri(); ?>/assets/images/common/index_bn01.gif"
-                        alt=""></a>
+                        alt="医療事務求人ドットコム<"></a>
             </div>
             <div class="c-logo-sanko__item">
-                <a href="" target="_blank"><img
+                <a href="https://www.ijinet.com/" target="_blank"><img
                         src="<?php echo get_template_directory_uri(); ?>/assets/images/common/index_bn02.gif"
-                        alt=""></a>
+                        alt="日本医療事務協会"></a>
             </div>
             <div class="c-logo-sanko__item">
-                <a href="" target="_blank"><img
+                <a href="https://www.sanko.ac.jp/endeavor/" target="_blank"><img
                         src="<?php echo get_template_directory_uri(); ?>/assets/images/common/footer_logo-sdgs.png"
-                        alt=""></a>
+                        alt="SDGsの達成に向けた三幸学園の活動"></a>
             </div>
             <div class="c-logo-sanko__item">
-                <a href="" target="_blank"><img
+                <a href="https://www.sanko.ac.jp/" target="_blank"><img
                         src="<?php echo get_template_directory_uri(); ?>/assets/images/common/footer_logo01.png"
-                        alt=""></a>
+                        alt="学校法人三幸学園"></a>
             </div>
         </div>
     </div>
