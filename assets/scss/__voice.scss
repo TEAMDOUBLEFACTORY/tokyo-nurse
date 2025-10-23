@@ -5,6 +5,8 @@
     gap: 50px !important;
     @media screen and (max-width: 768px) {
       grid-template-columns: auto !important;
+      margin-top: 40px;
+      row-gap: 20px !important;
     }
   }
   &__btn {
@@ -59,7 +61,7 @@
     justify-content: space-between;
     gap: 20px;
     @media screen and (max-width: 768px) {
-      padding: 20px;
+      padding: 30px 25px;
     }
     &.--dgreen {
       border: 1px solid rgba(var(--color-dgreen));
@@ -77,7 +79,6 @@
 }
 
 #opencampus {
-  margin-top: 120px;
   @media screen and (max-width: 768px) {
     margin-top: 40px;
   }

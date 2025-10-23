@@ -1,7 +1,7 @@
-<section class="p-admissions" id="admissions">
+<section class="p-admissions u-section-space" id="admissions">
     <div class="p-admissions__inner">
         <div class="p-admissions__content c-grid">
-            <div class="p-admissions__info c-sec">
+            <div class="p-admissions__info">
                 <div class="p-admissions__info-list u-grid u-col-2 ">
                     <article class="info-item c-card02">
                         <h2 class="info-item--head c-sec__title c-card02--title"><span
@@ -53,7 +53,7 @@
             </div>
             <!-- /.p-admissions--voice -->
 
-            <div class="c-border-box c-sec">
+            <div class="c-border-box">
                 <div class="c-border-box__inner">
                     <h2 class="c-sec__title"><span class="c-sec__title--ja">入学に関わる<br class="sp">マネープラン</span>
                     </h2>

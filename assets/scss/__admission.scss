@@ -6,13 +6,16 @@
     }
   }
   &__info {
-    padding-bottom: 60px;
+    padding-bottom: 120px;
+    @media screen and (max-width: 768px) {
+      padding-bottom: 60px;
+    }
   }
 }
 
 // WEB出願について
 .p-online-admissions {
-  .c-sec {
+  .c-point {
     h2 {
       margin-bottom: 60px;
       @media screen and (max-width: 768px) {
@@ -36,6 +39,9 @@
       }
       &:not(:last-child) {
         margin-bottom: 80px;
+        @media screen and (max-width: 768px) {
+          margin-bottom: 60px;
+        }
         &::before {
           content: "";
           display: block;
@@ -72,6 +78,25 @@
           gap: 20px;
         }
       }
+
+      &:nth-child(7) {
+        ul {
+          display: block !important;
+          width: 380px !important;
+          @media screen and (max-width: 768px) {
+            width: 100% !important;
+          }
+          li {
+            row-gap: 20px;
+          }
+        }
+      }
+
+      &:last-child {
+        p {
+          font-size: 16px;
+        }
+      }
     }
   }
 
@@ -101,7 +126,7 @@
   }
 
   &__title {
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     font-size: 24px;
     font-weight: 500;
     display: block;
@@ -111,7 +136,7 @@
   }
 
   &__imgbox {
-    margin-top: 30px;
+    margin-top: 10px;
     li {
       display: flex;
       flex-direction: column;
@@ -148,9 +173,11 @@
     &--desc {
       //   flex-grow: 1;
       margin-bottom: 25px;
-      font-size: 14px;
       line-height: 1.8em;
       text-align: center;
+    }
+    p {
+      font-size: 13px;
     }
   }
 
@@ -162,6 +189,9 @@
     @media screen and (max-width: 768px) {
       padding: 25px 15px;
     }
+    li {
+      padding: 0;
+    }
   }
   &__addressbox {
     background-color: rgba(var(--color-darkgreen), 0.1);
@@ -169,6 +199,7 @@
     margin-top: 20px;
     padding: 25px;
     border-radius: 10px;
+    font-size: 14px;
   }
 
   .note {

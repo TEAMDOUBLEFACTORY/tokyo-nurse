@@ -55,13 +55,15 @@
   }
 
   &__carriculum {
-    margin-top: 120px;
   }
 
   &__lesspon {
     &__card {
       .desc {
         margin: 0;
+        @media screen and (max-width: 768px) {
+          font-size: 14px;
+        }
       }
     }
   }

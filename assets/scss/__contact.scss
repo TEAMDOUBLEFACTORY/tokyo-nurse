@@ -1,5 +1,13 @@
 .p-contact,
 .p-contact__info {
+  article {
+    display: flex;
+    flex-direction: column;
+    .info-item--text {
+      flex-grow: 1;
+    }
+  }
+
   @media screen and (max-width: 768px) {
     .u-col-2 {
       grid-template-columns: repeat(1, 1fr);

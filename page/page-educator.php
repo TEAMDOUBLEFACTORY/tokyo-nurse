@@ -1,5 +1,5 @@
-<section class="p-parents" id="corporate">
-    <div class="p-parents__lead c-sec__lead u-text-center">
+<section class="p-educators u-section-space" id="corporate">
+    <div class="p-educators__lead c-sec__lead u-text-center">
         <h2 class="c-lower__title u-color-main">高校の先生方へ</h2>
         <p class="desc">
             大学全入時代の近年、就職に直結する専門的な資格や技術を身につけられる専門学校の<br class="sp">重要性が高まってきています。<br>
@@ -8,21 +8,20 @@
             生徒様の進路選択に<br class="sp">何かお役立ちできることはないか・・・<br>
             そう考えた時、本校にできることは情報を<br class="sp">提供していくことではないかと考えました。
         </p>
-        <div class="p-parents__lead__img">
+        <div class="p-educators__lead__img">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/ASkWjlXmFOY?si=aqcwCQWJBr92GQok"
                 title="YouTube video player" frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
     </div>
-
-    <div class="p-parents__attempt c-attempt c-sec">
+    <div class="p-educators__attempt c-attempt">
         <h2 class="c-sec__title c-sec__title--big"><span class="c-sec__title--ja">本校の取り組みについて</span></h2>
         <p class="desc">
             本校では、『常に振り返り、学生にとって一番よいものを提供していく』という考えに重きを置き、細やかな改善提案を定期的に実施しております。<br>ここで本校の取り組みをいくつかご紹介させていただきます。
         </p>
 
-        <ul class="p-parents__attempt__inner c-attempt__list u-grid u-col-3">
+        <ul class="p-educators__attempt__inner c-attempt__list u-grid u-col-3">
             <li class="c-attempt__card">
                 <div class="c-attempt__card--head">
                     学生からの意見を収集
@@ -85,22 +84,20 @@
             </li>
         </ul>
     </div>
-
-    <div class="p-parents__about c-sec">
+    <div class="p-educators__about ">
         <h2 class="c-sec__title c-sec__title--big"><span class="c-sec__title--ja">三幸学園と本校について</span></h2>
-
         <div class="p-contact__info ">
-            <ul class="p-parents__list u-flex">
+            <ul class="p-educators__list u-flex">
                 <li class="c-card1 c-bg-main">
-                    <a href="" class="c-card1__link">
+                    <a href="" class="c-card1__link u-justify-center">
                         <div class="c-card1__content">
                             <h3 class="c-card1__head">入試ガイド</h3>
                         </div>
                     </a>
                 </li>
                 <li class="c-card1 c-bg-main">
-                    <a href="" class="c-card1__link">
-                        <div class="c-card1__content">
+                    <a href="" class="c-card1__link u-justify-center">
+                        <div class="c-card1__content ">
                             <h3 class="c-card1__head">学費サポート</h3>
                         </div>
                     </a>
@@ -112,6 +109,4 @@
         </div>
 
     </div>
-
-
 </section>

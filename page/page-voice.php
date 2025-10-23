@@ -1,13 +1,17 @@
-<section class="p-voice" id="voice">
-    <p class="u-text-center">「オープンキャンパス」と「入試説明会」に<br class="sp">参加していただいた方々からの<br class="sp">感想をご紹介します！</p>
-    <div class="p-voice__btnbox u-grid u-col-2">
-        <div class="p-voice__btn"><a href="#opencampus"
-                class="c-btn__link c-btn__link-border c-btn__link-anchor">オープンキャンパス参加者の声</a></div>
-        <div class="p-voice__btn"><a href="#entrancebriefing"
-                class="c-btn__link c-btn__link-border c-btn__link-anchor">入試説明会参加者の声</a>
+<section class="p-voice u-section-space" id="voice">
+
+    <div class="p-voice__head">
+        <p class="u-text-center">「オープンキャンパス」と「入試説明会」に<br class="sp">参加していただいた方々からの<br class="sp">感想をご紹介します！</p>
+        <div class="p-voice__btnbox u-grid u-col-2">
+            <div class="p-voice__btn"><a href="#opencampus"
+                    class="c-btn__link c-btn__link-border c-btn__link-anchor">オープンキャンパス参加者の声</a></div>
+            <div class="p-voice__btn"><a href="#entrancebriefing"
+                    class="c-btn__link c-btn__link-border c-btn__link-anchor">入試説明会参加者の声</a>
+            </div>
         </div>
     </div>
-    <div class="p-voice__sec c-sec" id="opencampus">
+
+    <div class="p-voice__sec " id="opencampus">
         <h2 class="c-sec__title c-sec__title--center c-sec__title--big"><span class="c-sec__title--ja">オープンキャンパス<br
                     class="sp">参加者の声</span></h2>
         <ul class="p-voice__list u-grid u-col-3">

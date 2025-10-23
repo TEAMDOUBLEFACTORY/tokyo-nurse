@@ -29,8 +29,6 @@
                         <?php get_template_part('page/page', 'guidelines'); ?>
                         <?php elseif (is_page('year')): ?>
                         <?php get_template_part('page/page', 'campuslife'); ?>
-                        <?php elseif (is_page('careers')): ?>
-                        <?php get_template_part('page/page', 'careers'); ?>
                         <?php elseif (is_page('contact')): ?>
                         <?php get_template_part('page/page', 'contact'); ?>
                         <?php elseif (is_page('course')): ?>
@@ -49,20 +47,10 @@
                         <?php get_template_part('page/page', 'parents'); ?>
                         <?php elseif (is_page('support')): ?>
                         <?php get_template_part('page/page', 'support'); ?>
-                        <?php elseif (is_page('for-prospective-students')): ?>
-                        <?php get_template_part('page/page', 'for-prospective-students'); ?>
                         <?php elseif (is_page('web-entry')): ?>
                         <?php get_template_part('page/page', 'web-entry'); ?>
-                        <?php elseif (is_page('tuition-support')): ?>
-                        <?php get_template_part('page/page', 'tuition-support'); ?>
                         <?php elseif (is_page('news')): ?>
                         <?php get_template_part('archive/archive', 'news'); ?>
-                        <?php elseif (is_page('for-prospective-students')): ?>
-                        <?php get_template_part('page/page', 'for-prospective-students'); ?>
-                        <?php elseif (is_page('online-admissions')): ?>
-                        <?php get_template_part('page/page', 'online-admissions'); ?>
-                        <?php elseif (is_page('tuition-support')): ?>
-                        <?php get_template_part('page/page', 'tuition-support'); ?>
                         <?php elseif (is_page('voice')): ?>
                         <?php get_template_part('page/page', 'voice'); ?>
                         <?php elseif (is_page('society')): ?>

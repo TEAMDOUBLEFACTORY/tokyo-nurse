@@ -31,8 +31,11 @@ b {
   margin-bottom: 120px;
   @media screen and (max-width: 768px) {
     height: auto;
-    margin-bottom: 100px;
+    margin-bottom: 60px;
     margin-top: 120px;
+    .l-container {
+      padding-block: 20px;
+    }
   }
   &_title {
     width: fit-content;
@@ -66,8 +69,10 @@ b {
       right: -100px;
       z-index: -1;
       @media screen and (max-width: 768px) {
-        width: calc((260 / 390) * 100vw) !important;
-        height: calc((165 / 390) * 100vw) !important;
+        width: 160px !important;
+        height: 100px !important;
+        background-size: contain !important;
+        right: -20px;
       }
     }
 
@@ -184,11 +189,11 @@ b {
 // 声
 
 .c-voice {
-  border-radius: 0px 0 20px 20px;
+  border-radius: 0px 20px 20px 20px;
   background: rgba(224, 138, 149, 0.05);
   border: 1px solid rgba(224, 138, 149, 1);
   margin-top: 50px;
-  padding: 25px 40px;
+  padding: 25px 40px !important;
   position: relative;
   @media screen and (max-width: 768px) {
     padding: 25px 15px;
@@ -239,13 +244,16 @@ b {
     background: rgba(var(--color-main), 0.1);
     border: 1px solid rgba(var(--color-main), 1);
     margin-top: 50px;
-    padding: 25px 40px;
+    padding: 30px 40px;
     position: relative;
     @media screen and (max-width: 768px) {
       padding: 25px 15px;
     }
     &:not(:last-child) {
       margin-bottom: 80px;
+      @media screen and (max-width: 768px) {
+        margin-bottom: 60px;
+      }
     }
   }
   &__deco {
@@ -269,8 +277,9 @@ b {
       font-size: 24px;
       margin-bottom: 15px;
       display: block;
+      font-weight: 500;
       @media screen and (max-width: 768px) {
-        font-size: 20px;
+        font-size: 18px;
       }
     }
     p {
@@ -1123,12 +1132,12 @@ b {
 // ボーダーボックス
 .c-border-box {
   border: 1px solid rgba(var(--color-main), 1);
-  padding: 40px;
+  padding: 40px !important;
   border-radius: 20px;
   text-align: center;
   margin-bottom: 80px;
   @media screen and (max-width: 768px) {
-    padding: 40px 25px;
+    padding: 40px 25px !important;
   }
   h2 {
     align-items: center;
@@ -1311,6 +1320,12 @@ b {
 }
 
 .l-article {
+  .c-sec__head {
+    margin-bottom: 60px;
+  }
+  h1 {
+    margin-bottom: 10px;
+  }
   &-wrap {
     justify-content: space-between;
     @media screen and (max-width: 768px) {
@@ -1324,7 +1339,7 @@ b {
       width: 100%;
     }
     h2 {
-      font-size: 3.4rem;
+      font-size: 3rem;
       line-height: 1.5;
       letter-spacing: 0.05em;
       margin-top: 80px;
@@ -1384,6 +1399,10 @@ b {
     a {
       color: rgba(var(--color-main));
       text-decoration: underline;
+      display: block;
+      img {
+        margin-top: 0 !important;
+      }
     }
 
     img {
@@ -1405,6 +1424,23 @@ b {
     margin-bottom: 40px;
     @media screen and (max-width: 768px) {
       font-size: 2.6rem;
+    }
+  }
+  .wp-block-buttons {
+    a {
+      color: #fff !important;
+      text-decoration: none !important;
+      margin-top: 10px;
+      padding: 15px 30px;
+      display: block;
+      text-decoration: none !important;
+      line-height: 1;
+    }
+  }
+  .is-layout-flex {
+    margin-top: 30px !important;
+    @media screen and (max-width: 768px) {
+      row-gap: 10px !important;
     }
   }
 }
@@ -1480,9 +1516,9 @@ b {
 
 .note {
   margin-top: 10px;
-  font-size: 15px;
+  font-size: 14px;
+  font-weight: 400;
   line-height: 1.42em;
-  opacity: 0.8;
   display: table;
   @media screen and (max-width: 768px) {
     font-size: 12px;

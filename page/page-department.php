@@ -1,7 +1,5 @@
-<section class="p-department" id="department">
-
-
-    <div class="p-department__point c-sec">
+<section class="p-department u-section-space" id="department">
+    <div class="p-department__point">
         <h2 class="c-sec__title c-sec__title--big"><span class="c-sec__title--ja">5つのポイント</span></h2>
 
         <ul class="p-department__point__list">
@@ -162,9 +160,7 @@
             </li>
         </ul>
     </div>
-
-
-    <div class="p-department__facility c-sec">
+    <div class="p-department__facility">
         <h2 class="c-sec__title c-sec__title--big"><span class="c-sec__title--ja">施設紹介</span></h2>
         <p class="desc">
             本校には最新の設備やICT教育など、学びをサポートできる充実した学習環境があります。館内は全教室Wi-Fi完備でとても便利！<br
@@ -217,7 +213,8 @@
             </li>
         </ul>
 
-        <div class="p-department__btn "><a href="" class="c-btn__link u-justify-center ">キャンパスライフを知る</a></div>
+        <div class="p-department__btn "><a href="<?php echo esc_url(home_url('/schoolguide/year/')); ?>"
+                class="c-btn__link u-justify-center ">キャンパスライフを知る</a></div>
     </div>
 
 </section>

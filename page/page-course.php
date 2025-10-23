@@ -1,5 +1,4 @@
-<section class="p-course" id="course-nursing">
-
+<section class="p-course u-section-space" id="course-nursing">
     <div class="p-course__lead">
         <h2 class="p-course__title u-color-pink">
             看護学科<p class="data">3年課程・70名 <i class="category">女子</i></p>
@@ -12,7 +11,6 @@
             看護師としての基礎力をしっかりと育み、国家試験への対策とともに、現場で活かせる力を確実に養っていきます。
         </p>
     </div>
-
     <div class="c-voice">
         <span class="c-voice__deco">
             在校生VOICE
@@ -21,19 +19,18 @@
             <img src="<?php echo get_template_directory_uri(); ?>/assets/images/lower/course/voice_icon.png" alt="">
             <figcaption>
                 <h4 class="c-voice__title u-color-pink">実戦を見据えた学びのもと、クラスで協力し合い成長中。</h4>
-                <p class="desc">3年間で基礎分野から統合分野まで段階を経て、じっくりと学ぶプログラムが用意されています。<br>
+                <p class="desc">3年間で基礎分野から統合分野まで段階を経て、じっくりと学ぶプログラムが用意されています。<br class="pc">
                     現場に即した学びを中心に、着実に看護師として力をつけていくことができます。
                 </p>
             </figcaption>
         </figure>
 
     </div>
-
-    <div class="p-course__carriculum c-sec" id="carriculum">
+    <div class="p-course__carriculum" id="carriculum">
         <h2 class="c-sec__title"><span class="c-sec__title--en">CURRICULUM</span><span
                 class="c-sec__title--ja">教育課程</span></h2>
         <p class="desc">
-            3年間で基礎分野から統合分野まで段階を経て、じっくりと学ぶプログラムが用意されています。<br>
+            3年間で基礎分野から統合分野まで段階を経て、じっくりと学ぶプログラムが用意されています。<br class="pc">
             現場に即した学びを中心に、着実に看護師として力をつけていくことができます。
         </p>
 
@@ -42,8 +39,7 @@
                 alt="教育課程フロー">
         </div>
     </div>
-
-    <div class="p-course__lesspon c-sec" id="lesspon">
+    <div class="p-course__lesspon " id="lesspon">
         <h2 class="c-sec__title"><span class="c-sec__title--en">LESSON</span><span class="c-sec__title--ja">授業例</span>
         </h2>
         <p class="desc">
@@ -111,9 +107,7 @@
         </div>
 
     </div>
-
-
-    <div class="p-course__timetable c-sec" id="timetable">
+    <div class="p-course__timetable" id="timetable">
         <h2 class="c-sec__title"><span class="c-sec__title--en">TIMETABLE</span><span
                 class="c-sec__title--ja">時間割</span></h2>
         <p class="desc">
@@ -160,5 +154,4 @@
 
         </div>
     </div>
-
 </section>

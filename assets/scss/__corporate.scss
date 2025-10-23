@@ -4,7 +4,7 @@
       margin-top: 80px;
       margin-bottom: 60px;
       gap: 80px;
-      align-items: center;
+      align-items: flex-start;
       @media screen and (max-width: 768px) {
         flex-direction: column-reverse;
         row-gap: 40px;
@@ -43,14 +43,13 @@
   }
 
   &__history {
-    padding-top: 120px;
-    padding-bottom: 140px;
+    padding-bottom: 120px;
     @media screen and (max-width: 768px) {
       padding-top: 80px;
       padding-bottom: 80px;
     }
     p {
-      margin-top: 80px;
+      margin-top: 60px;
       line-height: 2em;
       @media screen and (max-width: 768px) {
         margin-top: 30px;

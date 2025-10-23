@@ -24,6 +24,13 @@
                         <div class="l-article-wrap u-flex">
                             <article class="l-article-box">
                                 <div class="c-sec__head">
+                                    <div class="c-news__date u-flex">
+                                        <?php $category = get_the_category();
+                    if ($category): ?>
+                                        <div class="c-news__cat"><?php echo esc_html($category[0]->name); ?></div>
+                                        <?php endif; ?>
+                                        <time><?php echo get_the_date('Y.m.d'); ?></time>
+                                    </div>
                                     <h1 class="c-sec__title l-article-title"><?php the_title(); ?>
                                     </h1>
                                 </div>

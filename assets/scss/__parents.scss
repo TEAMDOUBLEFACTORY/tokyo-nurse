@@ -31,14 +31,13 @@
       }
     }
   }
-
   &__advice {
     border: 1px solid #009aa7;
     background: rgba(0, 154, 167, 0.1);
     border-radius: 20px;
-    padding: 40px;
+    padding: 40px !important;
     @media screen and (max-width: 768px) {
-      padding: 40px 25px;
+      padding: 40px 25px !important;
     }
     h2 {
       color: #009aa7;
@@ -68,11 +67,15 @@
             border-bottom: 2px solid #959595;
             padding-bottom: 40px;
             margin-bottom: 20px;
+            padding-inline: 0 !important;
           }
         }
       }
       &-head {
         font-size: clamp(14px, 2vw, 18px);
+        @media screen and (max-width: 768px) {
+          text-align: center;
+        }
       }
       &-text {
         margin-top: 30px;
@@ -80,6 +83,7 @@
         @media screen and (max-width: 768px) {
           margin-top: 15px;
           font-size: 16px;
+          text-align: center;
         }
         b {
           font-size: 32px;
@@ -140,20 +144,6 @@
     padding-top: 120px;
     @media screen and (max-width: 768px) {
       padding-top: 60px;
-    }
-  }
-
-  &__lead {
-    &__img {
-      width: 100%;
-      max-width: 400px;
-      margin: 0 auto;
-      display: block;
-      iframe {
-        width: 100%;
-        height: auto;
-        aspect-ratio: 16 / 9;
-      }
     }
   }
 }

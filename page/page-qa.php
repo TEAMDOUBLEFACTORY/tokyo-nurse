@@ -1,7 +1,7 @@
-<section class="p-faq" id="faq">
+<section class="p-faq u-section-space" id="faq">
     <div class="p-faq__inner">
         <div class="p-faq__content">
-            <div class="p-faq__info c-sec">
+            <div class="p-faq__info">
                 <ul class="p-faq__list c-accordion" role="list">
                     <li class="c-accordion__item">
                         <h3 class="c-accordion__header">

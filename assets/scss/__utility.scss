@@ -36,3 +36,12 @@
     font-size: 24px;
   }
 }
+
+.u-section-space {
+  & > * + * {
+    padding-top: 120px;
+    @media screen and (max-width: 768px) {
+      padding-top: 60px;
+    }
+  }
+}

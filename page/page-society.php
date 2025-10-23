@@ -1,9 +1,14 @@
-<section class="p-society" id="society">
-    <div class="p-society__sec c-sec">
+<section class="p-society u-section-space" id="society">
+    <div class="p-society__sec">
         <div>
-            <img class="p-society__mainImg"
-                src="<?php echo get_template_directory_uri(); ?>/assets/images/lower/society/challenge.png"
-                alt="もう一度、本当の夢へチャレンジしよう！">
+            <picture>
+                <source
+                    srcset="<?php echo get_template_directory_uri(); ?>/assets/images/lower/society/challenge-sp.jpg"
+                    media="(max-width: 768px)">
+                <img class="p-society__mainImg"
+                    src="<?php echo get_template_directory_uri(); ?>/assets/images/lower/society/challenge.jpg"
+                    alt="もう一度、本当の夢へチャレンジしよう！">
+            </picture>
             <img class="p-society__arrow"
                 src="<?php echo get_template_directory_uri(); ?>/assets/images/lower/parents/parent_img03.svg" alt="">
         </div>
@@ -20,7 +25,7 @@
                     <div class="c-point__content">
                         <span class="u-color-main">社会人・大学生・短大生・フリーター出身者が多く入学しています。</span>
                         <p>
-                            社会人・大学生・短大生・フリーターだった方々など、皆さんと同じ夢を持って、再進学をされる方はたくさんいますので、ご安心ください。
+                            社会人・大学生・短大生・フリーターだった方々など、<br class="pc">皆さんと同じ夢を持って、再進学をされる方はたくさんいますので、ご安心ください。
                         </p>
                     </div>
                 </li>
@@ -33,9 +38,14 @@
                         <p>
                             再進学者のみが受験可能な「高校既卒・社会人入学（特待生入学制度あり）」があります。<br>その他にも様々な入試方法がありますので自分に合った入試方法で受験をすることができます。
                         </p>
-                        <img class="p-society__scholarshipImg"
-                            src="<?php echo get_template_directory_uri(); ?>/assets/images/lower/society/scholarship.jpg"
-                            alt="">
+                        <picture>
+                            <source
+                                srcset="<?php echo get_template_directory_uri(); ?>/assets/images/lower/society/scholarship-sp.svg"
+                                media="(max-width: 768px)">
+                            <img class="p-society__scholarshipImg"
+                                src="<?php echo get_template_directory_uri(); ?>/assets/images/lower/society/scholarship.svg"
+                                alt="">
+                        </picture>
                         <div class="info-item__btn c-card02--btn p-society__btn p-society__btn02">
                             <a href="" accesskey="" class="c-btn__link">出願方法について</a>
                         </div>
@@ -85,6 +95,10 @@
                             <p>
                                 就職のためのしっかりサポート確かなフォローで、希望の就職先へ医療機関への就職について詳しいキャリア支援担当が的確にアドバイス。病院での実務経験があるベテラン教員が就職活動中の悩み相談にも乗り、徹底的にサポートします。
                             </p>
+
+                            <div class="info-item__btn c-card02--btn p-society__btn p-society__btn03">
+                                <a href="" accesskey="" class="c-btn__link">就職サポートシステムについて</a>
+                            </div>
                         </div>
                     </li>
                 </ul>
@@ -106,7 +120,8 @@
                                     frameborder="0"></iframe>
                                 <p class="p-society__eventText">他の日程でもイベントを開催中！</p>
                                 <div>
-                                    <a href="" class="c-btn c-btn--arrow p-society--arrowBtn">全ての日程をカレンダーでチェック</a>
+                                    <a href="" class="c-btn c-btn--arrow p-society--arrowBtn">全ての日程を<br
+                                            class="sp">カレンダーでチェック</a>
                                 </div>
                             </div>
                         </div>

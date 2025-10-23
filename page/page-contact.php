@@ -1,5 +1,5 @@
-<section class="p-contact" id="contact">
-    <div class="p-contact__inner c-sec">
+<section class="p-contact u-section-space" id="contact">
+    <div class="p-contact__inner">
         <div class="p-contact__content">
             <div class="p-contact__info">
                 <div class="p-contact__info-list u-grid u-col-2 ">
