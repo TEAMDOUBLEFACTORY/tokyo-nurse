@@ -1,7 +1,7 @@
-<section class="p-admissions u-section-space" id="admissions">
+<section class="p-admissions" id="admissions">
     <div class="p-admissions__inner">
         <div class="p-admissions__content c-grid">
-            <div class="p-admissions__info">
+            <div class="p-admissions__info c-sec">
                 <div class="p-admissions__info-list u-grid u-col-2 ">
                     <article class="info-item c-card02">
                         <h2 class="info-item--head c-sec__title c-card02--title"><span
@@ -22,7 +22,9 @@
 
                             <p>学ぶことができる各学科・コースの定員及び、<br class="pc">入学からの学費情報について、ご案内します。</p>
                         </div>
-                        <div class="info-item__btn c-card02--btn"><a href="" class="c-btn__link">募集学科・定員・学費について</a>
+                        <div class="info-item__btn c-card02--btn"><a
+                                href="https://forms.sanko.ac.jp/21iy2j/tokyonurse/generalform.php?gfc=81cq9b&_gl=1*1jc10bj*_ga*MTc5MzM5NjQ4Ny4xNzU5ODI2MjE4*_ga_912PBX53P1*czE3NjEyNjk4OTMkbzQkZzEkdDE3NjEyNzIwODAkajYwJGwwJGgw"
+                                class="c-btn__link" target="_blank">募集学科・定員・学費について</a>
                         </div>
                     </article>
 
@@ -33,7 +35,9 @@
                         <div class="info-item--text c-card02--text">
                             <p>入学に向けて、様々な出願方法をご用意しています。<br class="pc">ご自身に合う入試の種類をご確認ください。</p>
                         </div>
-                        <div class="info-item__btn c-card02--btn"><a href="" class="c-btn__link">出願方法・日程について</a></div>
+                        <div class="info-item__btn c-card02--btn"><a
+                                href="https://forms.sanko.ac.jp/21iy2j/tokyonurse/generalform.php?gfc=81cq9b&_gl=1*1gdlnx9*_ga*MTc5MzM5NjQ4Ny4xNzU5ODI2MjE4*_ga_912PBX53P1*czE3NjEyNjk4OTMkbzQkZzEkdDE3NjEyNzIxMjIkajE4JGwwJGgw"
+                                class="c-btn__link" target="_blank">出願方法・日程について</a></div>
                     </article>
 
 
@@ -53,7 +57,7 @@
             </div>
             <!-- /.p-admissions--voice -->
 
-            <div class="c-border-box">
+            <div class="c-border-box c-sec">
                 <div class="c-border-box__inner">
                     <h2 class="c-sec__title"><span class="c-sec__title--ja">入学に関わる<br class="sp">マネープラン</span>
                     </h2>
@@ -68,8 +72,10 @@
 
 
                     <div class="c-border-box__btn ">
-                        <a href="" class="c-btn c-btn--arrow">学費シミュレーションは<br class="sp">こちら</a>
-                        <a href="" class="c-btn c-btn--arrow">お問い合わせはこちら</a>
+                        <a href="https://www.sanko.ac.jp/simulation/tuition.shtml" target="_blank"
+                            class="c-btn c-btn--arrow">学費シミュレーションは<br class="sp">こちら</a>
+                        <a href="<?php echo esc_url(home_url('/contact/')); ?>"
+                            class="c-btn c-btn--arrow">お問い合わせはこちら</a>
                     </div>
 
                 </div>

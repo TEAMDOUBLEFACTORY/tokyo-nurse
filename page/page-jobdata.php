@@ -90,7 +90,8 @@
 
         <div class="c-graph">
             <h4>看護師国家試験 <br class="sp">過去5年間合格率</h4>
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/lower/jobdata/graph01.svg" alt="">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/lower/jobdata/graph01.svg"
+                alt="過去5年間合格率">
         </div>
 
 
@@ -162,23 +163,27 @@
         </p>
         <div class="c-graph">
             <h4>就職決定率</h4>
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/lower/jobdata/graph02.svg" alt="">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/lower/jobdata/graph02.svg" alt="就職決定率">
         </div>
 
         <div class="c-works">
             <h4>就職実績一覧</h4>
             <ul>
                 <li>
-                    <a href="" class="u-color-main">2023年度</a>
+                    <a href="<?php echo get_template_directory_uri(); ?>/assets/pdf/jobdata_2023.pdf"
+                        class="u-color-main">2023年度</a>
                 </li>
                 <li>
-                    <a href="" class="u-color-main">2022年度</a>
+                    <a href="<?php echo get_template_directory_uri(); ?>/assets/pdf/jobdata_2022.pdf"
+                        class="u-color-main">2022年度</a>
                 </li>
                 <li>
-                    <a href="" class="u-color-main">2021年度</a>
+                    <a href="<?php echo get_template_directory_uri(); ?>/assets/pdf/jobdata_2021.pdf"
+                        class="u-color-main">2021年度</a>
                 </li>
                 <li>
-                    <a href="" class="u-color-main">2020年度</a>
+                    <a href="<?php echo get_template_directory_uri(); ?>/assets/pdf/jobdata_2020.pdf"
+                        class="u-color-main">2020年度</a>
                 </li>
             </ul>
 

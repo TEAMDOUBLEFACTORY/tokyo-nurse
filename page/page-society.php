@@ -47,7 +47,8 @@
                                 alt="">
                         </picture>
                         <div class="info-item__btn c-card02--btn p-society__btn p-society__btn02">
-                            <a href="" accesskey="" class="c-btn__link">出願方法について</a>
+                            <a href="<?php echo esc_url(home_url('/web-entry/')); ?>" accesskey=""
+                                class="c-btn__link">出願方法について</a>
                         </div>
                     </div>
                 </li>
@@ -82,7 +83,8 @@
                                 </li>
                             </ul>
                             <div class="info-item__btn c-card02--btn p-society__btn p-society__btn03">
-                                <a href="" accesskey="" class="c-btn__link">学費サポート制度について</a>
+                                <a href="<?php echo esc_url(home_url('/guidelines/support/')); ?>" accesskey=""
+                                    class="c-btn__link">学費サポート制度について</a>
                             </div>
                         </div>
                     </li>
@@ -97,7 +99,8 @@
                             </p>
 
                             <div class="info-item__btn c-card02--btn p-society__btn p-society__btn03">
-                                <a href="" accesskey="" class="c-btn__link">就職サポートシステムについて</a>
+                                <a href="<?php echo esc_url(home_url('/jobdata#findwork')); ?>" accesskey=""
+                                    class="c-btn__link">就職サポートシステムについて</a>
                             </div>
                         </div>
                     </li>
@@ -120,7 +123,8 @@
                                     frameborder="0"></iframe>
                                 <p class="p-society__eventText">他の日程でもイベントを開催中！</p>
                                 <div>
-                                    <a href="" class="c-btn c-btn--arrow p-society--arrowBtn">全ての日程を<br
+                                    <a href="https://forms.sanko.ac.jp/21iy2j/tokyonurse/eventselect.php"
+                                        class="c-btn c-btn--arrow p-society--arrowBtn">全ての日程を<br
                                             class="sp">カレンダーでチェック</a>
                                 </div>
                             </div>

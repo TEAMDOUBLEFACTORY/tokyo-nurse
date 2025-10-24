@@ -1,4 +1,4 @@
-<section class="p-parents u-section-space" id="corporate">
+<section class="p-parents" id="corporate">
     <div class="p-parents__lead c-sec__lead u-text-center">
         <h2 class="c-lower__title u-color-main">入学をお考えの方の<br class="sp">保護者の皆様へ</h2>
         <p class="desc">
@@ -10,6 +10,8 @@
             こちらのページがお子さまの進路選択に<br class="sp">少しでもお役立ちできれば幸いです。
         </p>
     </div>
+
+
     <div class="p-parents__advice">
         <h2 class="c-lower__title u-text-center">高校生の<span>半数以上</span>が<br class="sp">保護者さまからの<br class="sp">アドバイスを希望！
         </h2>
@@ -17,13 +19,13 @@
         <ul class="p-parents__advice--qa u-grid u-col-2">
             <li class="p-parents__advice--qa-item">
                 <div class="p-parents__advice--qa-head">
-                    Q. 高校生はどのくらい保護者さまからの<br class="">アドバイスを希望しているのでしょうか？
+                    Q. 高校生はどのくらい保護者さまからの<br class="pc">アドバイスを希望しているのでしょうか？
                 </div>
 
                 <div class="p-parents__advice--qa-body">
                     <p class="p-parents__advice--qa-text">
                         <b>66%</b>の高校生が、<br>
-                        保護者さまからのアドバイスを<br class="sp">希望しています。
+                        保護者さまからのアドバイスを希望しています。
                     </p>
                     <div class="p-parents__advice--qa-graph">
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/lower/parents/parent_img01.svg"
@@ -43,7 +45,7 @@
                 <div class="p-parents__advice--qa-body">
                     <p class="p-parents__advice--qa-text">
                         <b> 81%</b>の方が、<br>
-                        なんとなくでしか理解していない<br class="sp">ことが分かりました。
+                        なんとなくでしか理解していないことが分かりました。
                     </p>
                     <div class="p-parents__advice--qa-graph">
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/lower/parents/parent_img02.svg"
@@ -64,11 +66,11 @@
         </div>
     </div>
 
-    <div class="p-parents__attempt c-attempt">
+
+    <div class="p-parents__attempt c-attempt c-sec">
         <h2 class="c-sec__title c-sec__title--big"><span class="c-sec__title--ja">本校の取り組みについて</span></h2>
         <p class="desc">
-            本校では、『常に振り返り、学生にとって一番よいものを提供していく』という考えに重きを置き、細やかな改善提案を定期的に実施しております。<br
-                class="pc">ここで本校の取り組みをいくつかご紹介させていただきます。
+            本校では、『常に振り返り、学生にとって一番よいものを提供していく』という考えに重きを置き、細やかな改善提案を定期的に実施しております。<br>ここで本校の取り組みをいくつかご紹介させていただきます。
         </p>
 
         <ul class="p-parents__attempt__inner c-attempt__list u-grid u-col-3">
@@ -128,7 +130,8 @@
         </ul>
     </div>
 
-    <div class="p-parents__about">
+
+    <div class="p-parents__about c-sec">
         <h2 class="c-sec__title c-sec__title--big"><span class="c-sec__title--ja">三幸学園と本校について</span></h2>
 
         <div class="p-contact__info ">
@@ -139,7 +142,9 @@
                     <div class="info-item--text c-card02--text">
                         <p>東京墨田看護専門学校の5つの特徴について、<br class="pc">ご紹介しています。</p>
                     </div>
-                    <div class="info-item__btn c-card02--btn"><a href="" class="c-btn__link">当校について</a></div>
+                    <div class="info-item__btn c-card02--btn"><a
+                            href="<?php echo esc_url(home_url('/schoolguide/advantage/')); ?>"
+                            class="c-btn__link">当校について</a></div>
                 </article>
 
 
@@ -150,21 +155,23 @@
                     <div class="info-item--text c-card02--text">
                         <p>学費と学費軽減のサポート制度をご案内します。様々なサポート制度を整えておりますので、ご活用ください。</p>
                     </div>
-                    <div class="info-item__btn c-card02--btn"><a href="" class="c-btn__link">学費サポートについて</a>
+                    <div class="info-item__btn c-card02--btn"><a
+                            href="<?php echo esc_url(home_url('/guidelines/support/')); ?>"
+                            class="c-btn__link">学費サポートについて</a>
                     </div>
                 </article>
             </div>
 
             <ul class="p-parents__list u-flex">
                 <li class="c-card1 c-bg-main">
-                    <a href="" class="c-card1__link u-justify-center">
+                    <a href="https://www.sanko.ac.jp/about/" target="_blank" class="c-card1__link u-justify-center">
                         <div class="c-card1__content">
                             <h3 class="c-card1__head">三幸学園について</h3>
                         </div>
                     </a>
                 </li>
                 <li class="c-card1 c-bg-main">
-                    <a href="" class="c-card1__link u-justify-center">
+                    <a href="https://www.sanko.ac.jp/education/" target="_blank" class="c-card1__link u-justify-center">
                         <div class="c-card1__content">
                             <h3 class="c-card1__head">三幸学園の<br class="sp">教育システムについて</h3>
                         </div>
@@ -177,4 +184,8 @@
         </div>
 
     </div>
+
+
+
+
 </section>

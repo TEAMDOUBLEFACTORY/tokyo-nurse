@@ -1,5 +1,5 @@
-<section class="p-online-admissions u-section-space" id="online-admissions">
-    <div class="c-point">
+<section class="p-online-admissions" id="online-admissions">
+    <div class="c-point c-sec">
         <h2 class="c-point__title u-color-main u-text-center u-f32">
             WEB出願のポイント
         </h2>
@@ -28,10 +28,11 @@
             </li>
         </ul>
         <div class="c-border-box__btn c-border-box__btn--center">
-            <a href="" class="c-btn c-btn--arrow">Web出願をする</a>
+            <a href="https://forms.sanko.ac.jp/21iy2j/tokyonurse/entrance.php?fno=15&AF=2&openExternalBrowser=1&_gl=1*bwk7un*_ga*MTc5MzM5NjQ4Ny4xNzU5ODI2MjE4*_ga_912PBX53P1*czE3NjEyNjk4OTMkbzQkZzEkdDE3NjEyNzE0NzIkajU2JGwwJGgw"
+                class="c-btn c-btn--arrow" target="_blank">Web出願をする</a>
         </div>
     </div>
-    <div class="p-flow">
+    <div class="p-flow c-sec">
         <h2 class="c-point__title u-color-main u-text-center u-f32">
             WEB出願の流れ
         </h2>
@@ -60,15 +61,14 @@
 
                         <li>
                             <span class="p-flow__step--ja">手順 ①</span>
-                            <p class="p-flow__step--desc">WEB出願のページからアクセスし、<br class="sp">「メールで通知を受け取る」<br
-                                    class="sp">ボタン選択します。</p>
+                            <p class="p-flow__step--desc">WEB出願のページからアクセスし、「メールで通知を受け取る」ボタン選択します。</p>
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/images/lower/online-admissions/step02-01.png"
                                 alt="">
                         </li>
 
                         <li>
                             <span class="p-flow__step--ja">手順 ②</span>
-                            <p class="p-flow__step--desc">氏名・電話番号・メールアドレスを<br class="">入力してください。</p>
+                            <p class="p-flow__step--desc">氏名・電話番号・メールアドレスを入力してください。</p>
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/images/lower/online-admissions/step02-02.png"
                                 alt="">
                         </li>
@@ -105,12 +105,11 @@
 
                         <li>
                             <span class="p-flow__step--ja">手順 ②</span>
-                            <p class="p-flow__step--desc">画面の指示に従って<br
-                                    class="sp">入力項目を完了させてください。<br>提出書類の添付が必要になりますので<br class="sp">ご準備ください。</p>
+                            <p class="p-flow__step--desc">画面の指示に従って入力項目を完了させてください。<br>提出書類の添付が必要になりますのでご準備ください。</p>
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/images/lower/online-admissions/step03-02.png"
                                 alt="">
                             <span class="note">
-                                登録したメールアドレスに通知が届きますので、内容の指示に<br class="pc">従って進めてください。
+                                登録したメールアドレスに通知が届きますので、内容の指示に<br>従って進めてください。
                             </span>
                         </li>
                     </ul>
@@ -133,7 +132,7 @@
 
                         <li>
                             <span class="p-flow__step--ja">手順 ②</span>
-                            <p class="p-flow__step--desc">英数字8文字以上の<br class="sp">パスワードを設定してください</p>
+                            <p class="p-flow__step--desc">英数字8文字以上のパスワードを設定してください</p>
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/images/lower/online-admissions/step04-02.png"
                                 alt="">
 
@@ -158,7 +157,7 @@
 
                         <li>
                             <span class="p-flow__step--ja">コンビニATMからの振り込み</span>
-                            <p class="p-flow__step--desc">全国の設置されている<br class="sp">ATMからお振込みください。</p>
+                            <p class="p-flow__step--desc">全国の設置されているATMからお振込みください。</p>
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/images/lower/online-admissions/step05-02.svg"
                                 alt="">
 
@@ -174,12 +173,13 @@
                 <div class="p-flow__content">
                     <span class="u-color-darkgreen p-flow__title">郵送書類の郵送</span>
                     <div class="p-flow__bgbox">
-                        <p>マイページに記載されている提出書類を封筒に入れ、<br class="pc">出願期間内に郵便局窓口から簡易書留、速達で下記の宛先まで郵送してください。
+                        <p>マイページに記載されている提出書類を封筒に入れ、<br>出願期間内に郵便局窓口から簡易書留、速達で下記の宛先まで郵送してください。
                             <span class="note">出願期間内必着です。</span>
                         </p>
+
                         <div class="p-flow__addressbox">
                             ・送付先<br>
-                            　〒131-0032<br class="sp">　東京都墨田区東向島5-6-6<br>
+                            　〒131-0032　東京都墨田区東向島5-6-6<br>
                             　東京墨田看護専門学校
                         </div>
                     </div>
@@ -193,16 +193,17 @@
                 </span>
                 <div class="p-flow__content">
                     <span class="u-color-darkgreen p-flow__title">受験</span>
-                    <ul class="p-flow__imgbox u-grid u-col-1">
-                        <li>
-                            <p>郵送にて受験票をお送り致しますので、<br>
-                                <span class="" style="color: #df122c">試験当日は必ず受験票を持参してください。</span>
-                            </p>
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/lower/online-admissions/step07-01.svg"
-                                alt="">
-                        </li>
-                    </ul>
-
+                    <div class="p-flow__bgbox">
+                        <p>郵送にて受験票をお送り致しますので、<br>
+                            <span class="" style="color: #df122c">試験当日は必ず受験票を持参してください。</span>
+                        </p>
+                        <ul class="p-flow__imgbox u-grid">
+                            <li>
+                                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/lower/online-admissions/step07-01.svg"
+                                    alt="">
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </li>
 
@@ -218,7 +219,8 @@
         </ul>
 
         <div class="c-border-box__btn c-border-box__btn--center">
-            <a href="" class="c-btn c-btn--arrow">Web出願をする</a>
+            <a href="https://forms.sanko.ac.jp/21iy2j/tokyonurse/entrance.php?fno=15&AF=2&openExternalBrowser=1&_gl=1*17audpu*_ga*MTc5MzM5NjQ4Ny4xNzU5ODI2MjE4*_ga_912PBX53P1*czE3NjEyNjk4OTMkbzQkZzEkdDE3NjEyNzE0NzIkajU2JGwwJGgw"
+                class="c-btn c-btn--arrow" target="_blank">Web出願をする</a>
         </div>
     </div>
 

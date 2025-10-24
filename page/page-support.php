@@ -51,7 +51,7 @@
                 <h4 class="no-disc">日本学生支援機構奨学金制度に<br class="sp">ついてはこちらをご確認ください。</h4>
                 <ul class="c-linkmore--list">
                     <li class="c-linkmore--item">
-                        <a href="" class=" c-linkmore__btn">日本学生支援機構</a>
+                        <a href="https://www.jasso.go.jp/" target="_blank" class=" c-linkmore__btn">日本学生支援機構</a>
 
                     </li>
                 </ul>
@@ -165,8 +165,8 @@
                             <div class="border-box">
                                 <span class="u-color-pink">修学支援新制度を活用した制度、給付奨学金の予約申し込みを行った方は必ず本制度をご利用ください。</span>
                                 <p>
-                                    高等教育の修学支援新制度は、世帯収入や自宅通学か自宅外通学かによって支援額が異なります。<br><a
-                                        href="https://jasso.go.jp/">「独立行政法人日本学生支援機構（JASSO）」</a>の公式ホームページで試算してみてください。
+                                    高等教育の修学支援新制度は、世帯収入や自宅通学か自宅外通学かによって支援額が異なります。<br><a href="https://www.jasso.go.jp/"
+                                        target="_blank">「独立行政法人日本学生支援機構（JASSO）」</a>の公式ホームページで試算してみてください。
                                 </p>
                             </div>
                             <p>
@@ -228,25 +228,30 @@
 
             <div class="p-otehrsupport__box">
                 <div class="c-linkmore">
-                    <h4>社団・財団法人・企業<br class="sp">・国の奨学金</h4>
+                    <h4>社団・財団法人・企業・国の奨学金</h4>
                     <ul class="c-linkmore--list u-flex">
                         <li class="c-linkmore--item">
-                            <a href="" class="u-color-pink c-linkmore__btn">自治体育英会奨学金<br>
+                            <a href="https://www.jasso.go.jp/shogakukin/dantaiseido/index.html" target="_blank"
+                                class="u-color-pink c-linkmore__btn">自治体育英会奨学金<br>
                                 （無利子）</a>
                         </li>
                         <li class="c-linkmore--item">
-                            <a href="" class="u-color-pink c-linkmore__btn">生活福祉資金貸付制度<br>
+                            <a href="https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/hukushi_kaigo/seikatsuhogo/seikatsu-fukushi-shikin1/index.html"
+                                target="_blank" class="u-color-pink c-linkmore__btn">生活福祉資金貸付制度<br>
                                 （無利子）</a>
                         </li>
                         <li class="c-linkmore--item">
-                            <a href="" class="u-color-pink c-linkmore__btn">母子父子寡婦福祉資金貸付金制度<br class="pc">
+                            <a href="https://www.gender.go.jp/policy/no_violence/e-vaw/law/23.html" target="_blank"
+                                class="u-color-pink c-linkmore__btn">母子父子寡婦福祉資金貸付金制度<br class="pc">
                                 （修学資金）（無利子）</a>
                         </li>
-                        <li class="c-linkmore--item">
-                            <a href="" class="u-color-pink c-linkmore__btn">新聞奨学生制度（返済無）</a>
+                        <li class="c-linkmore--item no-link">
+                            <a href="javascript:void(0)" style="pointer-events: none"
+                                class="u-color-pink c-linkmore__btn">新聞奨学生制度（返済無）</a>
                         </li>
                         <li class="c-linkmore--item">
-                            <a href="" class="u-color-pink c-linkmore__btn">あしなが育英会奨学金<br class="sp">（無利子）</a>
+                            <a href="https://www.ashinaga.org/scholarship/for-applicants/" target="_blank"
+                                class="u-color-pink c-linkmore__btn">あしなが育英会奨学金<br class="sp">（無利子）</a>
                         </li>
                     </ul>
                 </div>
@@ -257,30 +262,39 @@
                     <h4>社団・財団法人・企業・国の奨学金</h4>
                     <ul class="c-linkmore--list u-flex">
                         <li class="c-linkmore--item">
-                            <a href="" class="u-color-pink c-linkmore__btn">東京都育英資金<br>
+                            <a href="https://www.shigaku-tokyo.or.jp/pa_ikuei/pa_ikuei1.html" target="_blank"
+                                class="u-color-pink c-linkmore__btn">東京都育英資金<br>
                                 （貸与（無利子））</a>
                         </li>
                         <li class="c-linkmore--item">
-                            <a href="" class="u-color-pink c-linkmore__btn">足立区給付型奨学金（給付）</a>
+                            <a href="https://www.city.adachi.tokyo.jp/gakumu/k-kyoiku/shochu/202212kyuufugatasyougakukin.html"
+                                target="_blank" class="u-color-pink c-linkmore__btn">足立区給付型奨学金（給付）</a>
                         </li>
                         <li class="c-linkmore--item">
-                            <a href="" class="u-color-pink c-linkmore__btn">杉並区奨学金<br class="sp">（（貸与（無利子））</a>
+                            <a href="https://www.city.suginami.tokyo.jp/kyouiku/annai/1034343.html" target="_blank"
+                                class="u-color-pink c-linkmore__btn">杉並区奨学金<br class="sp">（（貸与（無利子））</a>
                         </li>
                         <li class="c-linkmore--item">
-                            <a href="" class="u-color-pink c-linkmore__btn">青梅市育英資金<br class="sp">（貸与（無利子））</a>
+                            <a href="https://www.city.ome.tokyo.jp/site/ome-tky/2474.html" target="_blank"
+                                class="u-color-pink c-linkmore__btn">青梅市育英資金<br class="sp">（貸与（無利子））</a>
                         </li>
                         <li class="c-linkmore--item">
-                            <a href="" class="u-color-pink c-linkmore__btn">東村山市奨学金<br class="sp">（（貸与（無利子））</a>
+                            <a href="https://www.city.higashimurayama.tokyo.jp/kosodate/hojo/kyoiku/syougakukin.html"
+                                target="_blank" class="u-color-pink c-linkmore__btn">東村山市奨学金<br
+                                    class="sp">（（貸与（無利子））</a>
                         </li>
                         <li class="c-linkmore--item">
-                            <a href="" class="u-color-pink c-linkmore__btn">府中市奨学金<br class="sp">（（貸与（無利子））</a>
+                            <a href="https://www.city.fuchu.tokyo.jp/kyoiku/sodan/shogakukin/shogakukin.html"
+                                target="_blank" class="u-color-pink c-linkmore__btn">府中市奨学金<br class="sp">（（貸与（無利子））</a>
                         </li>
                         <li class="c-linkmore--item">
-                            <a href="" class="u-color-pink c-linkmore__btn">大田区奨学金貸付制度<br>
+                            <a href="https://www.city.ota.tokyo.jp/seikatsu/kodomo/kashitsuke_kyuhu/syougakukin-kashitsuke.html"
+                                target="_blank" class="u-color-pink c-linkmore__btn">大田区奨学金貸付制度<br>
                                 （貸与（無利子））</a>
                         </li>
                         <li class="c-linkmore--item">
-                            <a href="" class="u-color-pink c-linkmore__btn">船橋市奨学金貸付制度<br>
+                            <a href="https://www.city.funabashi.lg.jp/kodomo/teate/005/p008692.html" target="_blank"
+                                class="u-color-pink c-linkmore__btn">船橋市奨学金貸付制度<br>
                                 （貸与（無利子））</a>
                         </li>
                     </ul>
@@ -302,12 +316,15 @@
             <p class="desc">
                 ひとり暮らし奨学生制度とは、ひとり暮らしをしながら学業に専念する方を対象とした奨学金の制度です。
             </p>
+
             <p class="desc">
-                <b>申込資格</b>：推薦入試、高校既卒・社会人入試のⅠ期、Ⅱ期、一般入試のⅠ期受験者のうち、特待生制度入試の受験を希望する方限定です。
+                申込資格：推薦入試、高校既卒・社会人入試のⅠ期、Ⅱ期、一般入試のⅠ期受験者のうち、
+                特待生制度入試の受験を希望する方限定です。
                 <span class="note">
                     欠員が生じた場合は、追加募集のご案内をさせていただく場合があります。
                 </span>
             </p>
+
 
             <ul class="c-point__list p-support__borderinner">
                 <li class="c-point__item">
@@ -318,12 +335,13 @@
                         <p>
                             本校提携の食事付き学生寮への入寮を希望し、選考の結果、寮生として模範的行動がとれる人物に対し、寮に係る費用を一部免除する制度です。
                         </p>
-                        <smal class="note u-mt-20">
-                            女性はドーミー綾瀬 Lei、男性はドーミー綾瀬の入寮希望者を対象とさせていただきます。（空室の関係上、上記以外の寮をこ紹介する場合がございます。予めご了承ください。
-                        </smal>
+                        <small>
+                            ※女性はドーミー綾瀬 Lei、男性はドーミー綾瀬の入寮希望者を対象とさせていただきます。（空室の関係上、上記以外の寮をこ紹介する場合がございます。予めご了承ください。
+                        </small>
 
                         <div class="c-point__btn">
-                            <a href="" class="c-btn__link u-color-orange">学生寮・<br class="sp">ひとり暮らしのご紹介</a>
+                            <a href="https://dormy-ac.com/area/shutoken/sankogakuen/" target="_blank"
+                                class="c-btn__link u-color-orange">学生寮・<br class="sp">ひとり暮らしのご紹介</a>
                         </div>
                     </div>
                 </li>
@@ -439,7 +457,7 @@
 
             <ul class="c-linkmore--list u-flex">
                 <li class="c-linkmore--item">
-                    <a href="" class="u-color-pink c-linkmore__btn">日本政策金融公庫</a>
+                    <a href="https://www.jfc.go.jp/" target="_blank" class="u-color-pink c-linkmore__btn">日本政策金融公庫</a>
                 </li>
             </ul>
         </div>
@@ -454,7 +472,8 @@
             <div class="p-supportinfo--url">
                 <ul class="c-linkmore--list u-flex">
                     <li class="">
-                        <a href="" class=" c-linkmore--item u-color-orange c-linkmore__btn u-text-left">株式会社<br>
+                        <a href="https://orico-web.jp/gakuhi/index.html" target="_blank"
+                            class=" c-linkmore--item u-color-orange c-linkmore__btn u-text-left">株式会社<br>
                             オリエントコーポレート
                         </a>
                         <div class="p-supportinfo--item">
@@ -469,7 +488,8 @@
 
                     </li>
                     <li class="">
-                        <a href="" class="c-linkmore--item u-color-orange c-linkmore__btn">株式会社ジャックス</a>
+                        <a href="https://www.jaccs.co.jp/yuyud/" target="_blank"
+                            class="c-linkmore--item u-color-orange c-linkmore__btn">株式会社ジャックス</a>
                         <div class="p-supportinfo--item">
                             <b>教育ローン<br>
                                 『悠裕プラン』のご案内</b><br>
@@ -479,7 +499,8 @@
 
                     </li>
                     <li class="">
-                        <a href="" class="c-linkmore--item u-color-orange c-linkmore__btn">三井住友カード株式会社</a>
+                        <a href="https://www.smbc-card.com/loan/alliance/tuition/index.jsp" target="_blank"
+                            class="c-linkmore--item u-color-orange c-linkmore__btn">三井住友カード株式会社</a>
                         <div class="p-supportinfo--item">
                             <b>「C-Web学費ローン」のご案内</b><br>
                             学校名または学校コード：4151536Z

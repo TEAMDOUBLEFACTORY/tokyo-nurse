@@ -824,6 +824,9 @@ b {
   transition: transform 0.3s;
   background: url(../images/common/btn-arrow_pink.svg) center center/contain no-repeat;
 }
+.c-linkmore .no-link a::after {
+  display: none !important;
+}
 
 .c-accordion__item {
   position: relative;
