@@ -30,9 +30,8 @@
 
                             <div class="p-top-event__carousel ic-event-carousel">
                                 <div class="ic-event-carousel__ttlbox">
-                                    <div class="ic-event-carousel__ttl"><span
-                                            class="ic-event-carousel__ttl-en">RECOMMEND
-                                            EVENT!</span>近日開催のおすすめイベント！</div>
+                                    <div class="ic-event-carousel__ttl"><span class="ic-event-carousel__ttl-en">NEXT
+                                            OPEN CAMPUS</span>次回のオープンキャンパス</div>
                                     <div class="ic-event-carousel__balloon"></div>
                                 </div>
                                 <iframe id="ICGadgetFrame"
@@ -239,7 +238,8 @@
       ?>
                             <ul class="c-news__list">
                                 <?php if ($news_query->have_posts()): ?>
-                                <?php while ($news_query->have_posts()): $news_query->the_post(); ?>
+                                <?php while ($news_query->have_posts()):
+                                        $news_query->the_post(); ?>
                                 <li class="c-news__item">
                                     <a href="<?php the_permalink(); ?>" class="c-news__link">
                                         <div class="c-news__img">
@@ -257,13 +257,13 @@
                                                     <?php echo get_the_date('Y.m.d'); ?>
                                                 </time>
                                                 <?php $category = get_the_category();
-                    if ($category): ?>
+                                                        if ($category): ?>
                                                 <div class="c-news__cat"><?php echo esc_html($category[0]->name); ?>
                                                 </div>
                                                 <?php endif; ?>
                                             </div>
                                             <p class="c-news__body">
-                                                <?php echo wp_trim_words(get_the_excerpt(), 50, '…'); ?>
+                                                <?php the_title(); ?>
                                             </p>
                                         </div>
                                     </a>

@@ -36,7 +36,7 @@
                                     <?php endif; ?>
                                 </div>
                                 <p class="c-news__body">
-                                    <?php echo wp_trim_words(get_the_excerpt(), 50, '…'); ?>
+                                    <?php the_title(); ?>
                                 </p>
                             </div>
                         </a>

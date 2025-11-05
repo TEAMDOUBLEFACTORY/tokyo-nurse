@@ -1378,6 +1378,9 @@ b {
 .l-article-box p {
   margin-top: 20px;
 }
+.l-article-box strong {
+  font-weight: 600;
+}
 .l-article-box ul {
   margin-top: 20px;
   padding-left: 20px;

@@ -60,7 +60,7 @@
             <div class="l-footer__content">
                 <div class="l-footer__top u-flex">
                     <a href="<?php echo home_url(); ?>"><img
-                            src="<?php echo get_template_directory_uri(); ?>/assets/images/common/logo.svg"
+                            src="<?php echo get_template_directory_uri(); ?>/assets/images/common/logo_f.svg"
                             alt="<?php bloginfo('name'); ?>" class="l-footer__logo"></a>
                     <p class="l-footer__addr">〒131-0032 東京都墨田区東向島5-6-6<br>
                         TEL 03-5655-0860 FAX 03-5655-0861</p>
@@ -228,22 +228,22 @@
     </div>
 </div>
 <script>
-    const swiperfooterinfinity = new Swiper(".js-footer-infinity", {
-        loop: true,
-        slidesPerView: "auto",
-        speed: 8000,
-        allowTouchMove: false,
-        spaceBetween: "50px",
-        autoplay: {
-            delay: 0,
+const swiperfooterinfinity = new Swiper(".js-footer-infinity", {
+    loop: true,
+    slidesPerView: "auto",
+    speed: 8000,
+    allowTouchMove: false,
+    spaceBetween: "50px",
+    autoplay: {
+        delay: 0,
+    },
+    breakpoints: {
+        768: {
+            spaceBetween: 50,
         },
-        breakpoints: {
-            768: {
-                spaceBetween: 50,
-            },
-            0: {
-                spaceBetween: 20,
-            },
+        0: {
+            spaceBetween: 20,
         },
-    });
+    },
+});
 </script>

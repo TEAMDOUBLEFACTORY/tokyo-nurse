@@ -64,7 +64,7 @@
             <a href="<?php echo esc_url(home_url('/qa/')); ?>" class="c-nav2__link">よくあるご質問</a>
         </li>
         <li class="c-nav2__item">
-            <a href="https://www.sanko.ac.jp/disclosure/" target="_blank" class="c-nav2__link">情報公開</a>
+            <a href="https://www.sanko.ac.jp/disclosure/tokyo-nurse/" target="_blank" class="c-nav2__link">情報公開</a>
         </li>
     </ul>
 </div>
