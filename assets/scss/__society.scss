@@ -86,6 +86,9 @@
 }
 .p-society__btn02::after {
   width: 144px;
+  @media screen and (max-width: 768px) {
+    width: 100%;
+  }
 }
 .p-society__btn03 {
   position: relative; //after
@@ -95,6 +98,10 @@
 }
 .p-society__btn03::after {
   width: 216px;
+  @media screen and (max-width: 768px) {
+    width: 100%;
+    bottom: -7px;
+  }
 }
 .p-society__itemText {
   display: flex;
@@ -126,6 +133,7 @@
     padding: 30px 20px;
     max-width: 100%;
     width: 100%;
+    box-sizing: border-box;
   }
 }
 .p-society__eventText {

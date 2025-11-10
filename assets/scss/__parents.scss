@@ -31,6 +31,16 @@
       }
     }
   }
+
+  &__lead {
+    &__img {
+      iframe {
+        @media screen and (max-width: 768px) {
+          width: 100%;
+        }
+      }
+    }
+  }
   &__advice {
     border: 1px solid #009aa7;
     background: rgba(0, 154, 167, 0.1);

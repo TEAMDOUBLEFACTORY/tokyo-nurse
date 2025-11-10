@@ -29,6 +29,7 @@
     }
     &--slider {
       .swiper-slide {
+        box-sizing: border-box;
         background-color: #fff;
         padding: 30px 40px 0;
         border-radius: 30px;

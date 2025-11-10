@@ -218,7 +218,7 @@ b {
     }
     figcaption {
       width: 80%;
-      font-size: 1.4rem;
+      font-size: 14px;
       @media screen and (max-width: 768px) {
         width: 100%;
       }
@@ -331,6 +331,7 @@ b {
     position: relative;
     width: 100%;
     line-height: 2.5em;
+    box-sizing: border-box;
     @media screen and (max-width: 768px) {
       font-size: 20px;
       line-height: 2em;
@@ -359,6 +360,7 @@ b {
 
   &__table01 {
     width: 100%;
+    box-sizing: border-box;
     @media screen and (max-width: 768px) {
       tr {
         &:not(:last-child) {
@@ -374,6 +376,7 @@ b {
       border: solid 1px #c9c9c9; /**/
       vertical-align: middle;
       padding: 20px;
+      box-sizing: border-box;
       @media screen and (max-width: 768px) {
         display: block;
         padding: 10px 20px;
@@ -1354,31 +1357,31 @@ b {
       background: rgba(var(--color-main));
       padding: 5px 25px;
       @media screen and (max-width: 768px) {
-        font-size: 2.2rem;
+        font-size: 22px;
         font-weight: 600;
       }
     }
 
     h3 {
-      font-size: 2.4rem;
+      font-size: 24px;
       line-height: 1.5;
       letter-spacing: 0.05em;
       margin-top: 80px;
       padding-bottom: 5px;
-      font-size: 2.6rem;
+      font-size: 26px;
       border-bottom: 1px solid #bababa;
       @media screen and (max-width: 768px) {
-        font-size: 2rem;
+        font-size: 20px;
         font-weight: 600;
       }
     }
 
     h4 {
-      font-size: 2rem;
+      font-size: 20px;
       font-weight: 500;
       margin-top: 40px;
       @media screen and (max-width: 768px) {
-        font-size: 1.6rem;
+        font-size: 16px;
         font-weight: 600;
       }
     }
@@ -1427,13 +1430,13 @@ b {
     }
   }
   &-title {
-    font-size: 3.6rem;
+    font-size: 36px;
     font-weight: 500;
     line-height: 1.6;
     letter-spacing: 0.05em;
     margin-bottom: 40px;
     @media screen and (max-width: 768px) {
-      font-size: 2.6rem;
+      font-size: 26px;
     }
   }
   .wp-block-buttons {
