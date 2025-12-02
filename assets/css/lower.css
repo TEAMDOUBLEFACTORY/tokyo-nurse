@@ -433,6 +433,10 @@ b {
 .c-timetable__table03 .vertical-align-top {
   vertical-align: top;
 }
+.c-timetable td,
+.c-timetable th {
+  color: rgba(var(--color-text));
+}
 
 .c-card02 {
   background: rgba(var(--color-main), 0.05);
@@ -703,6 +707,7 @@ b {
 }
 .c-breadcrumbs span {
   font-size: 16px;
+  color: rgba(var(--color-text));
 }
 @media screen and (max-width: 768px) {
   .c-breadcrumbs span {

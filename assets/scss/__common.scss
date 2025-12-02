@@ -442,6 +442,10 @@ b {
       vertical-align: top;
     }
   }
+  td,
+  th {
+    color: rgba(var(--color-text));
+  }
 }
 
 // カード
@@ -707,6 +711,7 @@ b {
   }
   span {
     font-size: 16px;
+    color: rgba(var(--color-text));
     @media screen and (max-width: 768px) {
       font-size: 12px;
     }
